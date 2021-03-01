@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540438188 source:e:\lap_trinh\duong_thang_cat_duong_tron\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

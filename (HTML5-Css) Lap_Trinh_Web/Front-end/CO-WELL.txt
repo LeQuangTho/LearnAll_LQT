@@ -1,0 +1,35 @@
+Front-end Layout building:
+
+1.chiến lược
+
+không dùng tên đặc biệt mô tả nội dùng cụ thể.
+//html://medium.com/@elad....(luật đặt tên cho class)
+
+   _fixed width: 
+	tính nhất quán của chiều rộng 
+	chiều rộng phổ biến 960px
+   _Liquid 
+	điều chỉnh phù hợp với brower, gán %
+
+** Sectioning Elements(<buttom> ...)
+
+-có đầu tư thiết kế cụ thể. 
+
+#Mobile First
+-Loại bỏ thông tin nhiễu, bao gồm cả thông tin bổ sung phù hợp với màn hình lớn;
+
+CHÚ Ý:
+- xác định boxes 
+-làm việc theo luồng
+-hình nền và xác định hình nền 
+-phân lớp
+-margin và padding
+-bố cục chia 12 cột và 2 đường ngang tạo thành các điểm giao nhao là tiêu điểm tập chung của mắt người;
+(có thể thiết kế khác trên các kích thước thiết bị khác nhau)
+
+
+
+*Thiết kế trên thẻ <div>
+2.bootstrap
+
+:)

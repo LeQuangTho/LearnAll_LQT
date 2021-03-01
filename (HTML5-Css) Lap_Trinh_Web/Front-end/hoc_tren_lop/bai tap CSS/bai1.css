@@ -1,0 +1,32 @@
+body{
+	font-family: Arial;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	background-image: url("nen.jpg"); 
+	background-repeat: no-repeat; /* không hiển thị lặp lại nền */
+	background-size: 100%; /* phủ kín web */
+	background-position: top; /* vị trí background */
+	background-attachment: fixed; /* cố định background */
+}
+p{
+	text-align: justify;
+}
+p.ab{
+	text-align: right;
+}
+#text1 h2{
+	text-decoration: line-through; 
+	/*test gạch chân gạch ngang và các loại gạch khác*/
+}
+a{
+	text-decoration: none;
+}
+p.autohoa{
+	text-transform: uppercase; /* viết hoa */
+}
+p.autohoadau{
+	text-transform: capitalize; /* viết hoa chữ cái đầu */
+	font-size: 14px;
+	font-weight: bold;	
+}

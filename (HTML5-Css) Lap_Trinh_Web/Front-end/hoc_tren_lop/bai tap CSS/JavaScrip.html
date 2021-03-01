@@ -1,0 +1,126 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script languege="javascript" type="text/javascript">
+    
+    
+    // var n=prompt("Enter the number n:");
+    // var i=0;
+    // for(i=2;i<n;i++)
+    // {
+    //     if (n%i==0)
+    //     {
+    //         document.write(n + "is not a prime number.");
+    //         break;
+    //     }
+    // } 
+    // if(i==n)
+    // document.write(n + "is prime muber.");
+    
+    // // dùng hàm để cộng hai biến
+    // function add( num1 , num2 )
+    // {
+    //     var result = num1 + num2;
+    //     document.write("Result of " + num1 + " + " +num2 + " = " + result);
+    // }
+
+    // function swap(num1, num2)
+    // {
+    //     var temp = num1; num1 = num2; num2 = temp;
+    //     document.write(" Call method: num1="+num1+ "and  num2=" + num2);
+    // }
+
+    // function calculate()
+    // {
+    //     var num1=10, num2=20
+    //     swap(num1, num2);
+    //     document.write("<br> Call method: num1="+num1+ "and  num2=" + num2);
+    // }
+
+    // function modifi(names)
+    // {
+    //     names[0] = "Thanh Hung";
+    // }
+
+    // function initialize()
+    // {
+    //     var names= new Array("AAAAA","BBBBB","CCCCCCC");
+    //     document.write("đây là: <br>" );
+    //     for(var i=0;i<names.length; i++)
+    //         document.write(names[i] + "-");
+    //         modifi(names);
+    //         document.write("<br>sau do: <br>");
+    //         for(var i=0;i<names.length;i++)
+    //         document.write(names[i] + "-");
+    // }
+
+    // function display()
+    // {
+    //     var doctors = new Object();
+    //     doctors.names= "Le Quang Tho";
+    //     doctors.age= "19";
+    //     doctors.salary= "5000";
+    //     document.write("name:" + doctors.name +"<br>");
+    //     document.write("Age:" + doctors.age +"<br>");
+    //     document.write("salary: " + doctors.salary + "<br>");
+    // }
+
+    // function display()
+    // {
+    //     var st = "Fpt Aptech";
+    //     document.write("The length= "+ st.length + "<br>");
+    //     document.write("character at position 4:"+ st.charAt(4)+"<br>");
+    //     document.write("three first characters: " + st.toUpperCase() + "<br>"");
+    //     document.write("loWercare display: "+ st.toLowerCase()+"<br>");
+    //     document.write("concatenating string: "+ st.concat("- 7 Nam Quoc Cang")+"br");
+    // }
+    // 
+    // Mouse event
+    // function mOver(obj){
+    //     obj.insertHTML = "Thank you";
+    // }
+    // function mOut(obj){
+    //     obj.insertHTML = "Mouse over me";
+    // }
+
+
+
+    //biểu thức chính quy
+    function regtest(){
+        //var reg=/@gmail.com/;       // chỉ cần có
+        //var reg= /[0-9]/;      // dạng [] ít nhất 1
+        //var reg= /\d\d-\d\d-\d\d\d\d \d\d:\d\d/;     //chuẩn ngày giờ
+        //var reg= /'\d+/     //một hoặc nhiều lần
+        //var reg= /neighbou?r/     // chữ u có thể không có thể có
+        var reg= /\d{1,2}-\d{1,2}-\d{4} \d{1,2}:\d{2}/;   // thể hiện số lần xuất hiện{}
+        var value=document.getElementById("sbd").value;
+        if(reg.test(value))
+        alert("Dữ liệu phù hợp");
+        else
+        alert("Dữ liệu không phù hợp");  //thông báo 
+    }
+    //End biểu thức chính quy
+
+    
+    </script>
+
+    <body>
+        test biểu thức chính quy
+        <input type="text" name="name" id="sbd">
+        <input type="button" onclick="regtest();" value="test">
+        
+
+
+        <!-- <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color:#D94A38;width:130px;height:20px;padding:40px;">
+        r</div>
+        <p> sdfsjdfadsfaaaaaaaaaaaaaaaaaa</p>
+        <input type="text" onkeypress="myFunction()">    
+        
+        <script>
+            function myFunction(){
+                alert("dmm field");
+            }
+        </script> -->
+    </body>
+</head>
+</html>

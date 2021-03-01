@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1542009100 source:e:\lap_trinh\fibonacci_array\main.c
+	<stdio.h>
+	<stdlib.h>
+

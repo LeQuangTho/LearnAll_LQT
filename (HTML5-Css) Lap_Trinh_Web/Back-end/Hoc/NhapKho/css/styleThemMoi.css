@@ -1,0 +1,90 @@
+.imagin img{
+	margin: 10px;	
+	width: 240px;
+	height: auto;
+}
+
+.row button{
+	margin: 20px;
+}
+
+.row .imagin, .Submit{
+	text-align: center;
+}
+
+.form-group, .form-group input {
+	width: 100%;
+	padding: 5px 10px 5px 10px;
+	box-shadow: #404080;
+}
+
+.upload{
+	text-align: center;
+}
+.upload i{
+	margin: 5px
+}
+
+/* Tạo hiệu ứng 3D cho phím Begin*/
+.upload, input[type = "submit"] {
+	width: 40%;
+	position: relative;
+	background-color: #ff8040;
+	-webkit-border-radius: 10px;
+	border: none;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 8px 0px #b35900, 0px 8px 0px #000000;
+	box-shadow: 0px 8px 0px #b35900, 0px 8px 10px #000000;
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 18px;
+	padding: 2px 10px;
+	text-align: center;
+  cursor:pointer;
+	text-decoration: none;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+  }
+  
+   
+  .upload:active,input[type = "submit"]:active {
+	-webkit-box-shadow: 0px 2px 0px #878787, 0px 2px 8px #000000;
+	box-shadow: 0px 2px 0px #878787, 0px 2px 8px #000000;
+	top: 7px;
+  }
+
+
+/* Tạo hiệu ứng 3D cho phím End*/
+.form-group input{
+	border-radius: 10px; 
+	border: solid 1px #404080;
+}
+
+.Submit input[type = "submit"]{
+	width: 50%;
+	padding: 10px;
+	margin: 5px 10px 5px 10px;
+	border-radius: 10px;
+	background-color: seagreen; 
+	border: solid 1px #404080
+}
+
+.required::after {
+	content:"*";
+	color:red;
+	font-size: 21px;
+	font-family: Arial;
+}
+
+.myCol{
+	min-width: 300px;
+}
+
+.row{
+	background-color: #b7b7db;
+	border-radius: 15px;
+	display: flex;
+}

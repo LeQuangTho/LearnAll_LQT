@@ -1,0 +1,22 @@
+﻿@model BaiTap1.Models.Login
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <div>@Html.LabelFor(m => m.username) </div>
+    <div>@Html.TextBoxFor(m => m.username) 
+        @Html.ValidationMessageFor(m => m.username)
+    </div>
+
+    <div>@Html.LabelFor(m => m.password) </div>
+    <div>
+        @Html.PasswordFor(m => m.password)
+        @Html.ValidationMessageFor(m => m.username)
+    </div>
+
+    <div><input type="submit" value="Login" name="Login" /></div>
+}

@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "_thoLayout";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thor</title>
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    <div id="header">
+        @Html.Partial("_Header")
+    </div>
+    <div class="product">
+        @RenderBody()
+    </div>
+    <div class="container body-content">
+        
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+</body>
+</html>

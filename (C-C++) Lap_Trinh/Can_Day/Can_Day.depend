@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1541952472 source:e:\lap_trinh\can_day\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

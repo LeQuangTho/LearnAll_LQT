@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1540689238 source:e:\lap_trinh\sap_xep_co_dk\main.c
+	<stdio.h>
+	<stdlib.h>
+

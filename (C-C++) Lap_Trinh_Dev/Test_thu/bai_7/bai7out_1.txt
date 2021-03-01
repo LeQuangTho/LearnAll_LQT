@@ -1,0 +1,2 @@
+Khoang cach xa goc toa do nhat: d= 3.605551  A3(3.000000 ,-2.000000 )
+Do giai duong gap khuc(2,3,4,..,n,1): S =10.099020

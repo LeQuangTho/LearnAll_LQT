@@ -1,0 +1,45 @@
+
+body{
+	width: 100%;
+	font-family: Arial,Tahoma;
+	font-size: 24px;
+	color: #FFFFFF;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	background: #595547;
+	
+}
+
+
+
+#head p{
+	padding: 10px;
+	margin: 10px;
+}
+
+#head i{
+	color: #EDCF28;
+}
+h1,h3{
+	color: #a0c4fb;
+}
+
+a{
+	color: red;
+}
+
+/* #movies ul{
+	list-style: 
+} */
+
+#moods p{
+	height: 400px;
+	margin: 10px;
+}
+#moods img{
+	height: 400px;
+}
+#footer img{
+	border: 2px solid red;
+}

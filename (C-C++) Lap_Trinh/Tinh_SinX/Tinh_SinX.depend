@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1538296129 source:e:\laptrinh\baiviettrencode\main.c
+	<stdio.h>
+	<conio.h>
+	<math.h>
+

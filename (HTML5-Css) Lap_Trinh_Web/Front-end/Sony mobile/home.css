@@ -1,0 +1,215 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.navbar{
+	margin-bottom: 0!important;
+	border:none!important;
+}
+.navbar-inverse{
+	background-color: black;
+}
+.banner{
+	position: relative;
+}
+.tieude{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.tieude2{
+	display: none;
+}
+.tieude h4{
+	color: white;
+}
+
+.list-image *{
+	padding: 15px;
+}
+.list-image a:nth-child(2){
+	display: block;
+	font-size: 20px;
+}
+.list-image a:last-child{
+	color: black;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.myHover > li > a:hover{
+	border-bottom: 5px solid rgb(101, 124, 255) ;
+	transition: 0.4s;   /*độ chễ*/
+}
+
+.myHover .noHover > a:hover{
+	border-bottom: 0px solid rgb(101, 124, 255) ;
+}
+ 
+.logoMB{
+	display: none;
+}
+
+a.on_top { 
+	opacity:0.6; display: none;
+}
+a.on_top:hover{
+	background-color: #007bb6;
+	color: #fff;
+	border: 1px solid #007bb6;
+	opacity:1;
+}
+a.on_top i{ 
+	font-size: 20px;
+}
+a.on_top {
+	border-radius: 6px;
+	background-color: #333333;
+	padding: 10px 20px;
+	white-space: nowrap; color: #fff;
+	position: fixed;
+	bottom: 75px;
+	right: 30px;
+	height: 44px;
+}
+
+/* footer */
+.container-footer{
+	background-color: #1f2024;
+	margin-top: 50px;
+}
+
+footer{
+	background-color: #1f2024;
+	padding: 50px;
+	margin-top: 100px;
+}
+
+.myItem{
+	float: left;
+}
+
+.myItem span{
+	color: rgb(90, 90, 90);
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+
+footer a{
+	text-decoration: none;
+	color: seashell;
+}
+
+footer ul{
+	list-style: none;
+}
+
+.fas.fa-map-marker-alt{
+	color: red;
+	padding-right: 10px;
+}
+
+.Item{
+	padding-top: 10px;
+}
+form{
+	box-sizing: content-box;
+	padding: 10px;
+	border: #1f2024;
+}
+
+.Item button{
+	background-color: rgb(0, 81, 255);
+	color: beige;
+	padding: 2px;
+	border: 1px;
+
+}
+
+.mid{
+	border-bottom: rgb(168, 166, 166);
+}
+
+.mid .mid-right,.mid-left{
+	float: left;
+}
+
+.mid-right ul{
+	float: left;
+}
+.mid-right .text li{
+	float: left;
+	padding: 10px;
+}
+
+.mid-right .img li{
+	float: left;
+}
+
+.fab.fa-facebook-square{
+	zoom: 2;
+}
+
+.fab.fa-youtube{
+	zoom: 2;
+}
+
+.fab.fa-instagram{
+	zoom: 2;
+}
+.duoi{
+	padding: 50px 0px 50px 0px;
+}
+
+.duoi p{
+	width: 500px;
+}
+.duoi ul li{
+	float: left;
+}
+@media only screen and (max-width: 768px){
+	*{
+		box-sizing: border-box;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.fas.fa-bars{
+		color: #FFFFFF;
+	}
+	
+	.noHover{
+		visibility: hidden;
+		height: 0px;
+	}
+	
+	.logoMB{
+	display: block;
+	}
+
+	.myHover > li > a:hover{
+	border-bottom: 0px;
+    }
+
+}

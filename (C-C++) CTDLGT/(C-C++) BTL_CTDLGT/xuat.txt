@@ -1,0 +1,82 @@
+                      vietnam-vietnam
+                 two-1
+            tree-cay
+                 ten-10
+       teach-giaovien
+  student-hoc sinh
+            one-1
+       number-so
+            nine-9
+                           member-thanh vien
+                      five-5
+                           fish-ca
+                 eight-8
+                           attack-danh nhau
+                      angry-tuc gian
+                           
+
+angry-tuc gian
+attack-danh nhau
+eight-8
+fish-ca
+five-5
+member-thanh vien
+nine-9
+number-so
+one-1
+student-hoc sinh
+teach-giaovien
+ten-10
+tree-cay
+two-1
+vietnam-vietnam
+
+Cay sau khi xoa tu khoa: nine-9
+                      vietnam-vietnam
+                 two-1
+            tree-cay
+                 ten-10
+       teach-giaovien
+  student-hoc sinh
+            one-1
+       number-so
+            member-thanh vien
+                      five-5
+                           fish-ca
+                 eight-8
+                           attack-danh nhau
+                      angry-tuc gian
+                           
+
+Cay sau khi thay doi tu khoa:
+                      vietnam-vietnam
+                 two-1
+            tree-cay
+                 ten-10
+       teach-giaovien
+  student-hoc sinh
+            two-1
+       number-so
+            member-thanh vien
+                      five-5
+                           fish-ca
+                 eight-8
+                           attack-danh nhau
+                      angry-tuc gian
+                           
+Khong co tu khoa can tim trong cay!                      vietnam-vietnam
+                 two-1
+            tree-cay
+                      tho-tho
+                 ten-10
+       teach-giaovien
+  student-hoc sinh
+            two-1
+       number-so
+            member-thanh vien
+                      five-5
+                           fish-ca
+                 eight-8
+                           attack-danh nhau
+                      angry-tuc gian
+                           
