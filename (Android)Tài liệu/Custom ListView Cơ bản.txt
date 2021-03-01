@@ -1,0 +1,34 @@
+SƠ CẤP
+--------------
+đầu tiên để custom một listview cơ bản là tạo 
+giao diện của 1 dòng
+sau đó là tạo đối tượng để quản lí dữ liệu
+cuối cùng là tạo adapter
+--
+trong quá trình
+đầu tiên là kế thừa một loại Adapter. (Dùng thử với
+ArrayAdapter)
+tiếp theo là tạo ra ba biến quan trọng là 
+resource, context, Arraylist;
+sau đó tạo contracter để khởi gán cho 3 giá trị trên.
+
+bước cuối cùng là @OverRide hàm getView()
+trong hàm đó ta làm những việc sau
+đầu tiên là ta phải dùng biến kiểu view để gắn nó 
+LayoutInflater để có thể findById được
+Ví dụ:convertView = LayoutInflater.from(context).inflate(resource, parent, false);
+<tìm hiểu thêm sau>
+ tiếp theo là ta ánh xạ cho các View của row đó.
+về cơ bản thì hàm getView là 1 hàm hiển thị row đó lên
+trong quá trình chạy thì app liên tục gọi gàm getView
+với số lần bằng với kích thước của list mình truyền vào.
+vì thế ta cần tối ưu hóa.
+
+-------------------
+TÓI ƯU HÓA.
+vì mỗi lần hiện thị thì cần gọi tới getView()
+mà trong getView lại phải khởi tạo lại rất nhiều thứ.
+vì thế ta có một giải pháp đó là sử dụng viewHolder để thay thế.
+mục đích tạo ra viewHolder là để có thể gắn tag cho nó. nếu Tag 
+nào đã khởi tạo trồi thì cứ lấy đối tượng kiểu View ra ra getTag.
+rồi gán lại lại giá trị.

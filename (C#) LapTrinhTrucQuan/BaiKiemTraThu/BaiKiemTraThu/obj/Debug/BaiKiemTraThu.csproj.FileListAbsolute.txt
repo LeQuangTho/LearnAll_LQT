@@ -1,0 +1,11 @@
+F:\Dev\(C#) LapTrinhTrucQuan\BaiKiemTraThu\BaiKiemTraThu\obj\Debug\BaiKiemTraThu.csprojAssemblyReference.cache
+F:\Dev\(C#) LapTrinhTrucQuan\BaiKiemTraThu\BaiKiemTraThu\obj\Debug\BaiKiemTraThu.Properties.Resources.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiKiemTraThu\BaiKiemTraThu\obj\Debug\BaiKiemTraThu.csproj.GenerateResource.cache
+F:\Dev\(C#) LapTrinhTrucQuan\BaiKiemTraThu\BaiKiemTraThu\obj\Debug\BaiKiemTraThu.csproj.CoreCompileInputs.cache
+F:\Dev\(C#) LapTrinhTrucQuan\BaiKiemTraThu\BaiKiemTraThu\bin\Debug\BaiKiemTraThu.exe.config
+F:\Dev\(C#) LapTrinhTrucQuan\BaiKiemTraThu\BaiKiemTraThu\bin\Debug\BaiKiemTraThu.exe
+F:\Dev\(C#) LapTrinhTrucQuan\BaiKiemTraThu\BaiKiemTraThu\bin\Debug\BaiKiemTraThu.pdb
+F:\Dev\(C#) LapTrinhTrucQuan\BaiKiemTraThu\BaiKiemTraThu\obj\Debug\BaiKiemTraThu.Form1.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiKiemTraThu\BaiKiemTraThu\obj\Debug\BaiKiemTraThu.exe
+F:\Dev\(C#) LapTrinhTrucQuan\BaiKiemTraThu\BaiKiemTraThu\obj\Debug\BaiKiemTraThu.pdb
+F:\Dev\(C#) LapTrinhTrucQuan\BaiKiemTraThu\BaiKiemTraThu\obj\Debug\BaiKiemTraThu.Form2.resources

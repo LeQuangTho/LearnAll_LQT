@@ -1,0 +1,16 @@
+F:\Dev\(C#) LapTrinhTrucQuan\Baitap27\Baitap27\bin\Debug\Baitap27.exe.config
+F:\Dev\(C#) LapTrinhTrucQuan\Baitap27\Baitap27\bin\Debug\Baitap27.exe
+F:\Dev\(C#) LapTrinhTrucQuan\Baitap27\Baitap27\bin\Debug\Baitap27.pdb
+F:\Dev\(C#) LapTrinhTrucQuan\Baitap27\Baitap27\obj\Debug\Baitap27.csprojAssemblyReference.cache
+F:\Dev\(C#) LapTrinhTrucQuan\Baitap27\Baitap27\obj\Debug\Baitap27.Form1.resources
+F:\Dev\(C#) LapTrinhTrucQuan\Baitap27\Baitap27\obj\Debug\Baitap27.Properties.Resources.resources
+F:\Dev\(C#) LapTrinhTrucQuan\Baitap27\Baitap27\obj\Debug\Baitap27.csproj.GenerateResource.cache
+F:\Dev\(C#) LapTrinhTrucQuan\Baitap27\Baitap27\obj\Debug\Baitap27.csproj.CoreCompileInputs.cache
+F:\Dev\(C#) LapTrinhTrucQuan\Baitap27\Baitap27\obj\Debug\Baitap27.exe
+F:\Dev\(C#) LapTrinhTrucQuan\Baitap27\Baitap27\obj\Debug\Baitap27.pdb
+F:\Dev\(C#) LapTrinhTrucQuan\Baitap27\Baitap27\obj\Debug\Baitap27.Form2.resources
+F:\Dev\(C#) LapTrinhTrucQuan\Baitap27\Baitap27\obj\Debug\Baitap27.Form3.resources
+F:\Dev\(C#) LapTrinhTrucQuan\Baitap27\Baitap27\bin\Debug\Guna.UI.dll
+F:\Dev\(C#) LapTrinhTrucQuan\Baitap27\Baitap27\obj\Debug\Baitap27.csproj.CopyComplete
+F:\Dev\(C#) LapTrinhTrucQuan\Baitap27\Baitap27\obj\Debug\Baitap27.Form4.resources
+F:\Dev\(C#) LapTrinhTrucQuan\Baitap27\Baitap27\obj\Debug\Baitap27.csproj.ResolveComReference.cache

@@ -1,0 +1,268 @@
+D:\Cs\Restaurant\bin\Debug\Restaurant.exe.config
+D:\Cs\Restaurant\bin\Debug\Restaurant.exe
+D:\Cs\Restaurant\bin\Debug\Restaurant.pdb
+D:\Cs\Restaurant\bin\Debug\BarcodeLib.dll
+D:\Cs\Restaurant\bin\Debug\FontAwesome.Sharp.dll
+D:\Cs\Restaurant\bin\Debug\MaterialSkin.dll
+D:\Cs\Restaurant\bin\Debug\QRCoder.dll
+D:\Cs\Restaurant\bin\Debug\XanderUI.dll
+D:\Cs\Restaurant\bin\Debug\Zeroit.Framework.BasicCharts.dll
+D:\Cs\Restaurant\bin\Debug\Zeroit.Framework.Button.dll
+D:\Cs\Restaurant\bin\Debug\Zeroit.Framework.LollipopControls.dll
+D:\Cs\Restaurant\bin\Debug\Zeroit.Framework.MaterialWinforms.dll
+D:\Cs\Restaurant\bin\Debug\Zeroit.Framework.PictureBox.dll
+D:\Cs\Restaurant\bin\Debug\Zeroit.Framework.Tooltip.dll
+D:\Cs\Restaurant\obj\Debug\Restaurant.FormLoading.resources
+D:\Cs\Restaurant\obj\Debug\Restaurant.FormLogin.resources
+D:\Cs\Restaurant\obj\Debug\Restaurant.FormMain.resources
+D:\Cs\Restaurant\obj\Debug\Restaurant.Forms.FormPanelCalendar.resources
+D:\Cs\Restaurant\obj\Debug\Restaurant.Properties.Resources.resources
+D:\Cs\Restaurant\obj\Debug\Restaurant.UserControls.UserControlSliderImage.resources
+D:\Cs\Restaurant\obj\Debug\Restaurant.csproj.GenerateResource.cache
+D:\Cs\Restaurant\obj\Debug\Restaurant.csproj.CoreCompileInputs.cache
+D:\Cs\Restaurant\obj\Debug\Restaurant.csproj.CopyComplete
+D:\Cs\Restaurant\obj\Debug\Restaurant.exe
+D:\Cs\Restaurant\obj\Debug\Restaurant.pdb
+D:\Cs\Restaurant\obj\Debug\Restaurant.Forms.FormPanelChart.resources
+D:\Cs\Restaurant\bin\Debug\LiveCharts.dll
+D:\Cs\Restaurant\bin\Debug\LiveCharts.WinForms.dll
+D:\Cs\Restaurant\bin\Debug\LiveCharts.Wpf.dll
+D:\Cs\Restaurant\bin\Debug\LiveCharts.pdb
+D:\Cs\Restaurant\bin\Debug\LiveCharts.xml
+D:\Cs\Restaurant\bin\Debug\LiveCharts.WinForms.pdb
+D:\Cs\Restaurant\bin\Debug\LiveCharts.WinForms.xml
+D:\Cs\Restaurant\bin\Debug\LiveCharts.Wpf.pdb
+D:\Cs\Restaurant\bin\Debug\LiveCharts.Wpf.xml
+D:\Cs\Restaurant\obj\Debug\Restaurant.Forms.FormPanelBill.resources
+D:\Cs\Restaurant\bin\Debug\vi-VN\Restaurant.resources.dll
+D:\Cs\Restaurant\obj\Debug\Restaurant.Forms.FormPanelBill.vi-VN.resources
+D:\Cs\Restaurant\obj\Debug\vi-VN\Restaurant.resources.dll
+D:\Cs\Restaurant\obj\Debug\Restaurant.UserControls.UserControlBillHeader.resources
+D:\Cs\Restaurant\obj\Debug\Restaurant.UserControls.UserControlBillFooter.resources
+D:\Cs\Restaurant\obj\Debug\Restaurant.Forms.FormCode.resources
+D:\Cs\Restaurant\obj\Debug\Restaurant.Forms.FormPanelOrderFoods.resources
+D:\Cs\Restaurant\obj\Debug\Restaurant.UserControls.UserControlFood.resources
+D:\Cs\Restaurant\obj\Debug\Restaurant.csprojAssemblyReference.cache
+D:\Cs\Restaurant\bin\Debug\Zeroit.Framework.CodeTextBox.dll
+D:\Cs\Restaurant\bin\Debug\Zeroit.Framework.Metro.dll
+D:\Cs\Restaurant\obj\Debug\Restaurant.UserControls.UserControlOrderedFood.resources
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\Restaurant.exe.config
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\Restaurant.exe
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\Restaurant.pdb
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\vi-VN\Restaurant.resources.dll
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\BarcodeLib.dll
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\FontAwesome.Sharp.dll
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\LiveCharts.dll
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\LiveCharts.WinForms.dll
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\LiveCharts.Wpf.dll
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\MaterialSkin.dll
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\QRCoder.dll
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\Zeroit.Framework.BasicCharts.dll
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\Zeroit.Framework.Button.dll
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\Zeroit.Framework.CodeTextBox.dll
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\Zeroit.Framework.LollipopControls.dll
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\Zeroit.Framework.MaterialWinforms.dll
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\Zeroit.Framework.Metro.dll
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\Zeroit.Framework.PictureBox.dll
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\Zeroit.Framework.Tooltip.dll
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\LiveCharts.pdb
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\LiveCharts.xml
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\LiveCharts.WinForms.pdb
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\LiveCharts.WinForms.xml
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\LiveCharts.Wpf.pdb
+D:\BTL_1_2020_2021\CS\Restaurant\bin\Debug\LiveCharts.Wpf.xml
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.FormLoading.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.FormLogin.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.FormMain.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.Forms.FormCode.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.Forms.FormPanelBill.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.Forms.FormPanelCalendar.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.Forms.FormPanelChart.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.Forms.FormPanelOrderFoods.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.Properties.Resources.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.UserControls.UserControlBillFooter.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.UserControls.UserControlBillHeader.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.UserControls.UserControlFood.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.UserControls.UserControlOrderedFood.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.UserControls.UserControlSliderImage.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.Forms.FormPanelBill.vi-VN.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.csproj.GenerateResource.cache
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.csproj.CoreCompileInputs.cache
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\vi-VN\Restaurant.resources.dll
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.csproj.CopyComplete
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.exe
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.pdb
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.Forms.FormPanelHDB.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.csprojAssemblyReference.cache
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.Forms.FormPanelBookTable.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.Forms.FormPanelCustomers.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.UserControls.UserControlCard.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.Forms.FormAlert.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.Forms.FormTable.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.Forms.FormPanelEmployee.resources
+D:\BTL_1_2020_2021\CS\Restaurant\obj\Debug\Restaurant.Forms.FormPanelMaterial.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Restaurant.exe.config
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Restaurant.exe
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Restaurant.pdb
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\vi-VN\Restaurant.resources.dll
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\BarcodeLib.dll
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\LiveCharts.dll
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\MaterialSkin.dll
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\QRCoder.dll
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Zeroit.Framework.BasicCharts.dll
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Zeroit.Framework.Button.dll
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Zeroit.Framework.CodeTextBox.dll
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Zeroit.Framework.LollipopControls.dll
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Zeroit.Framework.MaterialWinforms.dll
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Zeroit.Framework.Metro.dll
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Zeroit.Framework.PictureBox.dll
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Zeroit.Framework.Tooltip.dll
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\LiveCharts.pdb
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\LiveCharts.xml
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.csprojAssemblyReference.cache
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.FormLoading.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.FormLogin.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.FormMain.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormAlert.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormCode.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelBill.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelBookTable.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelCalendar.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelChart.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelCustomers.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelEmployee.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelHDB.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelMaterial.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelOrderFoods.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormTable.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Properties.Resources.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.UserControls.UserControlBillFooter.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.UserControls.UserControlBillHeader.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.UserControls.UserControlCard.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.UserControls.UserControlFood.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.UserControls.UserControlOrderedFood.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.UserControls.UserControlSliderImage.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelBill.vi-VN.resources
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.csproj.GenerateResource.cache
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.csproj.CoreCompileInputs.cache
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\vi-VN\Restaurant.resources.dll
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.csproj.CopyComplete
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.exe
+C:\Users\anhnh\OneDrive\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.pdb
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Restaurant.exe.config
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Restaurant.exe
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Restaurant.pdb
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\vi-VN\Restaurant.resources.dll
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\BarcodeLib.dll
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\LiveCharts.dll
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\MaterialSkin.dll
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\QRCoder.dll
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Zeroit.Framework.BasicCharts.dll
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Zeroit.Framework.Button.dll
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Zeroit.Framework.CodeTextBox.dll
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Zeroit.Framework.LollipopControls.dll
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Zeroit.Framework.MaterialWinforms.dll
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Zeroit.Framework.Metro.dll
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Zeroit.Framework.PictureBox.dll
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\Zeroit.Framework.Tooltip.dll
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\LiveCharts.pdb
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\LiveCharts.xml
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.csprojAssemblyReference.cache
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.FormLoading.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.FormLogin.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.FormMain.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormAlert.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormCode.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelBill.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelBookTable.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelCalendar.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelChart.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelCustomers.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelEmployee.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelHDB.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelMaterial.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelOrderFoods.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormTable.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Properties.Resources.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.UserControls.UserControlBillFooter.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.UserControls.UserControlBillHeader.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.UserControls.UserControlCard.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.UserControls.UserControlFood.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.UserControls.UserControlOrderedFood.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.UserControls.UserControlSliderImage.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.Forms.FormPanelBill.vi-VN.resources
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.csproj.GenerateResource.cache
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.csproj.CoreCompileInputs.cache
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\vi-VN\Restaurant.resources.dll
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.csproj.CopyComplete
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.exe
+C:\Users\Pham Van Tien\Desktop\Restaurant (1)-20201122T092833Z-001\Restaurant (1)\obj\Debug\Restaurant.pdb
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\Restaurant.exe.config
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\Restaurant.exe
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\Restaurant.pdb
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\vi-VN\Restaurant.resources.dll
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\BarcodeLib.dll
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\FontAwesome.Sharp.dll
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\LiveCharts.dll
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\LiveCharts.WinForms.dll
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\LiveCharts.Wpf.dll
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\MaterialSkin.dll
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\QRCoder.dll
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\Zeroit.Framework.BasicCharts.dll
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\Zeroit.Framework.Button.dll
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\Zeroit.Framework.CodeTextBox.dll
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\Zeroit.Framework.LollipopControls.dll
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\Zeroit.Framework.MaterialWinforms.dll
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\Zeroit.Framework.Metro.dll
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\Zeroit.Framework.PictureBox.dll
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\Zeroit.Framework.Tooltip.dll
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\LiveCharts.pdb
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\LiveCharts.xml
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\LiveCharts.WinForms.pdb
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\LiveCharts.WinForms.xml
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\LiveCharts.Wpf.pdb
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\bin\Debug\LiveCharts.Wpf.xml
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.csprojAssemblyReference.cache
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.FormLoading.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.FormLogin.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.FormMain.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.Forms.FormAlert.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.Forms.FormCode.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.Forms.FormPanelBill.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.Forms.FormPanelBookTable.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.Forms.FormPanelCalendar.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.Forms.FormPanelChart.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.Forms.FormPanelCustomers.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.Forms.FormPanelEmployee.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.Forms.FormPanelHDB.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.Forms.FormPanelMaterial.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.Forms.FormPanelOrderFoods.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.Forms.FormTable.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.Properties.Resources.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.UserControls.UserControlBillFooter.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.UserControls.UserControlBillHeader.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.UserControls.UserControlCard.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.UserControls.UserControlFood.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.UserControls.UserControlOrderedFood.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.UserControls.UserControlSliderImage.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.Forms.FormPanelBill.vi-VN.resources
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.csproj.GenerateResource.cache
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.csproj.CoreCompileInputs.cache
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\vi-VN\Restaurant.resources.dll
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.csproj.CopyComplete
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.exe
+F:\Dev\(C#) LapTrinhTrucQuan\BaiTap_TienBang\Restaurant\obj\Debug\Restaurant.pdb

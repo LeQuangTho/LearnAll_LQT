@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GameBase</string>  
+    
+    <string name="menu_clear">Clear</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_stop">Stop</string>    
+    <string name="menu_pause">Pause</string>
+    <string name="menu_resume">Resume</string>
+    
+    <string name="mode_ready">Sprite Tutorial\nTap Screen to begin</string>
+	<string name="mode_pause">Paused\nTap Screen To Resume</string>	
+	<string name="mode_lose">Game Over\nTap Screen to begin</string>
+	<string name="mode_win_prefix">Success!\n</string> 
+	<string name="mode_win_suffix">in a row\nPress Up to Play</string> 
+	
+	<string name="message_stopped">Stopped\n</string>
+	
+	<string name="empty_text"></string>
+</resources>

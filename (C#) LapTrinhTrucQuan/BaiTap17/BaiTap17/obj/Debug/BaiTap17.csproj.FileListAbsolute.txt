@@ -1,0 +1,9 @@
+F:\LapTrinhTrucQuan\BaiTap17\BaiTap17\bin\Debug\BaiTap17.exe.config
+F:\LapTrinhTrucQuan\BaiTap17\BaiTap17\bin\Debug\BaiTap17.exe
+F:\LapTrinhTrucQuan\BaiTap17\BaiTap17\bin\Debug\BaiTap17.pdb
+F:\LapTrinhTrucQuan\BaiTap17\BaiTap17\obj\Debug\BaiTap17.Form1.resources
+F:\LapTrinhTrucQuan\BaiTap17\BaiTap17\obj\Debug\BaiTap17.Properties.Resources.resources
+F:\LapTrinhTrucQuan\BaiTap17\BaiTap17\obj\Debug\BaiTap17.csproj.GenerateResource.cache
+F:\LapTrinhTrucQuan\BaiTap17\BaiTap17\obj\Debug\BaiTap17.csproj.CoreCompileInputs.cache
+F:\LapTrinhTrucQuan\BaiTap17\BaiTap17\obj\Debug\BaiTap17.exe
+F:\LapTrinhTrucQuan\BaiTap17\BaiTap17\obj\Debug\BaiTap17.pdb

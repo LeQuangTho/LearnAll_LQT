@@ -1,0 +1,42 @@
+public class CustomAdapter extends BaseAdapter {
+    private Context context; //context
+    private ArrayList<SinhVien> dsSinhVien; //data source of the list adapter
+
+    public CustomAdapter(Context context, ArrayList<SinhVien> dsSinhVien) {
+        this.context = context;
+        this.dsSinhVien = dsSinhVien;
+    }
+
+    @Override
+    public int getCount() {
+        return dsSinhVien.size();
+    }
+
+    @Override
+    public Object getItem(int position) {
+        return dsSinhVien.get(position);
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup viewGroup) {
+
+        View view = convertView;
+        if (view == null) {
+            LayoutInflater inflater = LayoutInflater.from(context);
+            view =  inflater.inflate(R.layout.activity_activitydongsinhvien, null);
+        }
+        SinhVien p = (SinhVien) getItem(position);
+        if (p != null) {
+            // Anh xa + Gan gia tri
+            TextView txt1 = (TextView) view.findViewById(R.id.textViewHoTen);
+            txt1.setText(p.getHoten());
+
+        }
+        return view;
+    }
+}

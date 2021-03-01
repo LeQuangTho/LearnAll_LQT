@@ -1,0 +1,10 @@
+F:\LapTrinhTrucQuan\BaiTap5\BaiTap5\bin\Debug\BaiTap5.exe.config
+F:\LapTrinhTrucQuan\BaiTap5\BaiTap5\bin\Debug\BaiTap5.exe
+F:\LapTrinhTrucQuan\BaiTap5\BaiTap5\bin\Debug\BaiTap5.pdb
+F:\LapTrinhTrucQuan\BaiTap5\BaiTap5\obj\Debug\BaiTap5.csprojAssemblyReference.cache
+F:\LapTrinhTrucQuan\BaiTap5\BaiTap5\obj\Debug\BaiTap5.Form1.resources
+F:\LapTrinhTrucQuan\BaiTap5\BaiTap5\obj\Debug\BaiTap5.Properties.Resources.resources
+F:\LapTrinhTrucQuan\BaiTap5\BaiTap5\obj\Debug\BaiTap5.csproj.GenerateResource.cache
+F:\LapTrinhTrucQuan\BaiTap5\BaiTap5\obj\Debug\BaiTap5.csproj.CoreCompileInputs.cache
+F:\LapTrinhTrucQuan\BaiTap5\BaiTap5\obj\Debug\BaiTap5.exe
+F:\LapTrinhTrucQuan\BaiTap5\BaiTap5\obj\Debug\BaiTap5.pdb

@@ -1,0 +1,10 @@
+F:\LapTrinhTrucQuan\AppThuHai\AppThuHai\bin\Debug\AppThuHai.exe.config
+F:\LapTrinhTrucQuan\AppThuHai\AppThuHai\bin\Debug\AppThuHai.exe
+F:\LapTrinhTrucQuan\AppThuHai\AppThuHai\bin\Debug\AppThuHai.pdb
+F:\LapTrinhTrucQuan\AppThuHai\AppThuHai\obj\Debug\AppThuHai.csprojAssemblyReference.cache
+F:\LapTrinhTrucQuan\AppThuHai\AppThuHai\obj\Debug\AppThuHai.Form1.resources
+F:\LapTrinhTrucQuan\AppThuHai\AppThuHai\obj\Debug\AppThuHai.Properties.Resources.resources
+F:\LapTrinhTrucQuan\AppThuHai\AppThuHai\obj\Debug\AppThuHai.csproj.GenerateResource.cache
+F:\LapTrinhTrucQuan\AppThuHai\AppThuHai\obj\Debug\AppThuHai.csproj.CoreCompileInputs.cache
+F:\LapTrinhTrucQuan\AppThuHai\AppThuHai\obj\Debug\AppThuHai.exe
+F:\LapTrinhTrucQuan\AppThuHai\AppThuHai\obj\Debug\AppThuHai.pdb

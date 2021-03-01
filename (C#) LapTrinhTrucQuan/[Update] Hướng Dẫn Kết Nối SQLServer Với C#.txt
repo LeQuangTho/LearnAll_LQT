@@ -1,0 +1,32 @@
+_____________________________
+Tạo ra 1 class để sử dụng các database
+
+// vẫn là khởi tạo String Connect
+string strConnect = "Đoạn này giống với ver 1.0";
+
+//Khai báo biến SqlConnection
+SqlConnection sqlConnection = null;
+
+// tạo các phương thức của class
+
+//phương thức OpenConnect()
+
+void OpenConnect()
+{
+	sqlConnection = new SqlConnection(strConnect);
+	//Kiểm tra xem đã mở kết nối chưa vẫn như thế ^.^
+
+	if(slqConnection.State != ConnectionState.Open)
+		sqlConnection.Open();
+}
+
+void CloseConnect()
+{
+	
+	//Kiểm tra xem đã đóng kết nối chưa vẫn như thế ^.^
+	if(slqConnection.State != ConnectionState.Closed)
+		sqlConnection.Close();
+		sqlConnection.Dispose();
+}
+
+

@@ -1,0 +1,47 @@
+kết nối SQLServer với  C# .NET WinForm
+bước 1: 
+ 	tạo chuỗi kết nối
+
+	string strConnect = "cái này vào  View-> Server Explrer....";
+Bước 2:
+	mở kết nối 
+	
+	Sqlconnection sqlConnection = new Sqlconnection(strConnect);
+	
+
+	//Kiểm tra xem trạng thái của kết nối là đóng hay mở
+
+	if(sqlConnection.State != ConnectionState.Open)  //nếu nó chưa mở thì mở ra mà dùng
+	{
+		strConnection.Open();	//Mở kết nối
+		MessageBox.Show("Kết nối thành công");
+	}
+	
+Bước 3:
+	tạo lệnh
+
+	string sqlSelect = "Select * from <tên bảng>";	//đơn giản lệnh là một cái string
+							//còn nôi dung của lệnh thì i như bên sql thôi
+
+Bước 4: 
+	Thực thi câu lệnh
+	SqlDataAdapter dt = new SqlDataAdapter(sqlSelect,sqlConnection);
+	
+	//kết quả của lệnh trong tk string bên trên được lấy về bởi Adapter
+	// Còn bây giờ là đổ dữ liệu ra bảng
+	
+	DataTable tbChatLieu = new DataTable();	// tạo bảng lưu trữ nó
+	
+	dt.Fill(tbChatLieu);	//Đổ vào
+
+Bước 5:
+	Đóng kết nối hủy đối tượng.
+
+	//kiểm tra trạng thái của kết nối xem nó đã được đóng chưa
+	//nếu chưa đóng thì đóng vào thôi
+	if(sqlConnection.State != ConnectionState.Closed)
+	{
+		sqlConnection.Close();	//Đóng kết nối
+		sqlConnection.Dispose();	Hủy(không rõ có phải là giải phóng bộ nhwos hay không ^,^)
+	}
+	

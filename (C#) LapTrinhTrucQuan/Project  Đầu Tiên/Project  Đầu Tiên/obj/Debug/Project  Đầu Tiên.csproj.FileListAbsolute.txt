@@ -1,0 +1,10 @@
+F:\LapTrinhTrucQuan\Project  Đầu Tiên\Project  Đầu Tiên\bin\Debug\Project  Đầu Tiên.exe.config
+F:\LapTrinhTrucQuan\Project  Đầu Tiên\Project  Đầu Tiên\bin\Debug\Project  Đầu Tiên.exe
+F:\LapTrinhTrucQuan\Project  Đầu Tiên\Project  Đầu Tiên\bin\Debug\Project  Đầu Tiên.pdb
+F:\LapTrinhTrucQuan\Project  Đầu Tiên\Project  Đầu Tiên\obj\Debug\Project  Đầu Tiên.csprojAssemblyReference.cache
+F:\LapTrinhTrucQuan\Project  Đầu Tiên\Project  Đầu Tiên\obj\Debug\Project__Đầu_Tiên.theFirstProgram.resources
+F:\LapTrinhTrucQuan\Project  Đầu Tiên\Project  Đầu Tiên\obj\Debug\Project__Đầu_Tiên.Properties.Resources.resources
+F:\LapTrinhTrucQuan\Project  Đầu Tiên\Project  Đầu Tiên\obj\Debug\Project  Đầu Tiên.csproj.GenerateResource.cache
+F:\LapTrinhTrucQuan\Project  Đầu Tiên\Project  Đầu Tiên\obj\Debug\Project  Đầu Tiên.csproj.CoreCompileInputs.cache
+F:\LapTrinhTrucQuan\Project  Đầu Tiên\Project  Đầu Tiên\obj\Debug\Project  Đầu Tiên.exe
+F:\LapTrinhTrucQuan\Project  Đầu Tiên\Project  Đầu Tiên\obj\Debug\Project  Đầu Tiên.pdb

@@ -1,0 +1,41 @@
+cách để custom 1 filter
+1. Đầu tiên cần phải Implements Filterable vào class 
+CustomAdapter
+dau đó phải Override lại hàm getFilter()
+
+2. khai một biến có kiểu là Filter
+khai báo mảng tạm để filter
+(nhớ ném cái mảng vào trong contractor gán nó bằng mảng dữ liệu cần lọc)
+
+3. tạo class CustomFilter ngay trong CustomAdapter extends Filter
+khi đó ta phải Overrid lại 
+- đầu tiên là hàm Filtering
+	trong này ta khởi tạo biến FilterResults 
+	để lưu kết quả đã lọc được
+- tiếp theo ta kiểm tra xem constaint có rỗng hay không(!null & len>0)
+	contraint: là biến chuyền vào giá trị điều kiện để lọc
+	UpperCase lên
+	- tiếp, khởi tạo mảng đối tượng thỏa mãn
+	dùng vòng for chạy 
+	ta so sánh điều kiện
+	contraint có hàm contains tương đương với like trong SQL
+	đương nhiên giá trị mang ra so sánh cũng phải UpperCase lên rồi
+		nếu điều kiện đúng thi add vào mảng đối tượng thỏa
+		mãn mới khai báo ở trên
+	kết thúc for ta gắn result.count bằng size cả mảng đối
+	tượng thỏa
+	và result.value bằng chính mảng đó
+- ngược lại nếu constaint rỗng tức là không có kí tự nào thì 
+	gắn result.count bằng size list dữ liệu ban đầu
+	
+	và result.value bằng chính mảng đó list dữ liệu ban đầu
+return result;
+
+#tiếp theo hàm Results
+	- gán cái list hiển thị bằng results.values nhớ ép kiểu
+	- notify... là hàm kiểu như nó load lại cái adapter;
+
+@sang file chạy chính
+-bắt sự kiện addTextChanged cho edit text
+gọi hàm getFilter() của adapter ra thế là xong
+

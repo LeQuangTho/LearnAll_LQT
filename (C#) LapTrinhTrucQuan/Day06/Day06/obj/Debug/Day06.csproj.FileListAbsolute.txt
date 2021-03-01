@@ -1,0 +1,10 @@
+F:\LapTrinhTrucQuan\Day06\Day06\bin\Debug\Day06.exe.config
+F:\LapTrinhTrucQuan\Day06\Day06\bin\Debug\Day06.exe
+F:\LapTrinhTrucQuan\Day06\Day06\bin\Debug\Day06.pdb
+F:\LapTrinhTrucQuan\Day06\Day06\obj\Debug\Day06.csprojAssemblyReference.cache
+F:\LapTrinhTrucQuan\Day06\Day06\obj\Debug\Day06.Form1.resources
+F:\LapTrinhTrucQuan\Day06\Day06\obj\Debug\Day06.Properties.Resources.resources
+F:\LapTrinhTrucQuan\Day06\Day06\obj\Debug\Day06.csproj.GenerateResource.cache
+F:\LapTrinhTrucQuan\Day06\Day06\obj\Debug\Day06.csproj.CoreCompileInputs.cache
+F:\LapTrinhTrucQuan\Day06\Day06\obj\Debug\Day06.exe
+F:\LapTrinhTrucQuan\Day06\Day06\obj\Debug\Day06.pdb

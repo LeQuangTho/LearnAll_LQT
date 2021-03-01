@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="My_IPos" targetNamespace="http://tempuri.org/My_IPos.xsd" xmlns:mstns="http://tempuri.org/My_IPos.xsd" xmlns="http://tempuri.org/My_IPos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="My_IPOSConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="My_IPOSConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.My_IPOS.Properties.Settings.GlobalReference.Default.My_IPOSConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="My_IPOSConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT HD.TongTien, HD.ID_HoaDon, M.TenMon ,CTHD.SoLuong, M.DonGiaMon, (CTHD.SoLuong * M.DonGiaMon) * (1 - V.PhanTram) AS ThanhTien, KH.TenKhachHang, HD.UserName, HD.TongTien / (1 - V.PhanTram) 
+                         AS NguyenGia, V.TenVoucher
+FROM            ChiTietHoaDon AS CTHD INNER JOIN
+                         HoaDon AS HD ON CTHD.ID_HoaDon = HD.ID_HoaDon INNER JOIN
+                         Mon AS M ON CTHD.ID_Mon = M.ID_Mon INNER JOIN
+                         KhachHang AS KH ON KH.ID_KhachHang = HD.ID_KhachHang INNER JOIN
+                         Voucher AS V ON V.ID_Voucher = HD.ID_Voucher 
+WHERE        (HD.ID_HoaDon = '7_12112020')</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SoLuong" DataSetColumn="SoLuong" />
+              <Mapping SourceColumn="ID_HoaDon" DataSetColumn="ID_HoaDon" />
+              <Mapping SourceColumn="TongTien" DataSetColumn="TongTien" />
+              <Mapping SourceColumn="TenKhachHang" DataSetColumn="TenKhachHang" />
+              <Mapping SourceColumn="UserName" DataSetColumn="UserName" />
+              <Mapping SourceColumn="ThanhTien" DataSetColumn="ThanhTien" />
+              <Mapping SourceColumn="NguyenGia" DataSetColumn="NguyenGia" />
+              <Mapping SourceColumn="TenVoucher" DataSetColumn="TenVoucher" />
+              <Mapping SourceColumn="DonGiaMon" DataSetColumn="DonGiaMon" />
+              <Mapping SourceColumn="TenMon" DataSetColumn="TenMon" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="My_IPOSConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="FillBy" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT HD.TongTien, HD.ID_HoaDon, M.TenMon ,CTHD.SoLuong, M.DonGiaMon, (CTHD.SoLuong * M.DonGiaMon) * (1 - V.PhanTram) AS ThanhTien, KH.TenKhachHang, HD.UserName, HD.TongTien / (1 - V.PhanTram) 
+                         AS NguyenGia, V.TenVoucher
+FROM            ChiTietHoaDon AS CTHD INNER JOIN
+                         HoaDon AS HD ON CTHD.ID_HoaDon = HD.ID_HoaDon INNER JOIN
+                         Mon AS M ON CTHD.ID_Mon = M.ID_Mon INNER JOIN
+                         KhachHang AS KH ON KH.ID_KhachHang = HD.ID_KhachHang INNER JOIN
+                         Voucher AS V ON V.ID_Voucher = HD.ID_Voucher 
+WHERE        (HD.ID_HoaDon = @id)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="id" ColumnName="ID_HoaDon" DataSourceName="My_IPOS.dbo.HoaDon" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@id" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="ID_HoaDon" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="My_IPos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="My_IPos" msprop:Generator_UserDSName="My_IPos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SoLuong" msprop:Generator_ColumnVarNameInTable="columnSoLuong" msprop:Generator_ColumnPropNameInRow="SoLuong" msprop:Generator_ColumnPropNameInTable="SoLuongColumn" msprop:Generator_UserColumnName="SoLuong" type="xs:int" />
+              <xs:element name="ID_HoaDon" msprop:Generator_ColumnVarNameInTable="columnID_HoaDon" msprop:Generator_ColumnPropNameInRow="ID_HoaDon" msprop:Generator_ColumnPropNameInTable="ID_HoaDonColumn" msprop:Generator_UserColumnName="ID_HoaDon">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TongTien" msprop:Generator_ColumnVarNameInTable="columnTongTien" msprop:Generator_ColumnPropNameInRow="TongTien" msprop:Generator_ColumnPropNameInTable="TongTienColumn" msprop:Generator_UserColumnName="TongTien" type="xs:int" />
+              <xs:element name="TenKhachHang" msprop:Generator_ColumnVarNameInTable="columnTenKhachHang" msprop:Generator_ColumnPropNameInRow="TenKhachHang" msprop:Generator_ColumnPropNameInTable="TenKhachHangColumn" msprop:Generator_UserColumnName="TenKhachHang">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UserName" msprop:Generator_ColumnVarNameInTable="columnUserName" msprop:Generator_ColumnPropNameInRow="UserName" msprop:Generator_ColumnPropNameInTable="UserNameColumn" msprop:Generator_UserColumnName="UserName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ThanhTien" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnThanhTien" msprop:Generator_ColumnPropNameInRow="ThanhTien" msprop:Generator_ColumnPropNameInTable="ThanhTienColumn" msprop:Generator_UserColumnName="ThanhTien" type="xs:double" minOccurs="0" />
+              <xs:element name="NguyenGia" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNguyenGia" msprop:Generator_ColumnPropNameInRow="NguyenGia" msprop:Generator_ColumnPropNameInTable="NguyenGiaColumn" msprop:Generator_UserColumnName="NguyenGia" type="xs:double" minOccurs="0" />
+              <xs:element name="TenVoucher" msprop:Generator_ColumnVarNameInTable="columnTenVoucher" msprop:Generator_ColumnPropNameInRow="TenVoucher" msprop:Generator_ColumnPropNameInTable="TenVoucherColumn" msprop:Generator_UserColumnName="TenVoucher">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DonGiaMon" msprop:Generator_ColumnVarNameInTable="columnDonGiaMon" msprop:Generator_ColumnPropNameInRow="DonGiaMon" msprop:Generator_ColumnPropNameInTable="DonGiaMonColumn" msprop:Generator_UserColumnName="DonGiaMon" type="xs:int" />
+              <xs:element name="TenMon" msprop:Generator_ColumnVarNameInTable="columnTenMon" msprop:Generator_ColumnPropNameInRow="TenMon" msprop:Generator_ColumnPropNameInTable="TenMonColumn" msprop:Generator_UserColumnName="TenMon">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable1" />
+      <xs:field xpath="mstns:ID_HoaDon" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

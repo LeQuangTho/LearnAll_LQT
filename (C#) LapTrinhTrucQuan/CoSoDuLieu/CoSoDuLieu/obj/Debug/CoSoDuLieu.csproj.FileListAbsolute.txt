@@ -1,0 +1,10 @@
+F:\Dev\(C#) LapTrinhTrucQuan\CoSoDuLieu\CoSoDuLieu\obj\Debug\CoSoDuLieu.csprojAssemblyReference.cache
+F:\Dev\(C#) LapTrinhTrucQuan\CoSoDuLieu\CoSoDuLieu\obj\Debug\CoSoDuLieu.Form1.resources
+F:\Dev\(C#) LapTrinhTrucQuan\CoSoDuLieu\CoSoDuLieu\obj\Debug\CoSoDuLieu.Properties.Resources.resources
+F:\Dev\(C#) LapTrinhTrucQuan\CoSoDuLieu\CoSoDuLieu\obj\Debug\CoSoDuLieu.csproj.GenerateResource.cache
+F:\Dev\(C#) LapTrinhTrucQuan\CoSoDuLieu\CoSoDuLieu\obj\Debug\CoSoDuLieu.csproj.CoreCompileInputs.cache
+F:\Dev\(C#) LapTrinhTrucQuan\CoSoDuLieu\CoSoDuLieu\bin\Debug\CoSoDuLieu.exe.config
+F:\Dev\(C#) LapTrinhTrucQuan\CoSoDuLieu\CoSoDuLieu\bin\Debug\CoSoDuLieu.exe
+F:\Dev\(C#) LapTrinhTrucQuan\CoSoDuLieu\CoSoDuLieu\bin\Debug\CoSoDuLieu.pdb
+F:\Dev\(C#) LapTrinhTrucQuan\CoSoDuLieu\CoSoDuLieu\obj\Debug\CoSoDuLieu.exe
+F:\Dev\(C#) LapTrinhTrucQuan\CoSoDuLieu\CoSoDuLieu\obj\Debug\CoSoDuLieu.pdb

@@ -1,0 +1,5 @@
+ALT + ENTER		Fix project nhanh
+Ctrl + Shift + Enter	Chèn thêm 1 dòng ở trên dòng hiện tại
+CTRL + ALT + L		Định dạng lại code
+CTRL + P		Hiện tham số hàm, phương thức
+ALT + Insert		Khởi tạo hàm
