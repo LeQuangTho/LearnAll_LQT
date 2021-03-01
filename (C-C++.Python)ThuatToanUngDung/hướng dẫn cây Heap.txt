@@ -1,0 +1,8 @@
+hàng đợi ưu tiên heap
+-góc lớn hơn mọi phần từ con hoặc ngược lại 
+k----2k+1
+  ----2k+2
+-thêm thì thêm vào gốc rồi vun lại đống lên
+lớn hơn(nhỏ hơn) cha thì lập tức swap
+- lấy ra 1 phần tử thì đẩy thằng cuối lên đầu lấy root ra
+bắt đầu vun xuông: nhỏ hơn con thì swap

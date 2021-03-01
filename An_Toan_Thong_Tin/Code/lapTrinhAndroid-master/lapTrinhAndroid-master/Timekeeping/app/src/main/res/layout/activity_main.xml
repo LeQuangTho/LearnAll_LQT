@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFF5E1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonAdd" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="01 / 01 / 2021"
+        android:textAlignment="center"
+        android:textColor="#001AFF"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTongCong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Tổng số công:"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDate" />
+
+    <TextView
+        android:id="@+id/textViewTongTangCa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Số giờ tăng ca:"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+
+        app:layout_constraintStart_toStartOf="@+id/textViewTongCong"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTongCong" />
+
+    <TextView
+        android:id="@+id/textViewTongTien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Tổng tiền:"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+
+        app:layout_constraintStart_toStartOf="@+id/textViewTongCong"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTongTangCa" />
+
+    <EditText
+        android:id="@+id/editTextCong"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:hint="Công"
+        android:inputType="numberDecimal"
+        android:paddingStart="7dp"
+        android:text="25"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewTongCong"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewTongCong"
+        app:layout_constraintTop_toTopOf="@+id/textViewTongCong" />
+
+    <EditText
+        android:id="@+id/editTextTangCa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tăng ca"
+        android:inputType="numberDecimal"
+        android:paddingStart="7dp"
+        android:text="30 giờ"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewTongTangCa"
+        app:layout_constraintEnd_toEndOf="@+id/editTextCong"
+        app:layout_constraintStart_toStartOf="@+id/editTextCong"
+        app:layout_constraintTop_toTopOf="@+id/textViewTongTangCa" />
+
+    <EditText
+        android:id="@+id/editTextTongTien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tổng tiền"
+        android:inputType="numberSigned"
+        android:paddingStart="7dp"
+        android:text="12.000.000 VNĐ"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewTongTien"
+        app:layout_constraintEnd_toEndOf="@+id/editTextCong"
+        app:layout_constraintStart_toStartOf="@+id/editTextTangCa"
+        app:layout_constraintTop_toTopOf="@+id/textViewTongTien" />
+
+    <ImageButton
+        android:id="@+id/imageButtonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/custom_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTongTien"
+        app:srcCompat="@drawable/ic_baseline_add_24" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custom_button"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonAdd"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonAdd"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonAdd"
+        app:srcCompat="@drawable/ic_baseline_settings_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

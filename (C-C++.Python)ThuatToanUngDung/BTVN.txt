@@ -1,0 +1,2 @@
+BTVN
+tập tam giác< dùng list hoặc deque>

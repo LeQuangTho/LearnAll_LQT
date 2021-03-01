@@ -1,0 +1,3 @@
+Sửa bảng trong SQL mà không lưu được thì làm như này
+
+Tool -> option -> Designer -> Prevent saving changes that requiri table re-creation

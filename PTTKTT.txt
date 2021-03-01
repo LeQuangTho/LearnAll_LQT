@@ -1,0 +1,36 @@
+KẾ HOẠCH PHỎNG VẤN:
+Người được hỏi: Sinh viên, giảng viên, trưởng CLB
+Địa chỉ: Ngoài đường
+Dự kiến chương trình:
+
+
+Người được hỏi: 													Người hỏi
+	Nguyễn Văn A  Sinh viên										|	Nguyễn Văn An + Lê Quang Thọ
+Địa chỉ : Phòng 502 A3 UTC
+Đối tượng hỏi: 
+	1.Cần thu thập dữ liệu gì?
+	- Nhu cầu sử dụng , các tính năng 
+	- 
+	- 
+	- 
+	2.Các thỏa thuận về điều gì?
+	- Thảo thuận về sử dụng hình ảnh, tử liệu của người được hỏi
+	-	
+Dự kiến chương trình:											| Ước lượng thời gian
+	- Giới thiệu 											| 1 phút
+	- Tổng quan về dự án										| 1 phút
+	- Chủ đề đề cập											| 2 phút
+	- Chủ đề 1: 											| 10 phút
+		- Bạn có đang sử dụng ứng dụng gì để học tập trực tuyến? 
+		- Bạn có đang hài lòng với hệ thống hiện tại không?
+		- Bạn thường tìm kiếm tài liệu ở đâu?
+		- Những nội dung bạn quan tâm là gì?
+		- Bạn có sẵn sàng chia sẻ tài liệu với mọi người?
+	- Chủ đề 2: 											| 10 phút
+		- Bạn có muốn hệ thống học tập của riêng trường mình không?
+		- Bạn có sẵn sàng tham gia học tập?
+		
+Tổng hợp các nội dung chính:										| 15 phút
+Kết thúc: 												| 1 phút
+
+

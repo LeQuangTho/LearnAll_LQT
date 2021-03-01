@@ -1,0 +1,4 @@
+-Stack, Qeue,LinkList. 
+- Tree, Grap.
+-duyệt cây.
+binary search.

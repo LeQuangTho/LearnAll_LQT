@@ -1,0 +1,9 @@
+cài code default
+tool->editor option->snippets->default source
+{
+#include<bits/stdc++.h>
+
+using namespace std;
+}
+cài c++11
+tool->compiler->(-std=c++11)

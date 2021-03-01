@@ -1,0 +1,1 @@
+bài toán: cửa sổ, mỗi lần chui qua cửa sổ thì nhân đôi

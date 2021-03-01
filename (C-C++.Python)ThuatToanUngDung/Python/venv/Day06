@@ -1,0 +1,135 @@
+'''
+
+#Vị trí tương đối cảu điểm M với tam giác ABC
+#from collections import namedtuple   -- cái này giống part  trong C++
+from math import fabs
+
+class Diem:
+    def __init__(self,u,v): self.x, self.y = u,v
+    def __str__(self): return  "(" + str(self.x)+","+ str(self.y)+")"
+
+#Diem = namedtuple("Diem","x,y")
+
+def dt(A,B,C):
+    return fabs((A.x*B.y-A.y*B.x)+(B.x*C.y-B.y*C.x)+(C.x*A.y-C.y*A.x))/2;
+if __name__ == '__main__':
+    u,v = map(float,input().split())
+    A = Diem(u,v)
+    u, v = map(float, input().split())
+    B = Diem(u, v)
+    u, v = map(float, input().split())
+    C = Diem(u, v)
+    u, v = map(float, input().split())
+    M = Diem(u, v)
+
+    s,s1,s2,s3 = dt(A,B,C), dt(A,B,M),dt(A,C,M),dt(B,C,M)
+    if s == s1+s2+s3: print("Trên" if s1*s2*s3 == 0 else "trong")
+    else: print("ngoài")
+    print(A,B,C)
+
+
+
+
+#Tiền điện
+def tiendien(n):
+    s = 0
+    if n > 600 : s,n = s + (n-600) *2.5,600
+    if n > 250 : s,n = s + (n-250) *1.7,250
+    if n > 100 : s, n = s + (n - 100) * 1.2,100
+    return s+n
+
+def dien(n):
+    d =[600,250,100,0]
+    g =[2.5,1.7,1.2]
+    s = 0
+    for u,v in zip(d,g):
+        if n>u: s,n = s+(n-u)*v,u
+        return s
+
+if __name__ == '__main__':
+    n = int(input("Nhap n = "))
+    print("So tien phải trả = ", tiendien(n))
+
+
+
+# e^x
+def exp(n,x):
+    p,s=1,1
+    for i in range(1,n+1):
+        p=p*x/i
+        s= s+p
+    return s
+if __name__ == '__main__':
+    n = int(input("Nhập n = "))
+    x = float(input("Nhập x = "))
+    print(exp(n,x))
+
+
+
+
+#buôn vàng
+
+if __name__ == '__main__':
+    n = int(input())
+    s = 0
+    r = range(1,n+1)
+
+    for i,j in zip(r,r[::-1]): s+=i/j
+    print("gia tri ",s)
+
+
+
+from math import  sqrt,trunc
+if __name__ == '__main__':
+    n = int(input())
+    ok = 1
+
+    ok = False if n< 2 or (n>2 and n%2 ==0) else True
+    if ok:
+        for i in range(2, trunc(sqrt(n))):
+            if n%i == 0:
+                ok = False
+                break
+    print("Nguyên tố" if ok else "không là nguyên tố")
+
+
+
+
+
+if __name__ == '__main__':
+    M,*a = [int(x) for x in input().split()]
+    d = 0
+    for i in range(len(a)):
+        for j in range(i+1, len(a)):
+            d += a[i] + a[j] <= M
+    print("So cap",d)
+
+
+
+from bisect import bisect_right
+if __name__ == '__main__':
+    M, *a = [int(x) for x in input().split()]
+    a.sort()
+    d = 0
+    n= len(a)
+    for i in range(n):
+        j= bisect_right(a,M-a[i]-1)
+        if j>i: d+=j-i
+    print(d)
+
+
+'''
+
+
+#đổi cơ số 2
+if __name__ == '__main__':
+    n = int(input())
+    s = ""
+    while n:
+        s = str(n%2) + s
+        n//= 2
+    print(s)
+
+
+
+

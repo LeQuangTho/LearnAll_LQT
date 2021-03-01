@@ -1,0 +1,17 @@
+-Để truy cập ổ nào chỉ cần (tên ổ): VD:   F:
+- Để truy cập một  folder:
+	cd [tên folder]
+- Để push lên thì 
+	+ git status
+	+ git add . <lệnh này sẽ add tất cả>
+	+ git  commit -m "<comment>"
+	+ git push -u origin master <push lên nhanh chính>
+- Đê xóa commit cuối cùng để tránh xung đột:
+	+ Mở Git Bash
+	+ Truy cập vào ổ chứa .git
+	+ kiểm tra git log -- oneline
+	+ git reset --hard  HEAD~1
+
+git reset -- . <reset khi đang ở sau đoạn add tức là Modified>
+git restore -- . <undo từ đoạn sau khi commit về add tức từ Staged về Modified>
+ 
