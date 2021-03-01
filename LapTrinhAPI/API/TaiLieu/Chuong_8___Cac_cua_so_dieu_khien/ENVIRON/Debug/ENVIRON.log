@@ -1,0 +1,12 @@
+﻿Build started 23/02/2016 8:56:07 AM.
+     1>Project "E:\BaiGiang\LaptrinhAPI\TaiLieu\Chuong_8___Cac_cua_so_dieu_khien\ENVIRON\ENVIRON.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\ENVIRON.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\ENVIRON.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\ENVIRON.lib" /MACHINE:X86 /SAFESEH .\Debug\ENVIRON.obj
+         LINK : program database E:\BaiGiang\LaptrinhAPI\TaiLieu\Chuong_8___Cac_cua_so_dieu_khien\ENVIRON\Debug\ENVIRON.pdb missing; performing full link
+     1>ENVIRON.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         ENVIRON.vcxproj -> E:\BaiGiang\LaptrinhAPI\TaiLieu\Chuong_8___Cac_cua_so_dieu_khien\ENVIRON\.\Debug\ENVIRON.exe
+     1>Done Building Project "E:\BaiGiang\LaptrinhAPI\TaiLieu\Chuong_8___Cac_cua_so_dieu_khien\ENVIRON\ENVIRON.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.85
