@@ -1,0 +1,168 @@
+body {
+	font-family: Arial, Tahoma;
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+#main{
+	width: 1000px;
+	padding: 30px;
+	margin-left: auto; 
+	margin-right: auto; 
+}
+#head{
+	height: 200px;
+	background-color:  #F5F5F5;
+	border: 1px solid #CDCDCD;
+	margin-bottom: 5px; /*khoảng cách so với các vùng khác*/
+}
+.box{
+	width: 20%;
+	float: left;
+	height: 40px;
+}
+
+#head-link{
+	float: left;
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+	position: sticky; /* trượt đến 0 rồi đứng lại */
+	top: 0px;
+	background-color: #000000;
+}
+#head-link ul{
+	float: left;
+	width: 79.6%;
+	
+}
+
+#head-link ul li{
+	float: left;
+	list-style:none;
+/*dồn chữ lên 1 hàng 
+và bỏ icon của list*/
+	height: 40px;
+	width: 16.4%;
+}
+
+#head-link ul li a{
+	text-decoration: none; 
+	line-height: 40px;
+	width: 120px;
+	text-align: center;
+	color: #FFFFFF;
+	display: inline-table;
+	text-transform: uppercase;
+	/* bỏ gạch chân
+	   xử lí  khoảng cách của từng ô*/
+}
+
+/* #main #head-link ul li a.active{
+	background: red;
+	định nghĩa màu cho ô được chọn
+} */
+#head-link ul li a:hover{
+	color:black;
+	background-color: #2FC0CD;
+	/* thuộc tính chạm */
+}
+
+/* #left{
+	min-height: 400px;
+	width: 150px;
+	border: 1px solid #CDCDCD;
+	float: left; mô tả này dùng để cho vùng Left dạt về bên
+	trái nhường chỗ cho các phân vùng khác
+	padding-left: 10px;
+	padding-right: 10px;
+  	background-color: #004C00;
+  	margin-bottom: 5px;
+}	 */
+.content{
+	width:100%;
+	min-height: 400px;
+	float: left;
+	margin-bottom: 5px; 
+}
+#right{
+	width: 15.6%;
+	min-height: 1000px;
+	border: 1px solid #999999;
+	float: left;
+	margin:0px 5px 0px;
+}
+#footer{
+	height: 200px;
+	clear: both; /* clear mọi thứ bên dưới dưới ko có thẻ nào cả */
+	border: 1px solid #CDCDCD; 
+    background-color: #F8F8FF;
+	font-weight: 1px;
+	font-size: 12px;
+}
+
+
+
+#main .content h1{
+	margin: 0px;
+	width: 100%;
+	padding:0px;
+	background-color: #C69A39;
+	border-radius: 5px
+}
+
+.content h1 p{
+	margin-left: 10px;
+	co 
+}
+.content ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.content ul li{
+	float: left;
+	list-style: none;
+	text-decoration: none;
+	border: 1px solid #CDCDCD;
+	border-radius: 10px;
+	height: 330px;
+	width: 220px;
+	margin: 5px;
+}
+
+.content ul li a{
+	display: block;
+	text-decoration: none;
+	margin: 5px 10px 5px;
+	font-size: 20px;
+}
+
+.content ul li a img{
+	width: 190px;
+	height: 240px;
+	margin: 5px;
+}
+
+.content ul li h2{
+	line-height: 50px;
+	padding-left: 10px; 
+	margin:0px 25px 10px;
+}
+
+.container{
+	clear: both;
+	float: left;
+	width: 80%;
+    padding:0px 0px 10px;
+}
+
+.container ol{
+	margin-top: 10px;
+}
+.container-1 input{
+	border-radius: 40px;
+	height: 30px;
+	margin-left: 1em;
+}

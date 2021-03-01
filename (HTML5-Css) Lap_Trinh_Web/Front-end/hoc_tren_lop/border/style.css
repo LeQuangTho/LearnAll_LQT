@@ -1,0 +1,28 @@
+body{
+	font-family: Arial,Tahoma;
+	height: 10000px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 15px;	
+}
+.class1{
+	background: #F2CFCF;
+	width: 300px;
+	top: 10px;
+	left: 20px;
+	position: relative;  /*active vị trí của thẻ div
+	từ vị trí ngầm định ban đầu*/
+}
+
+.class2{
+	background: #7390FD;
+	width: 400px;
+	top: 10px;
+	left: 20px;
+	position: absolute; /* chọn vị trí của tổ tiên đã đk active để active */
+}
+
+.class5{
+	position: fixed; /* dữ nguyên ko trôi */
+	background: #DEC285;
+}

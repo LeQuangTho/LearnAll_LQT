@@ -1,0 +1,14 @@
+F:\Dev\(SQLserver)DataBase\P2\BTL\Demo\Demo\bin\Debug\Demo.exe.config
+F:\Dev\(SQLserver)DataBase\P2\BTL\Demo\Demo\bin\Debug\Demo.exe
+F:\Dev\(SQLserver)DataBase\P2\BTL\Demo\Demo\bin\Debug\Demo.pdb
+F:\Dev\(SQLserver)DataBase\P2\BTL\Demo\Demo\bin\Debug\DevComponents.DotNetBar2.dll
+F:\Dev\(SQLserver)DataBase\P2\BTL\Demo\Demo\obj\Debug\Demo.Form1.resources
+F:\Dev\(SQLserver)DataBase\P2\BTL\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+F:\Dev\(SQLserver)DataBase\P2\BTL\Demo\Demo\obj\Debug\Demo.view.resources
+F:\Dev\(SQLserver)DataBase\P2\BTL\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.cache
+F:\Dev\(SQLserver)DataBase\P2\BTL\Demo\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+F:\Dev\(SQLserver)DataBase\P2\BTL\Demo\Demo\obj\Debug\Demo.csproj.CopyComplete
+F:\Dev\(SQLserver)DataBase\P2\BTL\Demo\Demo\obj\Debug\Demo.exe
+F:\Dev\(SQLserver)DataBase\P2\BTL\Demo\Demo\obj\Debug\Demo.pdb
+F:\Dev\(SQLserver)DataBase\P2\BTL\Demo\Demo\obj\Debug\Demo.function.resources
+F:\Dev\(SQLserver)DataBase\P2\BTL\Demo\Demo\obj\Debug\Demo.csprojAssemblyReference.cache

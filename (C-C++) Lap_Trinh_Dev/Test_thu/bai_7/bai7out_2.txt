@@ -1,0 +1,21 @@
+
+Le Quang Tho
+10.000000
+A
+Le Minh Hieu
+1.000000
+C
+Pham Van Tien
+2.000000
+BTruong co so diem thap nhat: € 1.000000 
+3 thi sinh co diem cao nhat:
+
+1. Le Quang Tho
+10.000000
+A
+2. Pham Van Tien
+2.000000
+B
+3. Le Minh Hieu
+1.000000
+C

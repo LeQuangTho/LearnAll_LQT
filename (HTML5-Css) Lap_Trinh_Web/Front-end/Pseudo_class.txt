@@ -1,0 +1,6 @@
+Pseudo
+
+link thay đổi màu  của link a:link
+visited thay đổi màu khi đã thăm link a:visited
+active thay đổi trạng thái link khi kích chuột a: active
+hover thay đổi trạng thái khi di chuột qua

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> "
+    <link rel="stylesheet" type="text/css" href="css/styleNhapKho.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>Trang Nhập Kho</title>
+</head>
+
+<body>
+    <div class="NhapHang">
+        <div class="container">
+            <div class="row">
+                <!-- Đây là phần chính
+                Begin-->
+                <div class="col-md-9 row-main">
+                    <div class="row-main-head">
+                        <label for="mahang">Mã hàng</label>
+                        <input type="text" name="mahang" id="mahang" class="col-md-2">
+                        <label for="tenhang">Tên hàng</label>
+                        <input type="text" name="tenhang" id="tenhang" class="col-md-3">
+                        <label for="DVT">ĐVT</label>
+                        <select name="DVT" id="inputDVT" class="col-md-1 DVT" required="required">
+                            <option value="1">Cái</option>
+                            <option value="2">Bộ</option>
+                            <option value="3">Cặp</option>
+                            <option value="4">Tá</option>
+                            <option value="5">Hộp</option>
+                            <option value="6">Kg</option>
+                            <option value="7">Gram</option>
+                            <option value="8">Lít</option>
+                            <option value="9">Mét</option>
+                        </select> sel
+                        <label for="soluong">Số lượng</label>
+                        <input type="number" name="soluong" id="soluong" min="1" class="col-md-1">
+                        <br />
+                        <br />
+                        <button id="them" type="button" class="btn btn-success">Thêm</button>
+                    </div>
+                    <div class="row-main-content">
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th class="col-md-2" scope="col">MÃ HÀNG</th>
+                                    <th class="col-md-4" scope="col">TÊN HÀNG</th>
+                                    <th class="col-md-1" scope="col">ĐVT</th>
+                                    <th class="col-md-2" scope="col">ĐƠN GIÁ</th>
+                                    <th class="col-md-1" scope="col">SỐ LƯỢNG</th>
+                                    <th class="col-md-2" scope="col">THÀNH TIỀN</th>
+                                    <th class="col-md-1" scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>14122000</td>
+                                    <td>Gập ghềnh từng đỉnh núi bước chân qua thảo nguyên rộng. Chỉ vì lòng ước muốn đến bên nàng trong phút giây </td>
+                                    <td>Cái</td>
+                                    <td>10.000</td>
+                                    <td>25</td>
+                                    <td>250.000</td>
+                                    <td><i style="color: brown;" class="fa fa-window-close" aria-hidden="true"></i></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- Đây là phần chính
+                End-->
+                <!-- Đây là phần bên phải
+                Begin-->
+                <div class="col-md-3 row-right">
+                    <div class="item-right">
+                        <label for="inputMaPhieuXuat">Mã Phiếu: #14122000</label>
+                    </div>
+                    <div class="item-right">
+                        <label for="inputNhanVien">Nhân viên: Lê Quang Thọ</label>
+                    </div>
+                    <div class="item-right">
+                        <label class="required" for="inputLoaiXuatKho">Loại nhập kho</label>
+                        <select name="LoaiXuatKho" id="inputLoaiXuatKho" class="form-control" required="required">
+                            <option value="">Nhập kho nội bộ</option>
+                            <option value="">Nhập kho mua</option>
+                        </select>
+                    </div>
+                    <div class="item-right">
+                        <label class="required" for="inputNgayGhiSo">Ngày nhập</label>
+                        <input type="date" name="NgayXuat" id="inputNgayXuat" class="form-control" value="" required="required" title="">
+
+                    </div>
+
+                    <div class="item-right">
+                        <label class="required" for="inputKhachHang">Người giao hàng</label>
+                        <!--<select name="KhachHang" id="inputKhachHang" class="form-control" required="required">
+                            <option value="">Thọ</option>
+                            <option value="">Linh</option>
+                        </select>-->
+                        <input type="text" name="KhachHang" id="inputKhachHang" class="form-control" value="" required="required" pattern="" title="">
+                    </div>
+
+                    <div class="item-right">
+                        <label>Ghi chú</label>
+                        <textarea name="GhiChu" id="inputGhiChu" class="form-control" rows="3" required="required"></textarea>
+                    </div>
+                </div>
+                <!-- Đây là phần bên phải
+                End-->
+                <footer>
+                    <button type="button" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i> Xóa</button>
+                    <button id="luu" type="button" class="btn btn-primary"><i class="fa fa-file" aria-hidden="true"></i> Lưu</button>
+
+                    <button type="button" class="btn btn-info"><i class="fas fa-print    "></i> In</button>
+
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

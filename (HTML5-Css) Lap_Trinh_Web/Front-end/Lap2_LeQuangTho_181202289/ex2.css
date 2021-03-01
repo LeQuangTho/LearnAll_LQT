@@ -1,0 +1,54 @@
+#form3 {
+	background-color: #f3f3f3;
+	width: 500px;
+	height: 690px;
+	margin: 0 auto;
+}
+
+#head {
+	background-color: red;
+	height: 35px;
+	line-height: 35px; /*để văn bản ra giữa khung trên và dưới*/
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 5px; /*cho nội dung cách lề trái 5px*/
+}
+
+.right p {
+	color: red; 
+	display: inline; /*cho thẻ p cùng dòng với thẻ input*/
+}
+
+.cmt p {
+	color: #1A1CD4;
+	
+}
+.cmt {
+	margin-left: 12px; /*cho khung chứa thẻ p cách lề trái của khung right 12px*/
+}
+
+.left {
+	width: 100px;
+	float: left; /*để .left nổi lên ở bên trái*/
+	padding-left: 10px;
+}
+
+.right {
+	width: 390px;
+	float: left; /*để .left nổi lên ở bên trái (bên phải left)*/
+}
+
+strong {
+	font-size: 17px;
+}
+.left p {
+ 	font-weight: bold;
+ }
+
+ input[type=radio]:checked{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    line-height: 18px;
+}

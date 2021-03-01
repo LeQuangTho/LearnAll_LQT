@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1537981872 source:e:\laptrinh\baitapsgk\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

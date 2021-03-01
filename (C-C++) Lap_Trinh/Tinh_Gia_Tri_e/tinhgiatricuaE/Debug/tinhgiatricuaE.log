@@ -1,0 +1,3 @@
+﻿  sinx.cpp
+e:\laptrinh\tinhgiatricuae\tinhgiatricuae\sinx.cpp(14): warning C4326: return type of 'main' should be 'int' instead of 'void'
+e:\laptrinh\tinhgiatricuae\tinhgiatricuae\sinx.cpp(17): error C2065: 't': undeclared identifier

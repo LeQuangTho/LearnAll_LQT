@@ -1,0 +1,15 @@
+ 3
+Le Quang Tho
+1000000
+1
+Le Minh Hieu
+100
+2
+Pham Van Tien
+10000
+3
+3
+Ho ten                   	luong     	ma CV
+Le Minh Hieu             	100       	2    
+Pham Van Tien            	10000     	3    
+Le Quang Tho             	1000000   	1    

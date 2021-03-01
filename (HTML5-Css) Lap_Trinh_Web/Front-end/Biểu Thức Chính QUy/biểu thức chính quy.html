@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>biểu thức chính quy</title>
+
+    <script>
+        function testbox(){
+            var reg = /A{1}/;
+            var value= document.getElementById("name").value;
+            if(reg.test(value))
+             alert("hoàn tất");
+            else
+             alert("bạn phải nhập tên")
+        }
+    </script>
+</head>
+<body>
+    <!-- ID: <input type="text"> <br>
+    Password: <input type="password" name="pass" id="pass">  <br> -->
+    Name: <input type="text" name="name" id="name">   <br>
+    <!-- Address: <input type="text" name="Address" id="Address">  <br>
+    Coutry: <input type="radio" name="coutry" id="coutry">   <br>
+    Zip code: <input type="text" name="ZipCode" id="ZipCode">   <br>
+    Email: <input type="email" name="email" id="email">   <br>
+    Sex: <input type="checkbox"> -->
+    Lang <input type="button" onclick="testbox()" value="gửi">submit
+</body>
+</html>

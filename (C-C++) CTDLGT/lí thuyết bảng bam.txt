@@ -1,0 +1,19 @@
+BẢNG BĂM!
+
+
+hàng đợi FIFO 
+vào : push 
+ra: pop
+đầu: front
+đuôi: back
+ Stack
+
+Hàng đợi ưu tiên: dạng cây tìm kiếm
+
+Bảng Băm HashTable--> là tủ nhiều ngăn 
+-có hàm băm <dùng để phân loại>
+-có thể phân loại
+
+
+
+

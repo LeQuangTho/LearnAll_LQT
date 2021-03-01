@@ -1,0 +1,10 @@
+﻿@model IEnumerable<BaiTap1.Models.User>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+@foreach(BaiTap1.Models.User u in Model){
+    <li>@u.id- @u.name-@u.address- @u.email </li>
+}

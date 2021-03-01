@@ -1,0 +1,97 @@
+/* style của main */
+
+.row-main-head input {
+    font-size: 20px;
+}
+
+.row-main-head .DVT {
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 1px #b7b7db;
+}
+
+.row-main-head input {
+    margin-right: 20px;
+    border-radius: 10px;
+    border: solid 1px #b7b7db;
+}
+
+.row-main-head button {
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+}
+
+.row-main table {
+    font-size: 14px;
+}
+
+.thead-dark {
+    background-color: #343957;
+    color: white;
+}
+
+
+/* style của bên phải */
+
+.required::after {
+    content: "*";
+    color: red;
+    font-size: 21px;
+    font-family: Arial;
+}
+
+.NhapHang .row-right {
+    background-color: #343957;
+    border-radius: 15px;
+}
+
+.item-right label {
+    width: 100%;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.NhapHang .item-right {
+    padding: 5px 10px 5px 10px;
+    margin: 5px 10px 5px 10px;
+}
+
+.NhapHang .item-right input[type="text"] {
+    border-radius: 10px;
+    border: solid 1px steelblue;
+    font-size: 20px;
+}
+
+
+/* Đây là style footer */
+
+footer {
+    padding-top: 30px;
+    margin-bottom: 100px;
+}
+
+footer button {
+    float: right;
+    margin: 10px;
+    padding: 5px 20px 5px 15px;
+    border-radius: 15px;
+    border: solid 1px thistle;
+}
+
+.btnXoa {
+    background-color: tomato;
+}
+
+.btnLuu {
+    background-color: seagreen;
+}
+
+.btnLuu,
+.btnXoa {
+    color: whitesmoke;
+}
+
+footer i {
+    margin-right: 10px;
+}

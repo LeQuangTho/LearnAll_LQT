@@ -1,0 +1,6 @@
+
+Cac diem co khoang cach xa O nhat d=3.605551
+diem A[1]=(3, 2)
+diem A[4]=(-3, -2)
+
+So doan thang nam o goc phan tu thu III la:  1

@@ -1,0 +1,128 @@
+
+
+body{
+	width: 1349px;
+	font-family: Arial,Tahamo;
+	font-size: 14px;
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+#head-link{
+	background: black;
+	height: 65px;
+    padding: 0px;
+	margin: 0px;
+}
+
+#head-link-left{
+	width: 50%;
+	margin-left: 20px;
+}
+
+#head-link-left img{
+	float: left;
+	line-height: 65px;
+}
+
+#head-link-left ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+#head-link-left ul li{
+	list-style: none;
+	float: left;
+	width: 75px;
+	line-height: 65px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+#head-link-left ul li a{
+	text-decoration: none;  /* bỏ gạch chân */
+	color: #FFFFFF;
+}	
+
+#head-link-left ul li.at a:hover{
+	padding-bottom: 20px;
+    border-bottom: 5px solid #3178E3; 
+}
+
+#head-link-left ul img{
+	width: 15%;
+	margin:20px 30px 0px 70px;
+	line-height: 65px;
+}
+
+i.fas.fa-angle-down{
+	color: #FFFFFF;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute; /* để drop ngay dưới chân */
+	min-height:160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;  /* càng lớn thì càng nổi lên trên */ 
+}
+
+.dropdown-content a{
+	width: 1000px;
+	display: block;
+
+}
+
+.dropdown-content a span{
+	color: black;
+}
+
+.dropdown-content a:hover{
+	background: #F1F1F1;
+}
+
+#head-link-right{
+	float: right;
+	width: 50%;
+	padding: 0px;
+	padding-left: 100px;
+	box-sizing: border-box;
+}
+
+#head-link-right ul{
+	list-style: none;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+#head-link-right ul li{
+	float: left;
+	width: 65px;
+	margin-right: 20px;
+	line-height: 65px;
+}
+
+#head-link-right ul li span{
+	color: white;
+}
+i.fas.fa-heart{
+	color: rgb(252, 248, 248);
+}
+
+#banner{
+	height: 430px;
+	background-size: 100%;
+	background-re	peat: no-repeat;
+	background-image: url(../Sony/banner.jpg);
+}

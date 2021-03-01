@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<!--  đây là includejQuery để tạo slide show ảnh -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+  
+	<title>ThorMobile</title>
+	
+	<!-- thẻ bên trên dùng để nhúng CSS vào HTML và thẻ <link> là nhúng ngoại tuyến -->
+
+	<style type = "text/css" media = "all">
+         body {
+            background-color: linen;
+         }
+         h1 {
+            color: maroon;
+            margin-left: 40px;
+         }
+      </style>
+<!-- thẻ <style type="text/css"></style> là nhúng dạng trực tuyến -->
+
+</head>
+
+<body>
+	<div id="main">
+		<div id="head"></div>
+
+		<div id="head-link">
+			<div class="box">
+				  <div class="container-1">
+				      <span class="icon"><i class="fa fa-search"></i></span>
+				      <input type="search" id="search" placeholder="Search..." />
+				  </div>
+			</div>
+			<ul>
+				<li><a href="index.html" class="active">Trang Chủ</a></li>
+				<li><a href="dienthoai.html">Điện Thoại</a></li>
+				<li><a href="tablet.html">Tablet</a></li>
+				<li><a href="phukien.html">Phụ Kiện</a></li>
+				<li><a href="suachua.html">Sửa Chữa</a></li>
+				<li><a href="tintuc.html">Tin Tức</a></li>
+			</ul> <!-- end -->
+		</div>
+		    			<audio loop controls autoplay="autoplay">
+		    				<source src="audio\Một Bước Yêu, Vạn Dặm Đau (Lyrics Video) - Mr. Siro.mp3" type="audio/mpeg">
+		    			</audio>
+		    
+		    
+		   <div class="container slide-truot">
+		    	 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+		    			   <!--  Indicators -->
+		    	 <ol class="carousel-indicators">
+		    			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		    			  <li data-target="#myCarousel" data-slide-to="1"></li>
+		    			   <li data-target="#myCarousel" data-slide-to="2"></li>
+		    			    </ol>
+		    
+		    			    <!-- Wrapper for slides -->
+		    			    <div class="carousel-inner">
+		    			      <div class="item active">
+		    			        <img src="image\banner-web-moi.jpg" alt="xiaomi miband4" style="width:100%;">
+		    			      </div>
+		    
+		    			      <div class="item">
+		    			        <img src="image\xiaomi-k20-1.jpg" alt="k20" style="width:100%;">
+		    			      </div>
+		    			    
+		    			      <div class="item">
+		    			        <img src="image\xiaomi-miband-4.jpg" alt="7a" style="width:100%;">
+		    			      </div>
+		    			    </div>
+		    
+
+		    			<!--  Left and right controls -->
+		    			 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		    			   <span class="glyphicon glyphicon-chevron-left"></span>
+		    			   <span class="sr-only">Previous</span>
+		    			 </a>
+		    			 <a class="right carousel-control" href="#myCarousel" data-slide="next" style="width: 100px">
+		    			   <span class="glyphicon glyphicon-chevron-right"></span>
+		    			   <span class="sr-only" >Next</span>
+		    			 </a>
+		    	</div>
+		    </div>
+		    		
+		    
+		    		<div class="container">
+		    			<div class="content">
+		    			<h1><p>XiaoMi Hot</p></h1>
+		    			<ul>
+		    				<li><a href="https://mobilecity.vn/xiaomi/xiaomi-mi-8.html" align="center"> <img src="image/mi8.jpg">Xiaomi Mi8</a>
+		    					<h2>5.360.000đ</h2>
+		    				</li>
+		    				<li><a href="https://mobilecity.vn/xiaomi/xiaomi-mi-8.html" align="center"><img src="image/mi8.jpg">Xiaomi Mi8</a>
+		    					<h2>5.360.000đ</h2>
+		    				</li>
+		    				<li><a href="https://mobilecity.vn/xiaomi/xiaomi-mi-8.html" align="center"> <img src="image/mi8.jpg">Xiaomi Mi8</a>
+		    					<h2>5.360.000đ</h2>
+		    				</li>
+		    			</ul>
+		    		</div>
+		    		<div class="content">
+		    			<h1> SamSung Hot </h1>
+		    			<ul>
+		    				<li><a href="https://mobilecity.vn/xiaomi/xiaomi-mi-8.html" align="center"> <img src="image/mi8.jpg">Xiaomi Mi8</a>
+		    					<h2>5.360.000đ</h2>
+		    				</li>
+		    				<li><a href="https://mobilecity.vn/xiaomi/xiaomi-mi-8.html" align="center"> <img src="image/mi8.jpg">Xiaomi Mi8</a>
+		    					<h2>5.360.000đ</h2>
+		    				</li>
+		    				<li><a href="https://mobilecity.vn/xiaomi/xiaomi-mi-8.html" align="center"> <img src="image/mi8.jpg">Xiaomi Mi8</a>
+		    					<h2>5.360.000đ</h2>
+		    				</li>
+		    			</ul>
+		    		</div>
+		    		</div>
+		    		<div id="right"></div>
+		    
+		    
+		    		<div id="footer">
+		    			<pre align="center" style="color: black">Công ty TNHH một thành viên ThorMobile
+		    			</pre> 
+		    		</div>
+		    	</div>
+
+
+
+
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</body>
+</html>
