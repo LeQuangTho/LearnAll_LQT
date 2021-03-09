@@ -18,7 +18,7 @@ namespace BaiTap1.Controllers
         [HttpPost] //annotation chỉ định sẽ xử lí methol Post
         public ActionResult Index(Login l, User u)
         {
-            if (l.username == "admin" && l.password =="123")
+            if (l.username == "admin123456" && l.password =="123")
                 return Content("Đăng Nhập thành công\n" + u.name +"\n"+u.address + "\n" + u.email);
             else
                 return View();
@@ -32,10 +32,10 @@ namespace BaiTap1.Controllers
         [HttpPost]
         public ActionResult CreateUser(User u)
         {
-            if (u.id == null || u.address == null || u.email == null)
+           /* if (u.id == null || u.address == null || u.email == null || u.password == null || u.reenterpassword == null)*/
                 return View();
-            else
-                return Content("Đăng Nhập thành công\n" + u.name + "\n" + u.address + "\n" + u.email);
+           /* else
+                return Content("Đăng Nhập thành công\n" + u.name + "\n" + u.address + "\n" + u.email + "\n" + u.password + "\n" + u.reenterpassword);*/
         }
 
         public ActionResult EditUser()
@@ -44,11 +44,6 @@ namespace BaiTap1.Controllers
         }
 
         public ActionResult DetaislUser()
-        {
-            return View();
-        }
-
-        public ActionResult DeleteUser()
         {
             return View();
         }
@@ -63,7 +58,7 @@ namespace BaiTap1.Controllers
             u.email = "Lequangtho2000lqtho@gmail.com";
 
             list.Add(u);
-            list.Add(new Models.User(2, "Linh", "Hưng Yên", "Lequangtho2000lqtho@gmail.com"));
+            list.Add(new Models.User(2, "Linh", "Hưng Yên", "Lequangtho2000lqtho@gmail.com","aaaaaaaaaaaaaa","aaaaaaaaaaaaaa"));
 
             return View(list);
         }

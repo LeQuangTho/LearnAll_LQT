@@ -32,7 +32,7 @@ namespace BaiTap1.Controllers
             u.email = "Lequangtho2000lqtho@gmail.com";
 
             list.Add(u);
-            list.Add(new Models.User(2, "Linh", "Hưng Yên", "Lequangtho2000lqtho@gmail.com"));
+            list.Add(new Models.User(2, "Linh", "Hưng Yên", "Lequangtho2000lqtho@gmail.com","",""));
 
             return View(list);
         }

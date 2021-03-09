@@ -8,7 +8,8 @@ namespace BaiTap1.Models
 {
     public class Login
     {
-        [Required(ErrorMessage ="Chưa nhập username")]
+        [StringLength(16, MinimumLength = 8),
+        Required(ErrorMessage ="Chưa nhập username")]
         public string username { get; set; }
         [Required(ErrorMessage = "Chưa nhập password")]
         public string password { get; set; }
