@@ -1,0 +1,20 @@
+﻿@model IEnumerable<BaiTap1.Models.Entities.LoaiHang>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<table>
+     @foreach(BaiTap1.Models.Entities.LoaiHang lh in Model)
+     {
+         <tr>
+             <td>@lh.MaLoai</td>
+             <td>@lh.TenLoai</td>
+             <td>
+                 @Html.ActionLink("Chi tiết", "Detail", new { id = @lh.MaLoai})
+                 @Html.ActionLink("Sửa", "Edit")
+                 @Html.ActionLink("Xóa", "Delete")
+             </td>
+         </tr>
+     }
+</table>

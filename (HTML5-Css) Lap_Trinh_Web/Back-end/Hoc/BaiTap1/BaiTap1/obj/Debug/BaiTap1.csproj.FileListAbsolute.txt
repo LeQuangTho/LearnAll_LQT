@@ -156,3 +156,7 @@ F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\Hoc\BaiTap1\BaiTap1\obj\Debug\BaiTap1.
 F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\Hoc\BaiTap1\BaiTap1\obj\Debug\BaiTap1.csproj.CopyComplete
 F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\Hoc\BaiTap1\BaiTap1\obj\Debug\BaiTap1.dll
 F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\Hoc\BaiTap1\BaiTap1\obj\Debug\BaiTap1.pdb
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\Hoc\BaiTap1\BaiTap1\bin\EntityFramework.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\Hoc\BaiTap1\BaiTap1\bin\EntityFramework.SqlServer.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\Hoc\BaiTap1\BaiTap1\bin\EntityFramework.xml
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\Hoc\BaiTap1\BaiTap1\bin\EntityFramework.SqlServer.xml
