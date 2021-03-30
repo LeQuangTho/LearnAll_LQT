@@ -1,0 +1,48 @@
+﻿@model TestModel.Models.People
+
+@{
+    ViewBag.Title = "UpdatePeople";
+}
+
+<h2>UpdatePeople</h2>
+
+<body>
+    @using (Html.BeginForm("UpdatePeople", "Home", FormMethod.Post))
+    {
+        <table cellpadding="0" cellspacing="0">
+            <tr colspan="2" align="center">People Details</tr>
+            <tr>
+                <td>People Id:</td>
+                <td>
+                    @Html.TextBoxFor(m => m.PeopleId)
+                </td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td>
+                    @Html.TextBoxFor(m => m.Name)
+                </td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    @Html.DropDownListFor(m => m.Gender, new List<SelectListItem> { new SelectListItem { Text = "Male", Value = "M" },
+                                                                                 new SelectListItem{ Text="Female", Value="F"} }, "Please Select")
+                </td>
+            </tr>
+            <tr>
+                <td>City:</td>
+                <td>
+                    @Html.TextBoxFor(m => m.City)
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit" />
+                </td>
+            </tr>
+        </table>
+    }
+</body>
+

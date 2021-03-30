@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using BaiTap1.Models.DAO;
+using BaiTap1.Models.Entities;
 
 namespace BaiTap1.Controllers
 {
@@ -20,6 +21,22 @@ namespace BaiTap1.Controllers
         {
             loaiHangDAO loaiHangdao = new loaiHangDAO();
             return View(loaiHangdao.GetById(id));
+        }
+
+        public ActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult CreateLoaiHang(LoaiHang lh)
+        {
+            if (ModelState.IsValid)
+            {
+                loaiHangDAO loahang  = new loaiHangDAO();
+                loahang.Insert(lh);
+            }
+
+            return View("Create");
         }
     }
 }

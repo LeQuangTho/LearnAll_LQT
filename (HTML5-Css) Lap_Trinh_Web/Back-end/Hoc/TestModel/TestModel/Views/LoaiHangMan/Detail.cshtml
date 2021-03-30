@@ -1,0 +1,12 @@
+﻿@model TestModel.Models.Entity.LoaiHang
+@{
+    ViewBag.Title = "Detail";
+}
+
+<h2>Detail</h2>
+
+<div>Mã hàng: @Model.MaLoai</div>
+<div>Tên loại: @Model.TenLoai</div>
+<div>Hàng hóa: @Model.HangHoas</div>
+
+@Html.ActionLink("Back", "Index");

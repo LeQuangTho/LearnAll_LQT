@@ -1,4 +1,26 @@
 #include<stdio.h>
+#include <bits/stdc++.h>
+using namespace std;
+
+void ShowByte6(unsigned int C)
+{
+	for(int i = 3; i <= 8; i++)
+	{
+		unsigned int b = (C >> (32 - 4*i)) & 0xF;
+		printf("%X", b);
+	}
+	printf("  ");
+}
+void ShowByte(unsigned int C)
+{
+	for(int i = 1; i <= 8; i++)
+	{
+		unsigned int b = (C >> (32 - 4*i)) & 0xF;
+		printf("%X", b);
+	}
+	printf("  ");
+}
+
 unsigned int getbit(unsigned K1, int i)
 //get ith bit from left to right
 {
@@ -6,6 +28,7 @@ unsigned int getbit(unsigned K1, int i)
 	unsigned bit = b & 0x01;
 	return bit;
 }
+
 
 unsigned int getbit28(unsigned K1, int i)
 //get ith bit from left to right
@@ -25,11 +48,13 @@ unsigned int PC1CD(unsigned int K1, unsigned int K2, int chiso1, int chiso2)
 		unsigned int bit;
 		if(pc1[i] > 32)
 		{
-			
+			vitri = pc1[i] - 32;
+			bit = getbit(K2,vitri);
 		}	
 		else 
 		{
-			
+			vitri = pc1[i];
+			bit = getbit(K1,vitri);
 		}
 		unsigned b = bit & 0x01;
 		pc1k1 = (pc1k1 << 1) | b;
@@ -40,7 +65,8 @@ unsigned int ShiftLeft(unsigned int C0, int s)
 {
 	unsigned int C1;
 	unsigned int sbit, bit28s;
-
+	sbit = (C0 >> (28-s));
+	bit28s = (C0<<s)& 0xFFFFFFF; 
 	C1 = bit28s | sbit;
 	return C1;
 }
@@ -53,6 +79,15 @@ unsigned int KPC2(unsigned int C1, unsigned int D1, int chiso1, int chiso2)
 		int vitri;
 		unsigned int bit;
 
+		if (pc2[i] > 28){
+			vitri = pc2[i] - 28;
+			bit = getbit28(D1,vitri);
+		}
+		else{
+			vitri = pc2[i];
+			bit = getbit28(C1,vitri);
+		}
+
 		unsigned b = bit & 0x01;
 		pc2k = (pc2k << 1) | b;
 	}
@@ -64,12 +99,19 @@ void GenKey(unsigned int K1, unsigned int K2, unsigned int key1[16], unsigned in
 	unsigned int C0, D0;
 	C0 = PC1CD(K1,K2,0,28);
 	D0 = PC1CD(K1,K2,28,56);
-	int s[] = {1, 1, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 1};
+	int s[] = {1, 1, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 1};	
 	unsigned int C1, D1;
 	for(int i = 0; i < 16; i++)
 	{
+		C1 = ShiftLeft(C0,s[i]);
+		D1 = ShiftLeft(D0,s[i]);
+		key1[i] = KPC2(C1,D1,0,24);
+		key2[i] = KPC2(C1,D1,24,48);
+		C0 = C1; 
+		D0 = D1;	
+		printf("\nC[%d] \t= %X",i+1,C1);
+		printf("\tD[%d] \t= %X",i+1,D1);
 
-		C0 = C1; D0 = D1;	
 	}
 }
 
@@ -83,11 +125,13 @@ unsigned int IPM(unsigned int M1, unsigned int M2, int chiso1, int chiso2)
 		unsigned int bit;
 		if(IP[i] > 32)
 		{
-
+			vitri = IP[i] - 32;
+			bit = getbit(M2,vitri);
 		}	
 		else 
 		{
-
+			vitri = IP[i];
+			bit = getbit(M1,vitri);
 		}
 		unsigned b = bit & 0x01;
 		ipm1 = (ipm1 << 1) | b;
@@ -130,8 +174,9 @@ unsigned int SubByte(unsigned int A1, unsigned int A2)
 		unsigned int b6i = (A1 >> (24 - 6*i)) & 0x3F;
 		int bit1 = (b6i >> 5) & 0x01;
 		int bit6 = b6i & 0x01;
-
-
+		int hang = bit1<<1|bit6;
+		int cot = (b6i>>1)& 0xF;
+		chiso[i] = (hang<<4) | cot;
 	}
 	//4 cap 6 bit ben phai thuoc A2
 	for(int i = 5; i <= 8; i++)
@@ -139,8 +184,9 @@ unsigned int SubByte(unsigned int A1, unsigned int A2)
 		unsigned int b6i = (A2 >> (24 - 6*(i-4))) & 0x3F;
 		int bit1 = (b6i >> 5) & 0x01;
 		int bit6 = b6i & 0x01;
-
-
+		int hang = bit1<<1 | bit6;
+		int cot = (b6i>>1)& 0xF;
+		chiso[i] = (hang<<4) | cot;
 	}
 	//Tra bang S
 	S[1] = S1[chiso[1]]; S[2] = S2[chiso[2]];
@@ -174,15 +220,22 @@ unsigned int F(unsigned int L0, unsigned int R0, unsigned int key1, unsigned int
 {
 	//Buoc 4. Mo rong nua phai R0
 	unsigned int ER01, ER02;
-
-
+	ER01 = ER0(R0,0,24);
+	ER02 = ER0(R0,24,48);
+//	printf("\n Ket qua mo rong E(R0)\n");
+//	printf("ER01 = %X\n",ER01);
+//	printf("ER02 = %X\n",ER02);
 	//Buoc 5. phép XOR, tính A = E[R0] + K1.
 	unsigned int A1, A2;
 	A1 = key1 ^ ER01;
 	A2 = key2 ^ ER02;
+//	printf("\Ket qua phep XOR: A = E[R0] + K1\n");
+//	printf("A1 = %X\n",A1);
+//	printf("A2 = %X\n",A2);
 	//Buoc 6&7. B3: B = S1(A1) S2(A2) S3(A3) S4(A4) S5(A5) S6(A6) S7(A7) S8(A8)
 	unsigned int B;
 	B = SubByte(A1, A2);
+//	printf("Ket qua phep the B = %X\n",B);
 	//Buoc 8: Hoan vi P
 	unsigned int FP;
 	FP = HoanviP(B);
@@ -199,13 +252,13 @@ unsigned int HoanviIP_1(unsigned int M1, unsigned int M2, int chiso1, int chiso2
 		unsigned int bit;
 		if(IP1[i] > 32)
 		{
-
-
+			vitri = IP1[i] - 32;
+			bit = getbit(M2,vitri);
 		}	
 		else 
 		{
-
-
+			vitri = IP1[i];
+			bit = getbit(M1,vitri);
 		}
 		unsigned b = bit & 0x01;
 		ipm1 = (ipm1 << 1) | b;
@@ -213,14 +266,7 @@ unsigned int HoanviIP_1(unsigned int M1, unsigned int M2, int chiso1, int chiso2
 	return ipm1;
 }
 
-void ShowByte(unsigned int C)
-{
-	for(int i = 1; i <= 8; i++)
-	{
-		unsigned int b = (C >> (32 - 4*i)) & 0xF;
-		printf("%X", b);
-	}
-}
+
 
 void MahoaDES(unsigned int M1, unsigned int M2, unsigned int K1, unsigned int K2, unsigned int &C1, unsigned int &C2)
 {
@@ -233,15 +279,25 @@ void MahoaDES(unsigned int M1, unsigned int M2, unsigned int K1, unsigned int K2
 	R0 = IPM(M1, M2, 32, 64);
 	unsigned int L1, R1;
 	unsigned int FP;
+	printf("\n");
+	for (int i=0; i<16; i++){
+		printf("\nK[%d]\t= ",i+1);ShowByte6(key1[i]);ShowByte6(key2[i]);
+	}
+	printf("\n\nL[0]\t= %X  \tR[0]\t= %X",L0,R0);
 	for(int i = 0; i < 16; i++)
 	{
-
-
-
-
+		FP = F(L0,R0,key1[i],key2[i]);
+		R1 = FP^L0;  L1 = R0;
+		R0 = R1;	 L0 = L1;
+		printf("\nL[%d]\t= ",i+1);ShowByte(L1);
+		printf("\tR[%d]\t= ",i+1);ShowByte(R1);
 	}
+	printf("\nEnd 16 times loop:\n");
+	printf("L[16]\t= %X\t",L1);
+	printf("R[16]\t= %X\n",R1);
 	C1 = HoanviIP_1(R1,L1,0,32);
 	C2 = HoanviIP_1(R1,L1,32,64);
+	printf("\nC\t= %X  %X",C1,C2);
 }
 
 void GiaiMaDES(unsigned int M1, unsigned int M2, unsigned int K1, unsigned int K2, unsigned int &C1, unsigned int &C2)
@@ -257,8 +313,9 @@ void GiaiMaDES(unsigned int M1, unsigned int M2, unsigned int K1, unsigned int K
 	unsigned int FP;
 	for(int i = 0; i < 16; i++)
 	{
-
-
+		FP = F(L0,R0,key1[15-i],key2[15-i]);
+		R1 = FP^L0;  L1 = R0;
+		R0 = R1;	 L0 = L1;
 	}
 	C1 = HoanviIP_1(R1,L1,0,32);
 	C2 = HoanviIP_1(R1,L1,32,64);
@@ -266,16 +323,36 @@ void GiaiMaDES(unsigned int M1, unsigned int M2, unsigned int K1, unsigned int K
 
 int main()
 {
-	unsigned int K1 = 0x13345779; //4byte
-	unsigned int K2 = 0x9BBCDFF1;
-	printf("\nKhoa K = "); ShowByte(K1); ShowByte(K2);
-	unsigned int M1 = 0x01234567;
-	unsigned int M2 = 0x89ABCDEF;
-	printf("\nBan tin M = "); ShowByte(M1); ShowByte(M2);
+	unsigned int K1 = 0x17FFCC5A; //4byte
+	unsigned int K2 = 0xDBF3EA87;
+	unsigned int M1 = 0xE36B4C92;
+	unsigned int M2 = 0xDE9AD726;
+	
+	printf("\nK \t= "); ShowByte(K1); ShowByte(K2);
+//	printf("K1 = %X K2 = %X",K1,K2);
+	printf("\nM \t= "); ShowByte(M1); ShowByte(M2);
 	unsigned int C1, C2;
+	unsigned int C0,D0;
+	C0 = PC1CD(K1,K2,0,28);
+	D0 = PC1CD(K1,K2,28,56);
+	int s[] = {1, 1, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 1};	
+	printf("\nC0 = %X D0 = %X",C0,D0);
+//	unsigned int CC1,DD1;
+//	CC1 = ShiftLeft(C0,s[0]);
+//	DD1 = ShiftLeft(D0,s[0]); 
+//	printf("\nC1 = %X D1=%X",CC1,DD1);
+	printf("\n\n** Phan Ma Hoa:");
 	MahoaDES(M1, M2, K1, K2, C1, C2);
-	printf("\nBan ma C = "); ShowByte(C1); ShowByte(C2);
+	printf("\n__________________________________________________\n");
+	printf("\n\tBan ma C = "); ShowByte(C1); ShowByte(C2);
+	printf("\n__________________________________________________");
 	unsigned int MC1, MC2;
+	// test1
+//	unsigned int ci1 = 0x01A0C50A;
+//	unsigned int ci2 = 0x7FA4CF5A;
+	printf("\n\n** Phan Giai Ma:");
 	GiaiMaDES(C1, C2, K1, K2, MC1, MC2);
-	printf("\nBan Giai ma MC = "); ShowByte(MC1); ShowByte(MC2);	
+	printf("\n__________________________________________________\n");
+	printf("\n\tBan Giai ma MC = "); ShowByte(MC1); ShowByte(MC2);
+	printf("\n__________________________________________________");	
 }

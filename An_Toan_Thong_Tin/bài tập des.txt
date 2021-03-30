@@ -1,0 +1,33 @@
+K = 664A319C6F91407F
+M = 875D6073D7C3D510
+
+câu 1
+C0 = 28 D3 95 A
+D0 = 93 99 9A F
+
+cau 2:
+
+C1 = 51 A7 2B 4
+D1 = 27 33 35 F
+
+cau 3:
+K1 = B0 AD E1 6D 1B CC
+
+cau 4:
+L0 = 7E DA 53 7B 
+R0 = 71 0C 02 39
+
+cau 5:
+ER0 = BA 28 58 00 41 F2
+
+cau 6:
+A = 55 7A D3 EE 14 6D
+
+Cau 7:
+S(A) = CA 97 44 E8
+
+Cau 8:
+F = CC DC 95 09
+Cau 9
+L1 = R0 = 71 0C 02 39
+R1 = 9B A4 41 4A

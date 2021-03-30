@@ -1,0 +1,21 @@
+﻿@model TestModel.Models.User
+@{
+    ViewBag.Title = "UserForm";
+}
+
+<h2>UserForm</h2>
+
+@using (Html.BeginForm("ReceiveData", "User", FormMethod.Get))
+{
+    <div>@Html.LabelFor(m => m.Id)</div>
+    <div>@Html.TextBoxFor(m => m.Id)</div>
+
+    <div>@Html.LabelFor(m => m.Name)</div>
+    <div>@Html.TextBoxFor(m => m.Name)</div>
+
+    <div>@Html.LabelFor(m => m.Email)</div>
+    <div>@Html.TextBoxFor(m => m.Email)</div>
+
+    <div><input type="submit" value="Submit"/></div>
+}
+

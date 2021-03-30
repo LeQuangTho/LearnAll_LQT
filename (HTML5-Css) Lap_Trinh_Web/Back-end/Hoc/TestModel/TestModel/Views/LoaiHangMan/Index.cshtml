@@ -1,0 +1,24 @@
+﻿@model IEnumerable<TestModel.Models.Entity.LoaiHang>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Danh sách các loại hàng</h2>
+
+<table>
+    @foreach(TestModel.Models.Entity.LoaiHang lh in Model)
+    {
+        <tr>
+            <td>@lh.MaLoai</td>
+            <td>@lh.TenLoai</td>
+            <td>
+                @Html.ActionLink("Chi tiết", "Detail", new { id = @lh.MaLoai});
+                @Html.ActionLink("Sửa", "Edit");
+                @Html.ActionLink("Xóa", "Delete");
+                @Html.ActionLink("Thêm", "Create");
+            </td>
+        </tr>
+    }
+</table>
+
