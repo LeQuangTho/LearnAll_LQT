@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "getPartialView";
+}
+
+<h2>@Html.Partial("_TestPartial")</h2>
+@{
+    var b = 0;
+    while (b < 10)
+    {
+        b++;
+        <p>@b</p>
+    }
+}
+
+@Html.ActionLink("Click to Browse", "DataTran", "Print") <p>Html Helper này bằng với thẻ (a) </p>
+@{Html.BeginForm("DataTran", "Print"); }
+@Html.Label("UserName:")</br>
+@Html.TextBox("textBox1")</br></br>
+@Html.TextArea("textarea")</br></br>
+<input type="submit" value="submit" />
+@{Html.EndForm();}

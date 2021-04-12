@@ -128,14 +128,20 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AjaxController.cs" />
     <Compile Include="Controllers\BindingModelController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoaiHangManController.cs" />
     <Compile Include="Controllers\LoaiHangsController.cs" />
+    <Compile Include="Controllers\MuaHangController.cs" />
+    <Compile Include="Controllers\SessionCookiesController.cs" />
+    <Compile Include="Controllers\ShoppingController.cs" />
     <Compile Include="Controllers\UserModelController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\DAO\AccountDAO.cs" />
+    <Compile Include="Models\DAO\HangHoa.cs" />
     <Compile Include="Models\DAO\loaiHangDAO.cs" />
     <Compile Include="Models\Entities\HangHoa.cs" />
     <Compile Include="Models\Entities\LoaiHang.cs" />
@@ -212,6 +218,13 @@
     <Content Include="Views\LoaiHangs\Details.cshtml" />
     <Content Include="Views\LoaiHangs\Edit.cshtml" />
     <Content Include="Views\LoaiHangs\Index.cshtml" />
+    <Content Include="Views\MuaHang\Create.cshtml" />
+    <Content Include="Views\MuaHang\Delete.cshtml" />
+    <Content Include="Views\MuaHang\Details.cshtml" />
+    <Content Include="Views\MuaHang\Edit.cshtml" />
+    <Content Include="Views\MuaHang\Index.cshtml" />
+    <Content Include="Views\SessionCookies\Index.cshtml" />
+    <Content Include="Views\Ajax\Index.cshtml" />
     <None Include="Views\Shared\_MyLayout.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

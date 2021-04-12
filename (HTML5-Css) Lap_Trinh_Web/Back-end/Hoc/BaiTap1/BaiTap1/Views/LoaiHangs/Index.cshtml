@@ -9,25 +9,33 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.TenLoai)
-        </th>
-        <th></th>
-    </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.TenLoai)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.MaLoai }) |
-            @Html.ActionLink("Details", "Details", new { id=item.MaLoai }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.MaLoai })
-        </td>
-    </tr>
-}
+<table>
+    @foreach (var item in Model)
+    {
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="~/Content/images/big1.jpg" alt="">
+                </a>
+                <div class="label">
+                    <div class="heading">
+                        @Html.DisplayFor(modelItem => item.TenLoai)
+                    </div>
+                    <div class="detail">
+                        <p>
+                            @Html.DisplayFor(modelItem => item.TenLoai)
+                        </p>
+                        <div class="">
+                            <p class="des"> @Html.ActionLink("Sửa", "Edit", new { id = item.MaLoai }) </p>
+                            <p class="des">@Html.ActionLink("Chi Tiết", "Details", new { id = item.MaLoai }) </p>
+                            <p class="des"> @Html.ActionLink("Xóa", "Delete", new { id = item.MaLoai })</p>
+                        </div>
+                    </div>
+                </div>
+
+            </li>
+        </ul>
+    }
 
 </table>

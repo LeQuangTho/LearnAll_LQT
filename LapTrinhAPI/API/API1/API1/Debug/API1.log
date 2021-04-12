@@ -1,2 +1,2 @@
 ﻿  API1.cpp
-  API1.vcxproj -> F:\Dev\LapTrinhAPI\API\API1\Debug\API1.exe
+F:\LQT\LapTrinhAPI\API\API1\API1\API1.cpp(160): error C4700: uninitialized local variable 'hPenRed' used

@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "ttSV";
+}
+
+@{
+    List<SelectListItem> items = new List<SelectListItem> { new SelectListItem() { Text = "tb", Value = "1", Selected = true }, new SelectListItem() { Text = "ls", Value = "2" } };
+}
+
+
+<h2>ttSV</h2>
+@Html.ActionLink("Click to Browse", "ttSV", "Print")
+@{Html.BeginForm("ttSV", "Print");}
+@Html.Label("Mã SV")</br>
+@Html.TextBox("textBoxMaSV")</br>
+@Html.Label("Họ tên")</br>
+@Html.TextBox("textBoxHoTen")</br>
+
+@Html.Label("Nam") @Html.RadioButton("GioiTinh", 1)
+@Html.Label("Nữ") @Html.RadioButton("GioiTinh", 0)</br>
+@Html.Label("Điểm")</br>
+@Html.TextBox("textBoxDiem")</br>
+
+@Html.Label("Sở thích")</br></br>
+@Html.Label("Game") @Html.CheckBox("Game", 0)
+@Html.Label("Nhạc") @Html.CheckBox("Nhạc", 1)
+@Html.Label("Thể Thao") @Html.CheckBox("Thể Thao", 3)</br>
+
+@Html.Label("Đối Tượng")</br>
+@Html.DropDownList("Type", items, "Select")
+
+<input type="submit" value="submit" />
+@{Html.EndForm();}
+<p>@ViewBag.textBoxMaSV</p>
+<p>@ViewBag.textBoxHoTen</p>
+
+
+
+

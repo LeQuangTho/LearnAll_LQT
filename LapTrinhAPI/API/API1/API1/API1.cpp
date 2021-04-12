@@ -79,9 +79,9 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
     wcex.cbWndExtra     = 0;
     wcex.hInstance      = hInstance;
     wcex.hIcon          = LoadIcon(hInstance, MAKEINTRESOURCE(132));
-    wcex.hCursor        = LoadCursor(hInstance, MAKEINTRESOURCE(104));
+    wcex.hCursor        = LoadCursor(hInstance, MAKEINTRESOURCE(2));
     wcex.hbrBackground  = (HBRUSH)(COLOR_WINDOW+1);
-    wcex.lpszMenuName   = MAKEINTRESOURCEW(134);
+    wcex.lpszMenuName   = MAKEINTRESOURCEW(109);
     wcex.lpszClassName  = szWindowClass;
     wcex.hIconSm        = LoadIcon(wcex.hInstance, MAKEINTRESOURCE(132));
 
@@ -144,9 +144,11 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             case IDM_ABOUT:
                 DialogBox(hInst, MAKEINTRESOURCE(IDD_ABOUTBOX), hWnd, About);
                 break;
-            case IDM_EXIT:
+            case ID_FILE_EXIT:
                 DestroyWindow(hWnd);
                 break;
+            case ID_FILE_NEW:
+
             default:
                 return DefWindowProc(hWnd, message, wParam, lParam);
             }
@@ -156,9 +158,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         {
             PAINTSTRUCT ps;
             HDC hdc = BeginPaint(hWnd, &ps);
-            hPenRed = CreatePen(PS_SOLID, 1, RGB(255, 0, 0));
-            SelectObject(hdc, hPenRed);
-            HBRUSH HBRUSH(RGB(0,255,0));
+            //hPenRed = CreatePen(PS_SOLID, 1, RGB(255, 0, 0));
+            //SelectObject(hdc, hPenRed);
+            //HBRUSH HBRUSH(RGB(0,255,0));
             
             // TODO: Add any drawing code that uses hdc here...
             //Polyline(hdc, apt, 5);
@@ -182,7 +184,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         break;
     case WM_DESTROY:
         PostQuitMessage(0);
-        DeleteObject(hPenRed);
+        //DeleteObject(hPenRed);
         break;
     default:
         return DefWindowProc(hWnd, message, wParam, lParam);

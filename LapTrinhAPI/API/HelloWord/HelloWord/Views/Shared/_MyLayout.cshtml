@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shop Around</title>
+  @Styles.Render("~/Content/myCSS")
+</head>
+<body>
+  <div class="boundary">
+    <!-- begin header -->
+    <div id="header">
+      @Html.Partial("_Header")
+    </div>
+    <!-- end header -->
+
+    <!-- begin main -->
+    <div id="main">
+      <div id="left">
+        @Html.Action("LoadLeft", "RenderLayout")
+      </div>
+      <div id="right">
+        <!-- begin slider -->
+        <div class="slider">
+          <img src="~/Content/images/slide1.jpg" alt="">
+        </div>
+        <!-- end slider -->
+        <!-- begin product -->
+        <div class="product">
+            @RenderBody()
+        </div>
+        <!-- end product -->
+      </div>
+    </div>
+    <!-- end main -->
+
+    <!-- begin footer -->
+    <div id="footer">
+      @Html.Partial("_Footer")
+    </div>
+    <!-- end footer -->
+  </div>
+</body>
+</html>

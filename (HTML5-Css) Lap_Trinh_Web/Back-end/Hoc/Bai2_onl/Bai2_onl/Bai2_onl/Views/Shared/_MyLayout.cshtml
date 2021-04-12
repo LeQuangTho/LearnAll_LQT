@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shop Around</title>
+  <link rel="stylesheet" href="~/Content/css/style.css">
+</head>
+<body>
+  <div class="boundary">
+    <!-- begin header -->
+    <div id="header">
+        @Html.Partial("_Header")
+    </div>
+    <!-- end header -->
+
+    <!-- begin main -->
+    <div id="main">
+      <div id="left">
+        <!-- begin search -->
+        @Html.Partial("_Search")
+        <!-- end category -->
+      </div>
+      <div id="right">
+       <!-- begin slider -->
+          <div class="slider">
+              <img src="~/Content/images/slide1.jpg" alt="">
+          </div>
+          <!-- end slider -->
+          <!-- begin product -->
+          <div class="product">
+             @RenderBody()
+              <!-- end product -->
+          </div>
+      </div>
+    <!-- end main -->
+
+    <!-- begin footer -->
+    <div id="footer">
+      @Html.Partial("_Footer")
+    </div>
+    <!-- end footer -->
+  </div>
+</div>
+</body>
+</html>
