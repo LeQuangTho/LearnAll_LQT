@@ -13,13 +13,13 @@ namespace BaiTap1.Controllers
         // GET: LoaiHangMan
         public ActionResult Index()
         {
-            loaiHangDAO loaiHangdao = new loaiHangDAO();
+            LoaiHangDAO loaiHangdao = new LoaiHangDAO();
             return View(loaiHangdao.SelectAll());
         }
 
         public ActionResult Detail(int id)
         {
-            loaiHangDAO loaiHangdao = new loaiHangDAO();
+            LoaiHangDAO loaiHangdao = new LoaiHangDAO();
             return View(loaiHangdao.GetById(id));
         }
 
@@ -32,7 +32,7 @@ namespace BaiTap1.Controllers
         {
             if (ModelState.IsValid)
             {
-                loaiHangDAO loahang  = new loaiHangDAO();
+                LoaiHangDAO loahang  = new LoaiHangDAO();
                 loahang.Insert(lh);
             }
 

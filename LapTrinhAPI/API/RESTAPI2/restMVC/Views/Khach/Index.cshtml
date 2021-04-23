@@ -1,0 +1,65 @@
+﻿@model IEnumerable<RESTAPI2.tblKhach>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<center>
+    <h1>Danh sách khách</h1>
+    <br /> 
+    <br />
+    @*<div class="row" style="margin-bottom: 15px; margin-left: 0px">
+        @using (Html.BeginForm("Index", "Khach", FormMethod.Get))
+        {
+            <input type="text" name="searchString" placeholder="Nhập tên khách" style="line-height: 30px" />
+            <button type="submit" class="btn btn-primary">Find</button>
+        }
+    </div>*@
+</center>
+
+<a href="/Khach/Create" class="btn btn-primary btn-lg" style="margin-bottom: 15px">Create</a>
+
+
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            Mã khách
+        </th>
+        <th>
+            Tên khách
+        </th>
+        <th>
+            Địa Chỉ
+        </th>
+        <th>
+            Số điện thoại
+        </th>
+        
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Makhach)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenKhach)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiaChi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DienThoai)
+            </td>
+            <td>
+                <a href="/Khach/Delete/@item.Makhach" style="margin-bottom: 15px">Delete</a>
+                <a href="/Khach/Edit/@item.Makhach" style="margin-bottom: 15px">Edit</a>
+            </td>
+        </tr>
+    }
+
+</table>

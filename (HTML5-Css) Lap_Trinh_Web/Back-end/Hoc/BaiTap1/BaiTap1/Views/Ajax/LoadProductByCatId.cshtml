@@ -1,0 +1,19 @@
+﻿@model IEnumerable<BaiTap1.Models.Entities.HangHoa>
+
+<ul>
+    @foreach(var hh in Model)
+    {
+        <li>
+            <a href="#"><img src="~/Content/images/big1.jpg" alt="" /></a>
+            <div class="label">
+                <div class="heading">@hh.TenHang</div>
+                <div class="detail">
+                    <p class="gen"> @hh.MaHang</p>
+                    <p class="des">Lorem Ipsum Dolor Sit Amet</p>
+                    <p class="price"> 10$</p>
+                </div>
+            </div>
+        </li>
+    }
+</ul>
+

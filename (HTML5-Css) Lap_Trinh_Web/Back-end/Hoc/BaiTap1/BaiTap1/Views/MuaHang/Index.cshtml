@@ -14,19 +14,19 @@
     @foreach (var item in Model)
     {
         <li>
-            <a href="#"><img src="~/Content/images/big1.jpg" alt=""></a>
+            <a href="#"><img src="~/Content/images/big1.jpg" alt="" /></a>
             <div class="label">
-                <div class="heading">Lorem Ipsum</div>
+                <div class="heading">@item.TenHang</div>
                 <div class="detail">
-                    <p class="gen">Woment</p>
+                    <p class="gen"> @item.MaHang</p>
                     <p class="des">Lorem Ipsum Dolor Sit Amet</p>
-                    <p class="price">$58.99</p>
+                    <p class="price"> 10$</p>
                 </div>
             </div>
             <div>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.MaHang }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.MaHang }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.MaHang })
+                @Html.ActionLink("Edit", "Edit", new { id = item.MaHang }) |
+                @Html.ActionLink("Details", "Details", new { id = item.MaHang }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.MaHang })
             </div>
         </li>
     }

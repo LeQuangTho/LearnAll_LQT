@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using BaiTap1.Models.DAO;
 
 namespace BaiTap1.Controllers
 {
@@ -15,9 +16,16 @@ namespace BaiTap1.Controllers
         }
         public ActionResult LoadAllProduct()
         {
-            HangHoaDao hanghoadao = new HangHoaDao();
+            HangHoaDAO hanghoadao = new HangHoaDAO();
 
             return PartialView(hanghoadao.SelectAll()); 
+        }
+
+        public ActionResult LoadProductByCatId(int id)
+        {
+            HangHoaDAO hanghoadao = new HangHoaDAO();
+
+            return PartialView(hanghoadao.SelectByCatId(id));
         }
     }
 }

@@ -6,10 +6,10 @@ using BaiTap1.Models.Entities;
 
 namespace BaiTap1.Models.DAO
 {
-    public class loaiHangDAO
+    public class LoaiHangDAO
     {
         QLHangHoa_Context db;
-        public loaiHangDAO()
+        public LoaiHangDAO()
         {
             db = new QLHangHoa_Context();
         }
@@ -30,7 +30,7 @@ namespace BaiTap1.Models.DAO
 
         public void Insert(LoaiHang lh)
         {
-            loaiHangDAO loaiHangdao = new loaiHangDAO();
+            LoaiHangDAO loaiHangdao = new LoaiHangDAO();
         }
     }
 }

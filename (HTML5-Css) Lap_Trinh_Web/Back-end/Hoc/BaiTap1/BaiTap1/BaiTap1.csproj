@@ -134,6 +134,7 @@
     <Compile Include="Controllers\LoaiHangManController.cs" />
     <Compile Include="Controllers\LoaiHangsController.cs" />
     <Compile Include="Controllers\MuaHangController.cs" />
+    <Compile Include="Controllers\RenderLayoutController.cs" />
     <Compile Include="Controllers\SessionCookiesController.cs" />
     <Compile Include="Controllers\ShoppingController.cs" />
     <Compile Include="Controllers\UserModelController.cs" />
@@ -141,8 +142,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\DAO\AccountDAO.cs" />
-    <Compile Include="Models\DAO\HangHoa.cs" />
-    <Compile Include="Models\DAO\loaiHangDAO.cs" />
+    <Compile Include="Models\DAO\HangHoaDAO.cs" />
+    <Compile Include="Models\DAO\LoaiHangDAO.cs" />
     <Compile Include="Models\Entities\HangHoa.cs" />
     <Compile Include="Models\Entities\LoaiHang.cs" />
     <Compile Include="Models\Entities\QLHangHoa_Context.cs" />
@@ -225,6 +226,8 @@
     <Content Include="Views\MuaHang\Index.cshtml" />
     <Content Include="Views\SessionCookies\Index.cshtml" />
     <Content Include="Views\Ajax\Index.cshtml" />
+    <Content Include="Views\Shared\_Leftajax.cshtml" />
+    <Content Include="Views\Ajax\LoadProductByCatId.cshtml" />
     <None Include="Views\Shared\_MyLayout.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -246,6 +249,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\RenderLayout\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

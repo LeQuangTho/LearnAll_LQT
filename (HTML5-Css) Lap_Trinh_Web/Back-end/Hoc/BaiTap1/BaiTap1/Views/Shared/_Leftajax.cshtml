@@ -1,0 +1,60 @@
+﻿<!-- begin search -->
+<div class="search">
+    <div class="title">Search by</div>
+    <div class="content">
+        <form action="">
+            <label for="key">Keyword</label>
+            <input type="text" name="key" id="key"> <br>
+            <label for="cat">Category</label>
+            <select name="" id="cat" name="cat">
+                <option value="">--Select category--</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <label for="from">Price</label>
+            <input type="text" name="from" id="from" size="5"> to <input type="text" name="to" id="to" size="5"> <br>
+            <input type="submit" value="search" name="submit" id="submit">
+        </form>
+        <div>
+            <img src="images/bul.gif" alt="">
+            <a href="#">Advanced search</a>
+        </div>
+        <div>
+            <img src="images/bul.gif" alt="">
+            <a href="#">Contact customer support</a>
+        </div>
+    </div>
+</div>
+<!-- end search -->
+<!-- begin category -->
+<div class="category">
+    <div class="title">Category</div>
+    <div class="content">
+        @{ 
+            var lstCat = (List<BaiTap1.Models.Entities.LoaiHang>)ViewBag.lstCat;
+        }
+        <ul>
+            @foreach(var cat in lstCat)
+            {
+                <li id="@cat.MaLoai">
+                    <a href="#"><img src="~/Content/images/cat.gif" alt="" />@cat.TenLoai</a>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+<!-- end category -->
+<script type="text/javascript">
+    $("li").click(function (e) {
+        var catid = $(this).attr("id");
+        $.ajax({
+            url: "LoadProductByCatId",
+            data: { id: catid },
+            success: function (response) {
+                $("div#result").html(response);
+            }
+        })
+    })
+</script>
