@@ -1,0 +1,88 @@
+﻿@model IEnumerable<LeQuangTho181202289_2.Models.Entities.HangHoa>
+<!-- Begin New Product -->
+<div class="content_top">
+    <div class="heading">
+        <h3>Lê Quang Thọ</h3>
+    </div>
+    <div class="see">
+        <p><a href="#">See all Products</a></p>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<!-- End New Product -->
+<!-- Begin Feature Products -->
+
+<div class="section group">
+    @foreach (var hh in Model)
+    {
+<div class="grid_1_of_4 images_1_of_4">
+    <a href="preview.html"><img src="~/Content/images/@hh.Anh" alt="" /></a>
+    <h2>@hh.TenHang</h2>
+    <div class="price-details">
+        <div class="price-number">
+            <p><span class="rupees">$@hh.Gia</span></p>
+        </div>
+        <div class="add-cart">
+            <h4><a href="preview.html">Add to Cart</a></h4>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>}
+</div>
+
+@*phân trang*@
+<ul class="pagination">
+    <li id="Previous"><a>Previous</a></li>
+    @for (int page = 1; page <= ViewBag.CountPage; page++)
+    {
+        <li id="@page" class="page"><a>@page</a></li>
+    }
+    <li id="Next"><a>Next</a></li>
+</ul>
+<script>
+    $(".page").click(function () {
+        var pageNo = $(this).attr("id");
+        $.ajax({
+            url: "RenderByPage",
+            data: { pageNo: pageNo - 1 },
+            success: function (res) {
+                $("div .content").html(res)
+            }
+        })
+    })
+
+    $("#Previous").click(function () {
+        var pageCurrent = @(ViewBag.PageNo);
+        if (pageCurrent != 0) {
+            pageCurrent--;
+        } else {
+            alert("Trang đầu");
+        }
+        $.ajax({
+            url: "RenderByPage",
+            data: { pageNo: pageCurrent },
+            success: function (res) {
+                $("div .content").html(res)
+            }
+        })
+    })
+
+    $("#Next").click(function () {
+        var pageCurrent = @(ViewBag.PageNo);
+        if (pageCurrent != @(ViewBag.CountPage - 1)) {
+            pageCurrent++;
+        } else {
+            alert("Trang cuối");
+        }
+
+        $.ajax({
+            url: "RenderByPage",
+            data: { pageNo: pageCurrent },
+            success: function (res) {
+                $("div .content").html(res)
+            }
+        })
+    })
+</script>
+<!-- End Feature Products -->

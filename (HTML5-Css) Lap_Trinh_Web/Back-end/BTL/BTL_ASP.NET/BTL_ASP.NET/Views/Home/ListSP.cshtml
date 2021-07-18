@@ -1,0 +1,39 @@
+﻿@model IEnumerable<BTL_ASP.NET.Models.ProductCategory>
+@{
+    ViewBag.Title = "Danh sách Sản Phẩm";
+    
+}
+<h2>Danh Sách Sản Phẩm</h2>
+@using (Ajax.BeginForm("loadTableSearch3", new AjaxOptions { HttpMethod = "Post", UpdateTargetId = "KetQua", InsertionMode = InsertionMode.Replace }))
+{
+    <div style="padding-left:80%" class="text-muted">
+        Tên Sản Phẩm: @Html.TextBox("txtSearch")
+        <input type="submit" value="Search" />
+    </div>
+}
+
+<div style="margin-top:20px;">
+    <div class="col-md-12">
+        <table class="table">
+            <tr class="bg-light">
+                <th style="padding-left:20px" class="text-black-50">
+                    @Ajax.ActionLink("All", "loadTableListSP", new AjaxOptions { HttpMethod = "Post", UpdateTargetId = "KetQua", InsertionMode = InsertionMode.Replace })
+                </th>
+                @foreach (var item in Model)
+                {
+                <th id="@item.IdProductCategory" style="padding-left:20px;">
+                    @Ajax.ActionLink(item.CategoryName, "loadTablebyCategory", new { idCategory = item.IdProductCategory }, new AjaxOptions { HttpMethod = "Post", UpdateTargetId = "KetQua", InsertionMode = InsertionMode.Replace })
+                    
+                </th>
+                }
+            </tr>
+        </table>
+
+        
+    </div>
+    <div id="KetQua" class="col-md-12">
+        @Html.Action("loadTableListSP")
+    </div>
+
+</div>
+

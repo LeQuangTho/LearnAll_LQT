@@ -1,0 +1,57 @@
+﻿@model IEnumerable<BTL_ASP.NET.Models.ClipboardDetailBill>
+
+<table class="table table-bordered" border="1" , id="tableA">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Mã sản phẩm</th>
+            <th scope="col">Tên sản phẩm</th>
+            <th scope="col">ĐVT</th>
+            <th scope="col">Số lượng</th>
+            <th scope="col">Đơn giá</th>
+            <th scope="col">Thành tiền</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            double Sum = 0;
+            var i = 0;
+        }
+        @foreach (var item in Model)
+        {
+            double tt = (double)(item.Price * item.Amount);
+            Sum = Sum + tt;
+            i = i + 1;
+        <tr>
+            <th scope="row">@i</th>
+            <td>@Html.DisplayFor(modelItem => item.IdProductList)</td>
+            <td>@Html.DisplayFor(modelItem => item.ProductList.ProductName)</td>
+            <td>@Html.DisplayFor(modelItem => item.ProductList.Unit)</td>
+            <td>@Html.DisplayFor(modelItem => item.Amount)</td>
+            <td>@string.Format("{0:C}", item.Price)</td>
+            <td>@string.Format("{0:C}", tt)</td>
+            @if (Request.Cookies["isAdmin"].Value == "1")
+            {
+                <td>@Ajax.ActionLink("Delete", "deleteItem", new { id = item.IdProductList, IsXuat = 1 }, new AjaxOptions { HttpMethod = "Post", UpdateTargetId = "tableA", InsertionMode = InsertionMode.Replace })</td>
+            }
+            else
+            {
+                <td></td>
+            }
+
+        </tr>
+        }
+        <tr class="bg-info">
+            <th>Tổng</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>@string.Format("{0:C}", Sum)</td>
+            <td>VNĐ</td>
+        </tr>
+    </tbody>
+</table>
+

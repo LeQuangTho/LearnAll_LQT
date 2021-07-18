@@ -1,0 +1,45 @@
+﻿@model BTL_ASP.NET.Models.User
+@{ 
+    ViewBag.Title = "Đăng nhập";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*đây là giao diện cuat đăng nhập*@
+<div class="authincation h-100">
+    <div class="container-fluid h-100">
+        <div class="row justify-content-center h-100 align-items-center">
+            <div class="col-md-4">
+                <div class="authincation-content">
+                    <div class="row no-gutters">
+                        <div class="col-xl-12">
+                            <div class="auth-form">
+                                <h4 class="text-center mb-4">Đăng Nhập Tài Khoản</h4>
+                                @using (Html.BeginForm("Index", "Home"))
+                                {
+                                    <div class="form-group">
+                                        <label><strong>Tên đăng nhập</strong></label>
+                                        @*<input type="text" class="form-control">*@
+                                        @Html.TextBoxFor(model => model.IdUser, htmlAttributes: new { @class = "form-control text-center" })
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label><strong>Mật khẩu</strong></label>
+                                        @*<input type="password" class="form-control" value="Password">*@
+                                        @Html.PasswordFor(model => model.PasswordUser, htmlAttributes: new { @class = "form-control text-center", @type = "password" })
+
+                                    </div>
+                                    <div class="form-row d-flex justify-content-between mt-4 mb-2">
+                                    </div>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-primary btn-block">Đăng Nhập</button>
+                                    </div>
+                                }
+                                    
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

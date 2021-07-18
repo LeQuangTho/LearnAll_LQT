@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Danh sách hóa đơn xuất";
+}
+@using (Ajax.BeginForm("loadTableSearch1", new AjaxOptions { HttpMethod = "Post", UpdateTargetId = "KetQua", InsertionMode = InsertionMode.Replace }))
+{
+    <div style="padding-left:80%" class="text-muted">
+        Mã hóa đơn: @Html.TextBox("txtSearch")
+        <input type="submit" value="Search" />
+    </div>
+}
+<h2>Danh sách hóa đơn Xuất</h2>
+
+<div id="KetQua">
+    @Html.Action("loadTableListDeliveries")
+</div>
+

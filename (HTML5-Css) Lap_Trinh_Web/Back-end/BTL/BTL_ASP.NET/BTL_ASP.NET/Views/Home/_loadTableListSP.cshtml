@@ -1,0 +1,118 @@
+﻿@model IEnumerable<BTL_ASP.NET.Models.ProductList>
+
+@*<div id="divLoading" style="display:none; padding-left:400px">
+        <img src="~/Content/Image/Loading.gif" style="width: 45px; height:45px;" />
+    </div>*@
+<table class="table table-bordered table-hover" border="1">
+    <thead class="thead-dark text-center">
+        <tr>
+            <th scope="col" style="width:3%">#</th>
+            <!---->
+            <th scope="col" style="width:13%">
+                @Html.DisplayNameFor(model => model.IdProductList)
+            </th>
+            <th scope="col" style="width:13%">
+                @Html.DisplayNameFor(model => model.ProductCategory.CategoryName)
+            </th>
+            <th scope="col" style="width:15%">
+                @Html.DisplayNameFor(model => model.ProductName)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Detail)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Unit)
+            </th>
+            <th scope="col" style="width:5%">
+                @Html.DisplayNameFor(model => model.ProductCount)
+            </th>
+            <th scope="col" style="width:13%"></th>
+        </tr>
+    </thead>
+    <tbody class="text-muted">
+        @{ var i = 0;}
+        @foreach (var item in Model)
+        {
+            i = i + 1;
+            <tr>
+                <th scope="row">@i</th>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdProductList)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductCategory.CategoryName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Detail)
+                </td>
+                <th scope="col">
+                    @Html.DisplayFor(modelItem => item.Unit)
+                </th>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.ProductCount)
+                </td>
+                <td class="text-center">
+                    @if (Request.Cookies["isAdmin"].Value == "1") { 
+                        @Html.ActionLink("Sửa", "AddProduct", new { id = item.IdProductList })
+                        <span> | </span>
+                        @Html.ActionLink("Xóa", "#", new { id = item.IdProductList })
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="card-footer">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            @{
+                int position;
+                int pageCurrent = ViewBag.pageCurrent;
+                string txtSearch = ViewBag.txtSearch;
+                float numSize = ViewBag.numSize;
+                if (pageCurrent > 1)
+                {
+                    <li class="btn btn-outline-dark">
+
+                        @Ajax.ActionLink("Previous", "loadTableListSP", new { txtSearch = (txtSearch != "" ? txtSearch : null), page = pageCurrent - 1 }, new AjaxOptions { HttpMethod = "Post", UpdateTargetId = "KetQua", InsertionMode = InsertionMode.Replace, LoadingElementId = "divLoading" })
+
+                    </li>
+                }
+
+                for (position = 1; position <= numSize; position++)
+                {
+
+                    if (position == pageCurrent)
+                    {
+                        <li class="btn btn-outline-dark">
+                            @Ajax.ActionLink(@position + "", "loadTableListSP", new { txtSearch = (txtSearch != "" ? txtSearch : null), page = position }, new AjaxOptions { HttpMethod = "Post", UpdateTargetId = "KetQua", InsertionMode = InsertionMode.Replace, LoadingElementId = "divLoading" })
+                        </li>
+
+                    }
+
+                    else
+                    {
+                        <li class="btn btn-outline-dark">
+                            @Ajax.ActionLink(@position + "", "loadTableListSP", new { txtSearch = (txtSearch != "" ? txtSearch : null), page = position }, new AjaxOptions { HttpMethod = "Post", UpdateTargetId = "KetQua", InsertionMode = InsertionMode.Replace, LoadingElementId = "divLoading" })
+                        </li>
+
+                    }
+
+                }
+                if (pageCurrent > 0 && pageCurrent < numSize)
+                {
+                    <li class="btn btn-outline-dark">
+
+                        @Ajax.ActionLink("Next" + "", "loadTableListSP", new { txtSearch = (txtSearch != "" ? txtSearch : null), page = pageCurrent + 1 }, new AjaxOptions { HttpMethod = "Post", UpdateTargetId = "KetQua", InsertionMode = InsertionMode.Replace, LoadingElementId = "divLoading" })
+                    </li>
+                }
+
+            }
+
+        </ul>
+    </nav>
+</div>
+

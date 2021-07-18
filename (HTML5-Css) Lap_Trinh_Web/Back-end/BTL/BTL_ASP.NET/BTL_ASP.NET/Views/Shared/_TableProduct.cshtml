@@ -1,0 +1,37 @@
+﻿@model IEnumerable<BTL_ASP.NET.Models.ClipboardDetailBill>
+
+<table class="table table-bordered" border="1" , id="tableA">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">MÃ HÀNG</th>
+            <th scope="col">TÊN HÀNG</th>
+            <th scope="col">ĐƠN VỊ TÍNH</th>
+            <th scope="col">SỐ LƯỢNG</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{ var i = 0;}
+        @foreach (var item in Model)
+        {
+            i = i + 1;
+        <tr>
+            <th scope="row">@i</th>
+            <td>@Html.DisplayFor(modelItem => item.IdProductList)</td>
+            <td>@Html.DisplayFor(modelItem => item.ProductList.ProductName)</td>
+            <td>@Html.DisplayFor(modelItem => item.ProductList.Unit)</td>
+            <td>@Html.DisplayFor(modelItem => item.Amount)</td>
+            @if (Request.Cookies["isAdmin"].Value == "1")
+            {
+                <td>@Ajax.ActionLink("Delete", "deleteItem", new { id = item.IdProductList }, new AjaxOptions { HttpMethod = "Post", UpdateTargetId = "tableA", InsertionMode = InsertionMode.Replace })</td>
+            }
+            else
+            {
+                <td></td>
+            }
+
+        </tr>
+        }
+    </tbody>
+</table>

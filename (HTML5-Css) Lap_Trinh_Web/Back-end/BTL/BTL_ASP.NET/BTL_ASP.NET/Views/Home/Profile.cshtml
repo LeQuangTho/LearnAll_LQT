@@ -1,0 +1,247 @@
+﻿@model BTL_ASP.NET.Models.User
+
+@{
+    ViewBag.Title = "Thông tin tài khoản";
+}
+<div class="container-fluid">
+    <div class="row page-titles mx-0">
+        <div class="col-sm-6 p-md-0">
+            <div class="welcome-text">
+                <h4>Hi,Chào Mừng Đến Với Profile</h4>
+                <p class="mb-0">Chưa Biết Nên Ghi Cái Ghì Ở Đây Nên Ghi Tạm Cái Này</p>
+            </div>
+        </div>
+    </div>
+    <!-- row -->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="profile">
+                <div class="profile-head">
+                    <div class="photo-content">
+                        <div class="cover-photo"></div>
+                        <div class="profile-photo">
+                            @if (Model.Img != null)
+                            {
+                                <img src="@Url.Content("~/Content/images/profile/" + Model.Img)" class="img-fluid rounded-circle" alt="">
+
+                            }
+                            else
+                            {
+                                <img src="@Url.Content("~/Content/images/profile/profile.png")" class="img-fluid rounded-circle" alt="">
+
+                            }
+                        </div>
+                    </div>
+                    <div class="profile-info">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-12">
+                                <div class="row">
+                                    <div class="col-xl-2 col-sm-2 border-right-1 prf-col" style=" margin-top:50px">
+                                        <div class="profile-name">
+                                            <h4 class="text-primary">@Model.NameUser </h4>
+                                            <p> @Model.RoleUser.Detail</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @*--main*@
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="profile-tab">
+                        <div class="custom-tab-1">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item">
+                                    <a href="#my-posts" data-toggle="tab" class="nav-link active show">Thông Tin Cá Nhân</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#profile-settings" data-toggle="tab" class="nav-link">Thiết Lập</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div id="my-posts" class="tab-pane fade active show">
+                                    <div class="my-post-content pt-3">
+                                        <div class="profile-personal-info text-muted">
+                                            <h4 class="text-primary mb-4">Thông Tin Cơ Bản</h4>
+                                            @*NameUser*@
+                                            <div class="row mb-4">
+                                                <div class="col-3">
+                                                    <h5 class="f-w-500">
+                                                        Họ và tên <span class="pull-right">:</span>
+                                                    </h5>
+                                                </div>
+                                                <div class="col-9">
+                                                    <span>@Model.NameUser</span>
+                                                </div>
+                                            </div>
+                                            @*GT*@
+                                            <div class="row mb-4">
+                                                <div class="col-3">
+                                                    <h5 class="f-w-500">
+                                                        Giới tính <span class="pull-right">:</span>
+                                                    </h5>
+                                                </div>
+                                                <div class="col-9">
+                                                    @{
+                                                        if (Model.Gender == true)
+                                                        {
+                                                            <span>Nam</span>}
+                                                        else
+                                                        {
+                                                            if (Model.Gender == false)
+                                                            {
+                                                                <span>Nữ</span>
+                                                            }
+                                                            else
+                                                            {
+                                                                <span>Không xác định</span>
+                                                            }
+                                                        }
+                                                    }
+                                                </div>
+                                            </div>
+                                            @*email*@
+                                            <div class="row mb-4">
+                                                <div class="col-3">
+                                                    <h5 class="f-w-500">
+                                                        Email <span class="pull-right">:</span>
+                                                    </h5>
+                                                </div>
+                                                <div class="col-9">
+                                                    <span>@Model.Email</span>
+                                                </div>
+                                            </div>
+                                            @*SDDT*@
+                                            <div class="row mb-4">
+                                                <div class="col-3">
+                                                    <h5 class="f-w-500">
+                                                        SĐT <span class="pull-right">:</span>
+                                                    </h5>
+                                                </div>
+                                                <div class="col-9">
+                                                    <span>@Model.PhoneNumber</span>
+                                                </div>
+                                            </div>
+                                            @*place*@
+                                            <div class="row mb-4">
+                                                <div class="col-3">
+                                                    <h5 class="f-w-500">Địa Chỉ <span class="pull-right">:</span></h5>
+                                                </div>
+                                                <div class="col-9">
+                                                    <span>@Model.Place</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="about-me" class="tab-pane fade">
+                                    @*Thiết Lập*@
+                                </div>
+                                <div id="profile-settings" class="tab-pane fade">
+                                    <div class="pt-3">
+                                        <div class="settings-form">
+                                            <h4 class="text-primary">Thiết Lập Thông Tin</h4>
+                                            @using (Html.BeginForm())
+                                            {
+                                                @Html.AntiForgeryToken()
+
+                                        <div class="form-horizontal">
+                                            <hr />
+                                            <label for="img" class="control-label col-md-1 text-muted">Chọn ảnh:</label>
+                                            <input type="file" id="Img" name="Img" accept="image/*" class="control-label col-md-4 text-muted" value="@Model.Img">
+                                            <br />
+                                            <br />
+                                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                            <div class="form-group">
+                                                @Html.LabelFor(model => model.IdUser, "Tên Đăng Nhập", htmlAttributes: new { @class = "control-label col-md-2 text-danger required" })
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.IdUser, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                                    @Html.ValidationMessageFor(model => model.IdUser, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                @Html.LabelFor(model => model.NameUser, "Họ và tên", htmlAttributes: new { @class = "control-label col-md-2 text-danger required" })
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.NameUser, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.NameUser, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2 text-danger" })
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                @Html.LabelFor(model => model.PasswordUser, "Mật khẩu", htmlAttributes: new { @class = "control-label col-md-2 text-danger required" })
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.PasswordUser, new { htmlAttributes = new { @class = "form-control", @type = "password" } })
+                                                    @Html.ValidationMessageFor(model => model.PasswordUser, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                @Html.LabelFor(model => model.PhoneNumber, "Số điện thoại", htmlAttributes: new { @class = "control-label col-md-2 text-danger" })
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.PhoneNumber, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+
+                                            <div class="form-group">
+                                                @Html.LabelFor(model => model.UserStatus, "Trạng thái", htmlAttributes: new { @class = "control-label col-md-2 text-danger" })
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.UserStatus, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                                    @Html.ValidationMessageFor(model => model.UserStatus, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                @Html.LabelFor(model => model.Gender, "Giới tính (True = Nam, False = Nữ)", htmlAttributes: new { @class = "control-label col-md-2 text-danger" })
+                                                <div class="col-md-10">
+                                                    <div class="checkbox">
+                                                        @Html.EditorFor(model => model.Gender)
+                                                        @Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                @Html.LabelFor(model => model.Place, "Địa chỉ", htmlAttributes: new { @class = "control-label col-md-2 text-danger" })
+                                                <div class="col-md-10">
+                                                    @Html.EditorFor(model => model.Place, new { htmlAttributes = new { @class = "form-control" } })
+                                                    @Html.ValidationMessageFor(model => model.Place, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="col-md-offset-2 col-md-10">
+                                                    <input type="submit" value="Update" class="btn btn-outline-primary" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

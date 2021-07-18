@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AesDesActivity">
+
+    <EditText
+        android:id="@+id/editTextAesDesK"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="K"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextAesDesM"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="M"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/editTextAesDesK"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextAesDesK"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAesDesK" />
+
+    <TextView
+        android:id="@+id/textViewResult4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="10dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextAesDesM"
+        app:layout_constraintStart_toStartOf="@+id/editTextAesDesM"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSubmit4" />
+
+    <Button
+        android:id="@+id/buttonSubmit4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:text="Kết quả"
+        app:layout_constraintStart_toStartOf="@+id/editTextAesDesM"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAesDesM" />
+
+    <Button
+        android:id="@+id/buttonClean4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginEnd="30dp"
+        android:text="Clean"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonSubmit4"
+        app:layout_constraintEnd_toEndOf="@+id/editTextAesDesM"
+        app:layout_constraintStart_toEndOf="@+id/buttonSubmit4"
+        app:layout_constraintTop_toTopOf="@+id/buttonSubmit4" />
+
+    <Switch
+        android:id="@+id/switchGiaiMa4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
+        android:text="Giải Mã"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonSubmit4"
+        app:layout_constraintEnd_toStartOf="@+id/buttonClean4"
+        app:layout_constraintStart_toEndOf="@+id/buttonSubmit4"
+        app:layout_constraintTop_toTopOf="@+id/buttonClean4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

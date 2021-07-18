@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeQuangTho181202289_2", "LeQuangTho181202289_2\LeQuangTho181202289_2.csproj", "{48D4B5CB-2282-4615-9479-3306A49D0381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeQuangTho_181202289", "C:\Users\lequa\Desktop\ThiWeb\LeQuangTho_181202289\LeQuangTho_181202289.csproj", "{02ED9838-7113-4662-B0F3-B1A33CA4E656}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48D4B5CB-2282-4615-9479-3306A49D0381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D4B5CB-2282-4615-9479-3306A49D0381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D4B5CB-2282-4615-9479-3306A49D0381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D4B5CB-2282-4615-9479-3306A49D0381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02ED9838-7113-4662-B0F3-B1A33CA4E656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02ED9838-7113-4662-B0F3-B1A33CA4E656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02ED9838-7113-4662-B0F3-B1A33CA4E656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02ED9838-7113-4662-B0F3-B1A33CA4E656}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {284CD535-C5AC-4FC0-8F45-2CB646518DD3}
+	EndGlobalSection
+EndGlobal

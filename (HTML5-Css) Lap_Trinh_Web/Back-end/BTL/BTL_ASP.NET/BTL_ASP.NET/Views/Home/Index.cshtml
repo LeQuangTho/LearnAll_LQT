@@ -1,0 +1,175 @@
+﻿@{
+    ViewBag.Title = "Home";
+
+}
+<div class="row">
+    <div class="col-lg-3 col-sm-6">
+        <div class="card">
+            <div class="stat-widget-two card-body">
+                <div class="stat-content">
+                    <div class="stat-text">Ngày</div>
+                    <div class="stat-digit"> <i class="fa "></i>@ViewBag.day</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success w-100" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+        <div class="card">
+            <div class="stat-widget-two card-body">
+                <div class="stat-content">
+                    <div class="stat-text">Số hóa đơn <strong>Nhập</strong> trong ngày</div>
+                    <div class="stat-digit"> <i class="fa "></i>@ViewBag.countID_receiptBill</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-danger w-100" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+        <div class="card">
+            <div class="stat-widget-two card-body">
+                <div class="stat-content">
+                    <div class="stat-text">Số hóa đơn <strong>Xuất</strong> trong ngày</div>
+                    <div class="stat-digit"> <i class="fa "></i>@ViewBag.countID_deliveryBill</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-danger w-100" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+        <div class="card">
+            <div class="stat-widget-two card-body">
+                <div class="stat-content">
+                    <div class="stat-text">Tổng giá trị HĐ nhập trong ngày</div>
+                    <div class="stat-digit"> <i class="fa"></i>@ViewBag.totalPrice VNĐ</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info w-100" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+        <!-- /# card -->
+    </div>
+    <!-- /# column -->
+</div>
+<hr />
+<div class="row">
+    <div class="col-lg-3 col-sm-6">
+        <div class="card">
+            <div class="stat-widget-two card-body">
+                <div class="stat-content">
+                    <div class="stat-text">Tháng</div>
+                    <div class="stat-digit"> <i class="fa "></i>@ViewBag.month</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success w-100" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+        <div class="card">
+            <div class="stat-widget-two card-body">
+                <div class="stat-content">
+                    <div class="stat-text">Số sản phẩm có trong Kho</div>
+                    <div class="stat-digit"> <i class="fa "></i>@ViewBag.productList1</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-danger w-100" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+        <div class="card">
+            <div class="stat-widget-two card-body">
+                <div class="stat-content">
+                    <div class="stat-text">Số sản phẩm đã hết hàng</div>
+                    <div class="stat-digit"> <i class="fa "></i>@ViewBag.productList2</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-danger w-100" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+        <div class="card">
+            <div class="stat-widget-two card-body">
+                <div class="stat-content">
+                    <div class="stat-text">Số sản phẩm sắp hết (sl <= 10)</div>
+                    <div class="stat-digit"> <i class="fa"></i>@ViewBag.productList3</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info w-100" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+        <!-- /# card -->
+    </div>
+    <!-- /# column -->
+</div>
+<hr />
+<div class="row">
+    <div class="col-lg-3 col-sm-6">
+        <div class="card">
+            <div class="stat-widget-two card-body">
+                <div class="stat-content">
+                    <div class="stat-text">Năm</div>
+                    <div class="stat-digit"> <i class="fa "></i>@ViewBag.year</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success w-100" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+        <div class="card">
+            <div class="stat-widget-two card-body">
+                <div class="stat-content">
+                    <div class="stat-text">Số hóa đơn <strong>Nhập</strong> trong ngày</div>
+                    <div class="stat-digit"> <i class="fa "></i>@ViewBag.countID_receiptBill</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-danger w-100" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+        <div class="card">
+            <div class="stat-widget-two card-body">
+                <div class="stat-content">
+                    <div class="stat-text">Số hóa đơn <strong>Xuất</strong> trong ngày</div>
+                    <div class="stat-digit"> <i class="fa "></i>@ViewBag.countID_deliveryBill</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-danger w-100" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+        <div class="card">
+            <div class="stat-widget-two card-body">
+                <div class="stat-content">
+                    <div class="stat-text">Tổng giá trị HĐ nhập trong ngày</div>
+                    <div class="stat-digit"> <i class="fa fa-usd"></i>@ViewBag.totalPrice</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info w-100" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+        <!-- /# card -->
+    </div>
+    <!-- /# column -->
+</div>
+<hr />

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MaHoaModuloActivity">
+
+    <TextView
+        android:id="@+id/textViewNumber3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber3"
+        app:layout_constraintStart_toStartOf="@+id/textViewNumber2" />
+
+    <TextView
+        android:id="@+id/textViewNumber4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber4"
+        app:layout_constraintStart_toStartOf="@+id/textViewNumber3" />
+
+    <TextView
+        android:id="@+id/textViewNumber5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber5"
+        app:layout_constraintStart_toStartOf="@+id/textViewNumber4" />
+
+    <EditText
+        android:id="@+id/editTextNumber1"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="numberSigned|text"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="numberSigned|text"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumber1"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber1" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="numberSigned|text"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumber2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
+
+    <EditText
+        android:id="@+id/editTextNumber4"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="numberSigned|text"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumber3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber3" />
+
+    <EditText
+        android:id="@+id/editTextNumber5"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="numberSigned|text"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumber4"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber4" />
+
+    <Button
+        android:id="@+id/buttonSubmit3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="Kết quả"
+        app:layout_constraintStart_toStartOf="@+id/textViewResult3"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResult3" />
+
+    <Button
+        android:id="@+id/buttonClean3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="C"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewResult3"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResult3" />
+
+    <TextView
+        android:id="@+id/textViewResult3"
+        android:layout_width="191dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="#C1F1F0EF"
+        android:paddingStart="15dp"
+        android:text="Kết quả"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextNumber4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextNumber1"
+        app:layout_constraintTop_toTopOf="@+id/editTextNumber1" />
+
+    <TextView
+        android:id="@+id/textViewBaiToan3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textViewResult3"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumber5"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSubmit3" />
+
+    <TextView
+        android:id="@+id/textViewNumber1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber1"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumber1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewNumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber2"
+        app:layout_constraintStart_toStartOf="@+id/textViewNumber1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,403 @@
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\BTL_ASP.NET.dll.config
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\BTL_ASP.NET.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\BTL_ASP.NET.pdb
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csc.exe
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csc.exe.config
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csc.rsp
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csi.exe
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csi.exe.config
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csi.rsp
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.AppContext.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Collections.Immutable.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Console.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Globalization.Calendars.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.Compression.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.FileSystem.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Net.Http.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Net.Sockets.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Reflection.Metadata.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.ValueTuple.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.XmlDocument.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.XPath.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\vbc.exe
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\vbc.exe.config
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\vbc.rsp
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\VBCSCompiler.exe
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\VBCSCompiler.exe.config
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\Antlr3.Runtime.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\Microsoft.Web.Infrastructure.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\Newtonsoft.Json.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Helpers.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Mvc.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Optimization.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Razor.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Deployment.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Razor.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\WebGrease.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Helpers.xml
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Mvc.xml
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Optimization.xml
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Razor.xml
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.xml
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Deployment.xml
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Razor.xml
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\Newtonsoft.Json.xml
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\Antlr3.Runtime.pdb
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.csprojAssemblyReference.cache
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.csproj.CoreCompileInputs.cache
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.csproj.CopyComplete
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.pdb
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\BTL_ASP.NET.dll.config
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\BTL_ASP.NET.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\BTL_ASP.NET.pdb
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csc.exe
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csc.exe.config
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csc.rsp
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csi.exe
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csi.exe.config
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csi.rsp
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.AppContext.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Collections.Immutable.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Console.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Globalization.Calendars.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.Compression.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.FileSystem.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Net.Http.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Net.Sockets.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Reflection.Metadata.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.ValueTuple.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.XmlDocument.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.XPath.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\vbc.exe
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\vbc.exe.config
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\vbc.rsp
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\VBCSCompiler.exe
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\VBCSCompiler.exe.config
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\Antlr3.Runtime.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\Microsoft.Web.Infrastructure.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\Newtonsoft.Json.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Helpers.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Mvc.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Optimization.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Razor.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Deployment.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Razor.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\WebGrease.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Helpers.xml
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Mvc.xml
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Optimization.xml
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Razor.xml
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.xml
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Deployment.xml
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Razor.xml
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\Newtonsoft.Json.xml
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\Antlr3.Runtime.pdb
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.csprojAssemblyReference.cache
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.csproj.CoreCompileInputs.cache
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.csproj.CopyComplete
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.dll
+D:\TamThoi\LapTrinhWeb\BTL\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.pdb
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\BTL_ASP.NET.dll.config
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\BTL_ASP.NET.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\BTL_ASP.NET.pdb
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csc.exe
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csc.exe.config
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csc.rsp
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csi.exe
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csi.exe.config
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csi.rsp
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.AppContext.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Collections.Immutable.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Console.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Globalization.Calendars.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.Compression.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.FileSystem.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Net.Http.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Net.Sockets.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Reflection.Metadata.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.ValueTuple.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.XmlDocument.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.XPath.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\vbc.exe
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\vbc.exe.config
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\vbc.rsp
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\VBCSCompiler.exe
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\VBCSCompiler.exe.config
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\Antlr3.Runtime.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\Microsoft.Web.Infrastructure.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\Newtonsoft.Json.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Helpers.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Mvc.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Optimization.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Razor.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Deployment.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Razor.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\WebGrease.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Helpers.xml
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Mvc.xml
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Optimization.xml
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Razor.xml
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.xml
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Deployment.xml
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Razor.xml
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\Newtonsoft.Json.xml
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\Antlr3.Runtime.pdb
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.csprojAssemblyReference.cache
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.csproj.CoreCompileInputs.cache
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.csproj.CopyComplete
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.dll
+D:\TamThoi\LapTrinhWeb\BTL_ASP\BTL\BTLWeb\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.pdb
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\BTL_ASP.NET.dll.config
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\BTL_ASP.NET.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\BTL_ASP.NET.pdb
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csc.exe
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csc.exe.config
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csc.rsp
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csi.exe
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csi.exe.config
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csi.rsp
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.Managed.Core.targets
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.AppContext.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Collections.Immutable.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Console.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Globalization.Calendars.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.Compression.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.FileSystem.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Net.Http.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Net.Sockets.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Reflection.Metadata.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.ValueTuple.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.XmlDocument.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.XPath.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\vbc.exe
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\vbc.exe.config
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\vbc.rsp
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\VBCSCompiler.exe
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\VBCSCompiler.exe.config
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\Antlr3.Runtime.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\Microsoft.Web.Infrastructure.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\Newtonsoft.Json.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Helpers.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Mvc.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Optimization.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Razor.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Deployment.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Razor.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\WebGrease.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Helpers.xml
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Mvc.xml
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Optimization.xml
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Razor.xml
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.xml
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Deployment.xml
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Razor.xml
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\Newtonsoft.Json.xml
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\Antlr3.Runtime.pdb
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.csproj.CoreCompileInputs.cache
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.csproj.CopyComplete
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.pdb
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\EntityFramework.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\EntityFramework.SqlServer.dll
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\EntityFramework.xml
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\bin\EntityFramework.SqlServer.xml
+E:\KyVI\LapTrinhWeb\BaiTap\BTL_AN\fix\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.csprojAssemblyReference.cache
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\BTL_ASP.NET.dll.config
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\BTL_ASP.NET.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\BTL_ASP.NET.pdb
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csc.exe
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csc.exe.config
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csc.rsp
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csi.exe
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csi.exe.config
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\csi.rsp
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.Managed.Core.targets
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.AppContext.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Collections.Immutable.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Console.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Globalization.Calendars.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.Compression.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.FileSystem.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Net.Http.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Net.Sockets.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Reflection.Metadata.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.ValueTuple.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.XmlDocument.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.XPath.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\vbc.exe
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\vbc.exe.config
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\vbc.rsp
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\VBCSCompiler.exe
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\roslyn\VBCSCompiler.exe.config
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\Antlr3.Runtime.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\EntityFramework.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\EntityFramework.SqlServer.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\Microsoft.Web.Infrastructure.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\Newtonsoft.Json.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Helpers.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Mvc.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Optimization.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Razor.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Deployment.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Razor.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\WebGrease.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\EntityFramework.xml
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\EntityFramework.SqlServer.xml
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Helpers.xml
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Mvc.xml
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Optimization.xml
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.Razor.xml
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.xml
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Deployment.xml
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\System.Web.WebPages.Razor.xml
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\Newtonsoft.Json.xml
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\Antlr3.Runtime.pdb
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.csprojAssemblyReference.cache
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.csproj.CoreCompileInputs.cache
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.csproj.CopyComplete
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.dll
+F:\LQT\(HTML5-Css) Lap_Trinh_Web\Back-end\BTL\BTL_ASP.NET\BTL_ASP.NET\obj\Debug\BTL_ASP.NET.pdb

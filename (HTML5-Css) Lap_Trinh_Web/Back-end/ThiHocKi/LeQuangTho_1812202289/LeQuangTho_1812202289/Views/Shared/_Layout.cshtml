@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Shop Around</title>
+    <link rel="stylesheet" href="~/Content/css/style.css">
+</head>
+<body>
+    <div class="boundary">
+        <!-- begin header -->
+        <div id="header">
+            @Html.Partial("LeQuangTho_Header")
+        </div>
+        <!-- end header -->
+        <!-- begin main -->
+        <div id="main">
+            <div id="right">
+                <!-- begin product -->
+                <div class="product">
+                    @RenderBody()
+                </div>
+                <!-- end product -->
+            </div>
+        </div>
+        <!-- end main -->
+        <!-- begin footer -->
+        <div id="footer">
+            @Html.Partial("LeQuangTho_Footer")
+        </div>
+        <!-- end footer -->
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>

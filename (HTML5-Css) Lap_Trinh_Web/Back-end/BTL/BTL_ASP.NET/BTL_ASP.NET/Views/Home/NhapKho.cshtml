@@ -1,0 +1,135 @@
+﻿@model BTL_ASP.NET.Models.DetailReceipt
+@{
+    ViewBag.Title = "Trang Nhập Kho";
+
+}
+
+<div class="NhapXuatKho">
+    <div class="">
+        <div class="row">
+            <!-- Đây là phần chính
+            Begin-->
+            <div class="col-md-9 row-main">
+                <!-- Đây là Input
+                Begin-->
+                @if (ViewBag.details == 0)
+                {
+                    using (Ajax.BeginForm("NhapKho", new AjaxOptions { HttpMethod = "Post", UpdateTargetId = "KetQuaA", InsertionMode = InsertionMode.Replace })) //, LoadingElementId = "divLoading"
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-horizontal">
+                            <h4>Chọn sản phẩm</h4>
+                            <hr />
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.IdProductList, "Tên Sản Phẩm", htmlAttributes: new { @class = "control-label col-md-2 text-muted font-weight-bold" })
+                                <div class="col-md-10">
+                                    @Html.DropDownList("IdProductList", null, htmlAttributes: new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.IdProductList, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ReceiptCount, "Số lượng", htmlAttributes: new { @class = "control-label col-md-2 text-muted font-weight-bold" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.ReceiptCount, new { htmlAttributes = new { @class = "form-control", @min = 1, } })
+                                    @Html.ValidationMessageFor(model => model.ReceiptCount, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Price, "Đơn giá", htmlAttributes: new { @class = "control-label col-md-2 text-muted font-weight-bold" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control", @min = 1, } })
+                                    @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <input type="submit" value="Thêm" class="btn btn-primary  font-weight-bold" />
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+                <!-- Đây là Input
+                End-->
+                <div id="KetQuaA">
+                    <!-- Đây là Table
+                    Begin-->
+                    @Html.Action("loadTable2")
+                    <!-- Đây là Table
+                    End-->
+                </div>
+            </div>
+            <!-- Đây là phần chính
+            End-->
+            <!-- Đây là phần bên phải
+            Begin-->
+            <div class="col-md-3 row-right">
+                @using (Html.BeginForm("SaveBill2", "Home"))
+                {
+
+                    <div class="item-right">
+                        <label for="inputMaPhieuXuat">Mã Phiếu:</label>
+                        <input type="text" name="idDBill" id="idDBills" class="form-control" required="required" value="@ViewBag.idDBill" readonly>
+                    </div>
+                    <div class="item-right">
+                        <label for="inputNhanVien">Nhân viên: </label>
+                        <input type="text" name="user" id="user" class="form-control" required="required" value="@ViewBag.user" readonly>
+                    </div>
+                    <div class="item-right">
+                        <label for="inputNhanVien">Nhà cung cấp: </label>
+                        <input type="number" name="supplỉer" id="supplỉer" class="form-control" required="required" value="@ViewBag.supplỉer" readonly>
+                    </div>
+
+                    <div class="item-right">
+                        <label class="required" for="inputNgayGhiSo">Ngày nhập</label>
+                        <input type="date" name="dateCreate" id="dateCreate" class="form-control" required="required"
+                               value="@ViewBag.date" readonly>
+                    </div>
+
+                    <div class="item-right">
+                        <label>Ghi chú</label>
+                        @if (ViewBag.details == 0)
+                        {
+                            <textarea name="note" id="editor1" class="form-control" rows="3" required="required">@ViewBag.note</textarea>
+                        }
+                        else
+                        {
+                            <textarea name="note" class="form-control" rows="3" required="required" readonly>@ViewBag.note</textarea>
+
+                        }
+                    </div>
+                    <div style="padding:10px; margin:10px;">
+                        <ul class="pagination">
+                            @if (ViewBag.details == 0)
+                            {
+                                <input type="submit" value="Lưu" class="btn btn-outline-success font-weight-bold" style="margin-right:15px" />
+                                <li style="margin-left:15px"> <a class="btn btn-outline-info font-weight-bold" href="@Url.Action("ListReceipt")">Hủy</a> </li>
+                            }
+                            else
+                            {
+                                <li style="margin-left:15px"> <a class="btn btn-success font-weight-bold" href="@Url.Action("ListReceipt")">Back</a> </li>
+                            }
+                        </ul>
+                    </div>
+
+
+
+                }
+            </div>
+
+
+            <!-- Đây là phần bên phải
+            End-->
+        </div>
+    </div>
+</div>
+@if (ViewBag.Message != null)
+{
+    <script type="text/javascript">
+                    window.onload = function () {
+                        alert("@ViewBag.Message");
+                    };
+    </script>
+}

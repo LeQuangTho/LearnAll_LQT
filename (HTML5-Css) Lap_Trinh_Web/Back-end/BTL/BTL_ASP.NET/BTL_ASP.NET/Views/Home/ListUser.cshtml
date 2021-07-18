@@ -1,0 +1,76 @@
+﻿@model IEnumerable<BTL_ASP.NET.Models.User>
+@{
+    ViewBag.Title = "Danh sách nhân viên";
+}
+
+<h2>Danh sách nhân viên</h2>
+<button class="btn btn-outline-success">
+    @Html.ActionLink("Thêm nhân viên", "Sign_Up")
+</button>
+<br />
+<br />
+<table class="table table-hover table-bordered text-dark">
+    <tr class="thead-dark">
+        <th>
+            @Html.DisplayNameFor(model => model.RoleUser.Detail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NameUser)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserStatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Img)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Place)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RoleUser.Detail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameUser)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Img)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Place)
+            </td>
+            <td>
+                @Html.ActionLink("Chỉnh sửa", "EditUser", new { id = item.IdUser }) |
+                @Html.ActionLink("Thôi việc", "DeleteUser", new { id = item.IdUser })
+            </td>
+        </tr>
+    }
+
+</table>
+

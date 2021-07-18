@@ -1,0 +1,101 @@
+﻿<div class="quixnav">
+    <div class="quixnav-scroll">
+        <ul class="metismenu" id="menu">
+            @*<li class="nav-label first">MAIN MENU</li>*@
+
+
+            <li class="nav-label">THÔNG TIN CƠ BẢN</li>
+            @if (Request.Cookies["isAdmin"].Value == "1")
+            {
+                <li>@Html.ActionLink("Danh sách nhân Viên", "ListUser")</li>
+            }
+            <!-- Start product information + depot -->
+            <li>
+                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                    <i class="icon icon-app-store"></i><span class="nav-text">Sản Phẩm</span>
+                </a>
+                <ul aria-expanded="false">
+
+                    <li>@Html.ActionLink("Danh sách sản phẩm", "ListSP")</li>
+                    @if (Request.Cookies["isAdmin"].Value == "1")
+                    {
+                        <li>@Html.ActionLink("Thêm mới sản phẩm", "AddProduct")</li>
+                    }
+                </ul>
+            </li>
+
+
+            <!-- End product information + warehouse -->
+
+
+            <li class="nav-label">QUẢN LÝ NHẬP HÀNG</li>
+            <!-- Start Manage Depot in -->
+            <li>
+                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                    <i class="icon icon-single-copy-06"></i><span class="nav-text">Quản lý nhập hàng</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li>@Html.ActionLink("Danh sách hóa đơn nhập", "ListReceipt")</li>
+                    <li>@Html.ActionLink("Thêm hóa đơn nhập", "NhapKho")</li>
+                </ul>
+            </li>
+            <!-- End Manage Depot in -->
+
+            <li class="nav-label">QUẢN LÝ XUẤT HÀNG</li>
+            <!-- Start Manage Depot out-->
+            <li>
+                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                    <i class="icon icon-single-copy-06"></i><span class="nav-text">Quản lý xuất hàng</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li>@Html.ActionLink("Danh sách hóa đơn xuất", "ListDeliveries")</li>
+                    <li>@Html.ActionLink("Thêm hóa đơn xuất", "XuatKho")</li>
+                </ul>
+            </li>
+            <!-- End Manage Depot out -->
+
+            <!--<li class="nav-label">THỐNG KÊ</li>-->
+            <!-- Start statistical-->
+
+            <!--<li>
+                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                    <i class="icon icon-world-2"></i><span class="nav-text">Sản phẩm</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a href="#">Sản phẩm bán chạy</a></li>
+                    <li><a href="#">Sản phẩm mới</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <ul aria-expanded="false">
+                    <li><a href="#">Hóa đơn nhập</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <ul aria-expanded="false">
+                    <li><a href="#">Hóa đơn xuất</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                    <i class="icon icon-world-2"></i><span class="nav-text">Kho</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a href="#">Thông tin sản phẩm</a></li>
+                    <li><a href="#">Lỗi sản phẩm</a></li>
+                </ul>
+            </li>-->
+
+            <!-- End statistical -->
+
+        </ul>
+    </div>
+</div>
+
+<!--
+
+
+-->

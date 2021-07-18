@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModuloActivity">
+
+    <EditText
+        android:id="@+id/editTextA"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="a = "
+        android:inputType="numberSigned|text"
+        app:layout_constraintBottom_toTopOf="@+id/editTextM"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextM"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="m = "
+        android:inputType="numberSigned|text"
+        app:layout_constraintEnd_toEndOf="@+id/editTextA"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/editTextA"
+        app:layout_constraintTop_toBottomOf="@+id/editTextA" />
+
+    <EditText
+        android:id="@+id/editTextN"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="n = "
+        android:inputType="numberSigned|text"
+        app:layout_constraintEnd_toEndOf="@+id/editTextM"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/editTextM"
+        app:layout_constraintTop_toBottomOf="@+id/editTextM" />
+
+
+    <TextView
+        android:id="@+id/textViewBaiToan2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_text_view_result"
+        android:padding="10dp"
+        android:text="Bai Toan"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewResult2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextM"
+        app:layout_constraintTop_toTopOf="@+id/editTextA" />
+
+    <TextView
+        android:id="@+id/textViewResult2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_text_view_result"
+        android:hint="Kết quả"
+        android:padding="10dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonClear"
+        app:layout_constraintEnd_toEndOf="@+id/textViewBaiToan2"
+        app:layout_constraintStart_toStartOf="@+id/textViewBaiToan2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBaiToan2" />
+
+    <Button
+        android:id="@+id/buttonSubmit2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Kết quả"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/editTextN"
+        app:layout_constraintStart_toStartOf="@+id/editTextN"
+        app:layout_constraintTop_toBottomOf="@+id/editTextN" />
+
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Clean"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSubmit2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/buttonSubmit2"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSubmit2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

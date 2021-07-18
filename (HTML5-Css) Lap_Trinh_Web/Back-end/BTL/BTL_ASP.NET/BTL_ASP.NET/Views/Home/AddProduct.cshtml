@@ -1,0 +1,66 @@
+﻿@model BTL_ASP.NET.Models.ProductList
+@{
+    ViewBag.Title = "Thêm sản phẩm";
+}
+
+@using (Html.BeginForm("AddProduct"))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4 class="text-danger">Thêm Sản Phẩm</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <!-- Product Category -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.IdProductCategory, "Loại sản phẩm", htmlAttributes: new { @class = "control-label col-md-2 text-muted font-weight-bold" })
+            <div class="col-md-10">
+                @Html.DropDownList("IdProductCategory", null, htmlAttributes: new { @class = "form-control ", @Value = "aa" })
+                @Html.ValidationMessageFor(model => model.IdProductCategory, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <!-- Product Name -->
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ProductName, "Tên sản phẩm", htmlAttributes: new { @class = "control-label col-md-2 text-muted font-weight-bold" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ProductName, new { htmlAttributes = new { @class = "form-control", @Value = @ViewBag.NameSP } })
+                @Html.ValidationMessageFor(model => model.ProductName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <!-- Product Detail -->
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Detail, "Thông tin sản phẩm", htmlAttributes: new { @class = "control-label col-md-2 text-muted font-weight-bold" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Detail, new { htmlAttributes = new { @class = "form-control", @Value = @ViewBag.Detail } })
+                @Html.ValidationMessageFor(model => model.Detail, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <!-- Product Unit -->
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Unit, "Đơn vị tính", htmlAttributes: new { @class = "control-label col-md-2 text-muted font-weight-bold" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Unit, new { htmlAttributes = new { @class = "form-control", @Value = @ViewBag.Unit } })
+                @Html.ValidationMessageFor(model => model.Unit, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Thêm" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+@if (ViewBag.Message != null)
+{
+    <script type="text/javascript">
+                    window.onload = function () {
+                        alert("@ViewBag.Message");
+                    };
+    </script>
+}
+
+

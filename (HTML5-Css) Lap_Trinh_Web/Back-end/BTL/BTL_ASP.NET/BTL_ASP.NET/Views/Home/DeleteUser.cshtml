@@ -1,0 +1,96 @@
+﻿@model BTL_ASP.NET.Models.User
+
+@{
+    ViewBag.Title = "Xác nhận thôi việc";
+}
+
+<h2>Xác nhận cho nhân viên thôi việc</h2>
+
+<h3>Bạn chắc chắn cho nhân viên này nghỉ việc?</h3>
+<div>
+    <h4>Nhân viên</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.RoleUser.Detail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RoleUser.Detail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NameUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PasswordUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PasswordUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Img)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Img)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Place)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Place)
+        </dd>
+
+    </dl>
+
+
+    <div class="form-actions no-color">
+        <ul class="pagination">
+            <li style="margin-left:15px"> <a class="btn btn-outline-danger" href="@Url.Action("DeleteUserConfirmed", new {id = Model.IdUser })">Thôi việc</a> </li>
+            <li style="margin-left:15px"> <a class="btn btn-outline-danger" href="@Url.Action("ListUser")">Hủy</a> </li>
+        </ul>
+
+    </div>
+</div>
