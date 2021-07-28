@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSo1"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/custom_button"
+        android:text="Mã hóa cổ điển"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSo2"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/custom_button2"
+        android:text="Số học MODULO"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/buttonSo1"
+        app:layout_constraintTop_toTopOf="@+id/buttonSo1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSo3"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_button2"
+        android:text="RSA - ElG   DH - DSA"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/buttonSo1"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSo1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSo4"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@drawable/custom_button"
+        android:text="AES - DES"
+
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSo2"
+        app:layout_constraintTop_toTopOf="@+id/buttonSo3" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="2dp"
+        android:background="@color/red"
+        android:rotation="45"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/textViewAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:text="An toàn bảo mật thông tin"
+        android:textColor="@color/red"
+        android:textSize="32dp"
+        android:textStyle="italic|bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

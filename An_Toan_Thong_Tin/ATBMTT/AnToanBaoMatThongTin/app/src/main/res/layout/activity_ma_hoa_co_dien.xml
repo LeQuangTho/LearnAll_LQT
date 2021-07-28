@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MaHoaCoDienActivity">
+
+    <EditText
+        android:id="@+id/editTextInputM"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="M"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toTopOf="@+id/editTextInputK"
+        app:layout_constraintEnd_toEndOf="@+id/textViewResult1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/textViewResult1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResult1" />
+
+    <EditText
+        android:id="@+id/editTextInputK"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="K"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        app:layout_constraintEnd_toEndOf="@+id/editTextInputM"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/editTextInputM"
+        app:layout_constraintTop_toBottomOf="@+id/editTextInputM" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSubmit1"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_button2"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewBaiToan1"
+        app:layout_constraintEnd_toEndOf="@+id/editTextInputK"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/editTextInputK"
+        app:layout_constraintTop_toBottomOf="@+id/switchGiaiMa" />
+
+    <TextView
+        android:id="@+id/textViewBaiToan1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bg_border_black"
+        android:padding="8dp"
+        android:text="Bai toan"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/editTextInputK"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/editTextInputK"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSubmit1" />
+
+    <TextView
+        android:id="@+id/textViewResult1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/bg_border_black"
+        android:padding="8dp"
+        android:text="Vui lòng nhập vào dữ liệu tính toán"
+        android:textAlignment="center"
+        android:textColor="#0048FD"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextInputM"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switchGiaiMa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Giải mã"
+        android:textColor="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextInputK" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

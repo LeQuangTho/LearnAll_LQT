@@ -1,0 +1,66 @@
+﻿<!--
+author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Shopping</title>
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Super Market, Online Shopping" />
+
+    <!-- //for-mobile-apps -->
+    <link href="~/Content/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/Content/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/jquery-ui-1.css">
+    <!-- font-awesome icons -->
+    <link href="~/Content/css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome icons -->
+    <!-- js -->
+    <script src="~/Scripts/js/jquery-1.11.1.min.js"></script>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+
+    <!-- //js -->
+</head>
+	
+<body>
+<!-- header -->
+	@Html.Partial("LeQuangTho_Header")
+<!-- //header -->
+<!-- main navigation -->
+	@Html.Action("RenderNav", "BaiThi")
+<!-- //main navigation -->
+<!--- main content --->
+    <div class="products">
+        <div class="container">
+            <!-- left categories -->
+            <div class="col-md-4 products-left">
+                <div class="categories">
+                    <h2>Categories</h2>
+                    <ul class="cate">
+                        <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>Fruits And Vegetables</a></li>
+
+                        <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>Grocery & Staples</a></li>
+
+                        <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>PersonalCare</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /left categories -->
+            <!-- right products grid -->
+            <div class="col-md-8 products-right">
+                @RenderBody()
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+<!--- main content --->
+<!-- footer -->
+	@Html.Partial("LeQuangTho_Footer")
+<!-- //footer -->
+</body>

@@ -1,0 +1,7 @@
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/mycss")
+    @Scripts.Render("~/bundles/myscript")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+
+LAPTOP-TOILATHO\SQLEXPRESS
