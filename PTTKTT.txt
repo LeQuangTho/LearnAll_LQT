@@ -11,7 +11,7 @@ Người được hỏi: 													Người hỏi
 	1.Cần thu thập dữ liệu gì?
 	- Nhu cầu sử dụng , các tính năng 
 	- 
-	- 
+	-
 	- 
 	2.Các thỏa thuận về điều gì?
 	- Thảo thuận về sử dụng hình ảnh, tử liệu của người được hỏi
