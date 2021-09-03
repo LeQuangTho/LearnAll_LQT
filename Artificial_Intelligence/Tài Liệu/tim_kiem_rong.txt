@@ -1,0 +1,96 @@
+program BFS_;
+uses crt;
+const max = 100;
+fi = 'bfs.inp';
+fo = 'bfs.out';
+type ta = array [1..max,1..max] of byte;
+tvisited = array [1..max] of boolean;
+tqueue = array [1..max] of integer;
+var a:ta;{ma tran ke cua G}
+n:integer; {so dinh cua do thi}
+visited:tvisited;
+queue:tqueue;
+first,last:integer;
+
+{thu tuc nhap du lieu}
+procedure input;
+var f:text;
+i,j:integer;
+begin
+assign(f,fi);
+reset(f);
+readln(f,n);
+for i:=1 to n do
+begin
+for j:=1 to n do
+read(f,a[i,j]);
+readln(f);
+end;
+close(f);
+end;
+
+{khoi tao ban dau : moi dinh duoc danh dau la chua tham}
+procedure init;
+var y:integer;
+begin
+for y:=1 to n do visited[y]:=false;
+end;
+
+{lam rong queue}
+procedure empty_queue;
+begin
+first := 1;
+last :=0;
+end;
+
+{them phan tu vao trong queue}
+procedure add(x:integer);
+begin
+inc(last);
+queue[last]:=x;
+end;
+
+{lay phan tu ra gan vao x}
+procedure get(var x:integer);
+begin
+x:= queue[first];
+inc(first);
+end;
+
+{thu tuc duyen theo cheu rong tu dinh nguon s}
+procedure BFS_VISIT (s:integer);
+var x,y:integer;
+begin
+empty_queue;
+add(s);
+writeln(s:5);
+while (last >=first) do
+begin
+get (x);
+for y:=1 to n do
+if (not visited[y]) and (a[x,y] = 1) then
+begin
+visited[y] := true;
+write(y: 5);
+add(y);
+end;
+end;
+writeln;
+end;
+
+{ thu tuc duyet theo chieu rong}
+procedure BFS;
+var x :integer;
+begin
+for x:=1 to n do
+if not visited [x] then BFS_visit(x);
+end;
+
+{ chuong trinh chinh thuc}
+begin
+clrscr;
+input;
+init;
+BFS;
+readln;
+end. 

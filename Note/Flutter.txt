@@ -1,0 +1,3 @@
+﻿1. InheritedWidget
+
+2. Mọi thứ trong flutter đều là Widget.
