@@ -1,22 +1,22 @@
 package CrossTheRiver;
 
 import java.util.LinkedList;
-import java.util.Queue;
+import java.util.Stack;
 
 import CrossTheRiver.State.AMOUNT_PEOPLE_WOLF;
 
 public class CrossTheRiverDFs {
-	public static Queue<State> states = new LinkedList<State>();
+	public static Stack<State> states = new Stack<State>();
 	public static LinkedList<State> wasSet = new LinkedList<>();
 	public static LinkedList<Node> step = new LinkedList<>();
 	public static int count = 0;
 
 	public static void main(String[] args) {
-		states.add(new State(3, 3, true));
+		states.push(new State(3, 3, true));
 		wasSet.add(new State(3, 3, true));
 		while (true) {
 			count++;
-			State state = states.peek();
+			State state = states.pop();
 			if (state == null) {
 				System.out.println("empty");
 				break;
@@ -34,7 +34,6 @@ public class CrossTheRiverDFs {
 			changeState(state, 0, 2);
 
 			System.out.println(state.toString());
-			states.remove();
 		}
 		
 		
@@ -60,7 +59,7 @@ public class CrossTheRiverDFs {
 
 		if (isWolfEatPeople(nextState)) {
 			if (!isDuplicate(nextState)) {
-				states.add(nextState);
+				states.push(nextState);
 				wasSet.add(nextState);
 				step.add(new Node(people, wolf, state, nextState));
 			}
