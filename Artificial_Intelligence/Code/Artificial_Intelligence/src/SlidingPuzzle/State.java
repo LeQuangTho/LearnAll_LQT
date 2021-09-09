@@ -3,7 +3,7 @@ package SlidingPuzzle;
 import java.util.LinkedList;
 import java.util.Objects;
 
-public class State {
+public class State implements Comparable<State> {
 	interface IPiecesBackMove {
 		public static final int LEFT = 1;
 		public static final int UP = 2;
@@ -80,7 +80,7 @@ public class State {
 		State stateFinish = new State(finishPiecesList);
 		return this.equals(stateFinish);
 	}
-	
+
 	public static State getStateEnd() {
 		LinkedList<Integer> finishPiecesList = new LinkedList<>();
 		finishPiecesList.add(1);
@@ -92,6 +92,15 @@ public class State {
 		finishPiecesList.add(7);
 		finishPiecesList.add(6);
 		finishPiecesList.add(5);
+//		finishPiecesList.add(1);
+//		finishPiecesList.add(2);
+//		finishPiecesList.add(3);
+//		finishPiecesList.add(4);
+//		finishPiecesList.add(5);
+//		finishPiecesList.add(6);
+//		finishPiecesList.add(7);
+//		finishPiecesList.add(8);
+//		finishPiecesList.add(0);
 		State stateEnd = new State(finishPiecesList);
 		return stateEnd;
 	}
@@ -102,17 +111,20 @@ public class State {
 			if (direction == IPiecesBackMove.LEFT) {
 				nextPiecesList.set(this.indexBlack, nextPiecesList.get(this.indexBlack - 1));
 				nextPiecesList.set(this.indexBlack - 1, 0);
-			}  if (direction == IPiecesBackMove.RIGHT) {
+			}
+			if (direction == IPiecesBackMove.RIGHT) {
 				nextPiecesList.set(this.indexBlack, nextPiecesList.get(this.indexBlack + 1));
 				nextPiecesList.set(this.indexBlack + 1, 0);
-			}  if (direction == IPiecesBackMove.UP) {
+			}
+			if (direction == IPiecesBackMove.UP) {
 				nextPiecesList.set(this.indexBlack, nextPiecesList.get(this.indexBlack - 3));
 				nextPiecesList.set(this.indexBlack - 3, 0);
-			}  if (direction == IPiecesBackMove.DOWN) {
+			}
+			if (direction == IPiecesBackMove.DOWN) {
 				nextPiecesList.set(this.indexBlack, nextPiecesList.get(this.indexBlack + 3));
 				nextPiecesList.set(this.indexBlack + 3, 0);
-			} 
-			
+			}
+
 			this.setPiecesList(nextPiecesList);
 			this.setIndexBlack();
 			return true;
@@ -146,5 +158,26 @@ public class State {
 		}
 
 		return true;
+	}
+
+	public int difference() {
+		LinkedList<Integer> listEnd = State.getStateEnd().piecesList;
+		int count = 0;
+		for (int i = 0; i < piecesList.size(); i++) {
+			for (int j = 0; j < listEnd.size(); j++) {
+				if (this.piecesList.get(i) == listEnd.get(j)) {
+					if (i != j) {
+						count += (Math.abs(i - j) / 3 + Math.abs(i - j) % 3);
+					}
+				}
+			}
+		}
+		return count;
+	}
+
+	@Override
+	public int compareTo(State o) {
+//		System.out.println(o.difference() + " " + this.difference());
+		return o.difference() - this.difference();
 	}
 }

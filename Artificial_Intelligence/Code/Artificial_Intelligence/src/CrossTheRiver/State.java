@@ -1,11 +1,11 @@
 package CrossTheRiver;
 
-public class State {
-	public interface AMOUNT_PEOPLE_WOLF{
+public class State implements Comparable<State> {
+	public interface AMOUNT_PEOPLE_WOLF {
 		public static final int MAX_PEOPLE = 3;
 		public static final int MAX_WOLF = 3;
 	}
-	
+
 	private int People;
 	private int Wolf;
 	private boolean Boat;
@@ -49,15 +49,27 @@ public class State {
 	}
 
 	public boolean equal(State other) {
-		if(this.Boat == other.isBoat() && this.Wolf == other.getWolf() && this.People == other.getPeople()) {
+		if (this.Boat == other.isBoat() && this.Wolf == other.getWolf() && this.People == other.getPeople()) {
 			return true;
-		}else {
+		} else {
 			return false;
 		}
 	}
-	
+
 	@Override
 	public String toString() {
 		return "State [People=" + People + ", Wolf=" + Wolf + ", Boat=" + Boat + "]";
+	}
+
+	@Override
+	public int compareTo(State o) {
+		if (this.Boat == o.Boat) {
+			return (o.People + o.Wolf) - (this.People + this.Wolf);
+		}
+//		else {
+//			return (AMOUNT_PEOPLE_WOLF.MAX_PEOPLE - o.People + AMOUNT_PEOPLE_WOLF.MAX_WOLF - o.Wolf) 
+//					- (AMOUNT_PEOPLE_WOLF.MAX_PEOPLE - this.People + AMOUNT_PEOPLE_WOLF.MAX_WOLF - this.Wolf);
+//		}
+		return 0;
 	}
 }

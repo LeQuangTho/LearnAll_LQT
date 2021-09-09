@@ -1,2 +1,5 @@
 eclipse.preferences.version=1
 encoding//src/SlidingPuzzle/SlidingPuzzleBFs.java=UTF-8
+encoding//src/SlidingPuzzle/SlidingPuzzleDFs.java=UTF-8
+encoding//src/SlidingPuzzle/SlidingPuzzle_UseExp_Difference.java=UTF-8
+encoding//src/SlidingPuzzle/SlidingPuzzle_UseExp_Hill_Climbing.java=UTF-8
