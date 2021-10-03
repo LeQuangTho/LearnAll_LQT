@@ -1,0 +1,12 @@
+X = imread('dollar.tif');
+Y = bitPlaneSlicing(X);
+b8 = Y(:,:,8);
+b7 = Y(:,:,8);
+b6 = Y(:,:,8);
+b5 = Y(:,:,8);
+b87 = b8*128+b7*64;
+b876 = b8*128+b7*64+b6*32;
+b8765 = b8*128+b7*64+b6*32+b5*16;
+imshow(b87);
+imshow(b876);
+imshow(b8765);
