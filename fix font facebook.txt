@@ -1,0 +1,7 @@
+Cách Sửa Lỗi Font Chữ Facebook mới nhất
+
+Đầu tiên bạn gõ regedit vào ô tìm kiếm Windows để mở Registry Editor lên, di chuyển đến đường dẫn Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts , tìm Segoe UI Historic chuột phải chọn Delete để xóa.
+
+Sau đó vào C:\Windows\Fonts tìm Segoe UI Historic rồi Delete để xóa nó luôn.
+
+Lưu ý: Nếu không tìm thấy Segoe UI Historic ở đường dẫn regedit thì nhấn chuột phải chọn New – String Value rồi đặt tên Segoe UI Historic (TrueType) sau đó nhấn vào nó điền seguihis.ttf nhấn OK để lưu. Khởi động lại máy tính rồi thực hiện xóa lại từ đầu.
