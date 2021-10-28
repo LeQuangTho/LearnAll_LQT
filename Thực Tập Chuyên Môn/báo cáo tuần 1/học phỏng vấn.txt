@@ -1,0 +1,41 @@
+v - model
+hiểu là 
+	- xác minh (verification)
+	- xác nhận hợp lệ (validation)
+phân tích yêu cầu
+thiết kế hệ thống
+thiết kế kiến trúc
+thiết kế modul
+code
+kiểm tra đơn vị
+kiểu tra tích hợp
+test hệ thống
+thử nghiệm chấp nhận người dùng
+
+*
+Agile/scrum
+lập kế hoặc<--
+thiết kế     |
+build 	     |
+test	     |
+review	     |
+_____________|
+
+
+
+*
+CMMI
+IOS
+*
+Reading Code
+*
+Coding & Unit Code
+*
+Learning by doing
+*
+Career path
+
+*****************
+Framework
+
+Database

@@ -1,0 +1,31 @@
+***************
+Database
+- proc & func
+	- f phải trả về giá trị duy nhất có thể là bảng
+	trong khi p có thể trả về giá trị zero, 1, nhiều
+	- f gọi đk p, p không gọi đk f
+	- f chỉ có tham số input, p thì có cả tham số output
+	
+	- p không dùng được trong Select vì nó trả về nhiều tập
+	giá trị và tương tự where/having >< f
+	- trong p dùng được try -catch còn f thì ko
+- join
+	- inner, lấy tất cả các dòng khi chỉ cần 1 dòng
+	trong 2 bảng có giá trị
+	- left, lấy toàn bộ bên trái ghép với phải, khi bên
+	phải thỏa thì lấy ko thì trả null
+- where & having
+	- HAVING: được sử dụng để kiểm tra các điều kiện sau khi 
+	quá trình tổng hợp diễn ra.
+	- WHERE: được sử dụng để kiểm tra các điều kiện trước
+	 khi tập hợp diễn ra.
+
+- Java
+	- interface: giống kiểu bản hợp đồng
+	- chỉ chứa abstract và default không có protected và
+	privite
+	- tính đa kế thừa
+	- phỉa override lại các metho trong 
+	interface
+
+https://drive.google.com/file/d/1tR36UjWakplTy6QnvaK_KuCHRDHFZe42/view?usp=sharing
