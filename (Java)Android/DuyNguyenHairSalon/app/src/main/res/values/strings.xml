@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Duy Nguyễn Hair Salon</string>
+    <string name="facebook_app_id">139075711548110</string>
+    <string name="fb_login_protocol_scheme">fb139075711548110</string>
+    <string name="api_map_key">AIzaSyC5OO_rliGtqP8EPL4Io8SaFrBi6tOlk6o</string>
+    <string name="token_ghn">82a0da54-c84b-11eb-bb70-b6be8148d819</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dat_lich_cat_toc">Đặt lịch cắt tóc</string>
+    <string name="back">Back</string>
+    <string name="chon_dich_vu_va_thoi_gian">1. Chọn dịch vụ và thời gian</string>
+    <string name="success">Hoàn Tất</string>
+    <string name="chon_tien_ich_free">2. Chọn tiện ích miễn phí</string>
+    <string name="check_box_tien_ich_item_1">Bỏ bớt thời gian gội, cắt sớm</string>
+    <string name="check_box_tien_ich_item_2">Da dễ kích ứng</string>
+    <string name="check_box_tien_ich_item_3">Hỏi kĩ trong khi cắt</string>
+    <string name="check_box_tien_ich_item_4">Hướng dẫn vuôt sáp tại nhà</string>
+    <string name="check_box_tien_ich_item_5">Tư vấn cắt tóc mới</string>
+    <string name="check_box_tien_ich_item_6">Cắt - giũa móng tay</string>
+    <string name="chon_dich_vu">Chọn dịch vụ</string>
+    <string name="swich_yeu_cau_tu_van">Yêu cầu tư vấn</string>
+    <string name="swich_chup_anh_sau_cat">Chụp Ảnh Sau Khi Cắt</string>
+    <string name="hello_blank_fragment">Đây là fragment</string>
+    <string name="tab_layout_cat_goi_massage">Cắt gội massage</string>
+    <string name="tab_layout_uon">Uốn</string>
+    <string name="tab_layout_nhuom">Nhuộm</string>
+    <string name="tab_layout_dich_vu_khac">Dịch vụ khác</string>
+    <string name="chi_tiet">Chi tiết</string>
+    <string name="nhap_so_dien_thoai_cua_ban">Nhập số điện thoại của bạn</string>
+    <string name="xac_thuc_tai_khoan">Xác thực tài khoản</string>
+    <string name="gui_lai"><u>Gửi lại</u></string>
+    <string name="dang_nhap_voi_ma_pin">Đăng nhập với mã PIN</string>
+    <string name="quen_mat_khau">Quên mã PIN</string>
+    <string name="thiet_lap_ma_pin">Thiết lập mã PIN</string>
+    <string name="xac_nhan">Xác nhận</string>
+    <string name="huy">Hủy</string>
+    <string name="gio_hang">Giỏ hàng</string>
+    <string name="yes">Có</string>
+    <string name="free_ship">  Miễn phí ship với đơn hàng từ 500k</string>
+    <string name="charge_ship">  Phí vận chuyển đ30.000</string>
+</resources>

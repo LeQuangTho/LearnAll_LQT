@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">baitap1</string>
+    <string name="title_activity_bai_tap_list_view_c_b">baiTapListViewCB</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+</resources>

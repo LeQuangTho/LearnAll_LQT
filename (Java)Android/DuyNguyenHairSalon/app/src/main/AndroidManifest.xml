@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lqt.duynguyenhairsalon">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".SharedPreferences.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DuyNguyenHairSalon"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activities.Shopping.Customer.CartActivity"></activity>
+        <activity android:name=".Activities.Shopping.Customer.DetailProductActivity" />
+        <activity android:name=".Activities.Shopping.ProductListActivity" />
+        <activity android:name=".Activities.Login.ResetPass.ResetEnterOTPActivity" />
+        <activity android:name=".Activities.Login.ResetPass.ResetPasswordActivity" />
+        <activity android:name=".Activities.Login.LoginWithPhoneNumberActivity" />
+        <activity android:name=".Activities.Login.SetPasswordActivity" />
+        <activity android:name=".Activities.Login.EnterOTPActivity" />
+        <activity android:name=".Activities.Login.EnterPhoneNumberLoginActivity" />
+        <activity android:name=".Activities.Login.SelectTypeLoginActivity" />
+        <activity android:name=".Activities.Booking.Admin.DescriptionTaskActivity" />
+        <activity android:name=".Activities.Booking.Admin.BookingActivity" />
+        <activity android:name=".Activities.Booking.Customer.SelectServiceActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/api_map_key" />
+
+        <activity android:name=".Activities.Other.LocationActivity" />
+        <activity android:name=".Activities.Login.CustomerDetailActivity" />
+        <activity android:name=".Activities.RewardsActivity" />
+        <activity android:name=".Activities.MemberActivity" />
+        <activity android:name=".Activities.Booking.Customer.BookingActivity" />
+        <activity android:name=".Activities.Home.NotificationActivity" />
+        <activity android:name=".Activities.HistoryCutActivity" />
+        <activity android:name=".Activities.Other.DuyNguyenTVActivity" />
+        <activity android:name=".Activities.Other.LoadWebViewActivity" />
+        <activity android:name=".Activities.Other.PlayVideoYouTubeActivity" />
+        <activity android:name=".Activities.Home.MainActivity" />
+        <activity android:name=".Activities.Other.IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

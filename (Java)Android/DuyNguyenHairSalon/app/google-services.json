@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "439370479744",
+    "project_id": "duynguyen-hair-salon",
+    "storage_bucket": "duynguyen-hair-salon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439370479744:android:984045f317f2c3dad28e65",
+        "android_client_info": {
+          "package_name": "com.lqt.duynguyenhairsalon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439370479744-k7vf64js1gsf5vsmdu9rtuplhpesh03o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lqt.duynguyenhairsalon",
+            "certificate_hash": "4647c7a09b6d4c30bf9cde316ed032464b02d239"
+          }
+        },
+        {
+          "client_id": "439370479744-6jhtl6hbbm161qjcglisop5qia9ieukv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-KRaY229qhJxQ-HgZTR1O-Ebu-qMZ8NM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439370479744-6jhtl6hbbm161qjcglisop5qia9ieukv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

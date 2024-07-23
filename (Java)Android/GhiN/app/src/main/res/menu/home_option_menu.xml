@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/option_Them_No"
+        android:title="Thêm Nợ"
+        android:icon="@drawable/add"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/option_Cai_Dat"
+        android:title="@string/title_setting"/>
+
+    <item android:id="@+id/option_May_Tinh"
+        android:title="@string/title_giamgia"/>
+
+    <item android:id="@+id/option_Thoat"
+        android:title="@string/title_out"/>
+</menu>

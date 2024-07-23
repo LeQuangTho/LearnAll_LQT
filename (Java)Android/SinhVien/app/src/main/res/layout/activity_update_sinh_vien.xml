@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateSinhVien">
+
+
+    <EditText
+        android:id="@+id/editText_udDiaChi"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:hint="Dia Chi Sinh Vien"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_udNamSinh" />
+
+    <EditText
+        android:id="@+id/editText_udNamSinh"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:hint="Nam Sinh Sinh Vien"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_udHoTen" />
+
+    <EditText
+        android:id="@+id/editText_udHoTen"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="88dp"
+        android:hint="Ho Ten Sinh Vien"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_udSinhVien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="36dp"
+        android:text="add"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_udDiaChi" />
+
+    <Button
+        android:id="@+id/button_udhuySinhVien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:text="cancel"
+        app:layout_constraintBaseline_toBaselineOf="@id/button_udSinhVien"
+        app:layout_constraintStart_toEndOf="@+id/button_udSinhVien" />
+</androidx.constraintlayout.widget.ConstraintLayout>

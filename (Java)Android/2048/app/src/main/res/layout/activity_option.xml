@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/mainLayout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#474040"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:layout_weight="1"
+            android:src="@drawable/tengame"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:src="@drawable/tengame"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"></LinearLayout>
+            <LinearLayout
+                android:background="@drawable/radio_bo_goc"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/txtDiem"
+                        android:text="Score\n2048"
+                        android:textColor="#FFF"
+                        android:textSize="20sp"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"/>
+            </LinearLayout>
+            <LinearLayout android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+            <TextView
+                    android:id="@+id/txtDiemCao"
+                    android:text="High Score\n2048"
+                    android:textColor="#FFF"
+                    android:textSize="20sp"
+                    android:layout_margin="2dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <ImageButton
+                    android:id="@+id/btHome"
+                    android:src="@drawable/home"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/radio_bo_goc"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"/>
+                <ImageButton
+                    android:id="@+id/btUndo"
+                    android:src="@drawable/undo"
+                    android:padding="5dp"
+                    android:background="@drawable/radio_bo_goc"
+                    android:scaleType="fitCenter"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"/>
+                <ImageButton
+                    android:id="@+id/btReset"
+                    android:src="@drawable/reset"
+                    android:background="@drawable/radio_bo_goc"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <GridView
+            android:id="@+id/game"
+            android:numColumns="3"
+            android:background="@drawable/background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </GridView>
+    </LinearLayout>
+
+
+</LinearLayout>

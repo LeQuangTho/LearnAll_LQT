@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_booking" android:title="Booking" android:icon="@drawable/ic_calendar"/>
+    <item android:id="@+id/menu_history" android:title="History" android:icon="@drawable/ic_history"/>
+    <item android:id="@+id/menu_member" android:title="Member" android:icon="@drawable/ic_crown"/>
+    <item android:id="@+id/menu_rewards" android:title="Rewards" android:icon="@drawable/ic_gift"/>
+</menu>

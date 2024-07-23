@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomListView">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Liên Hệ"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:gravity="center"
+        style="@android:style/Widget.PopupMenu"
+        android:background ="#D31B8F00"/>
+
+    <EditText
+        android:id="@+id/filter"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Tìm kiếm"/>
+
+    <ImageButton
+        android:background="#00FFFFFF"
+        android:id="@+id/bt_find"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/title"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="13dp"
+        android:layout_toEndOf="@+id/filter"
+        android:layout_toRightOf="@+id/filter"
+        android:src="@drawable/find"
+        android:scaleType="fitCenter"/>
+
+    <ListView
+        android:id="@+id/lv_contact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/filter"
+        android:layout_marginTop="20dp"></ListView>
+
+    <Button
+        android:id="@+id/add_contact"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/circle_button"
+        android:text="+"
+        android:textSize="30sp" />
+
+</RelativeLayout>

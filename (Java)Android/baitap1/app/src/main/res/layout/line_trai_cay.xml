@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/hinhTraiCay"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+    <TextView
+        android:id="@+id/tbName"
+        android:padding="10dp"
+        android:layout_toRightOf="@+id/hinhTraiCay"
+        android:textSize="30sp"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tbMoTa"
+        android:padding="10dp"
+        android:layout_toRightOf="@+id/hinhTraiCay"
+        android:layout_below="@+id/tbName"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="italic"
+        android:textSize="13sp"
+        android:text="Mo ta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/Button_Restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="#FF0000"
+        android:src="@android:drawable/ic_popup_sync"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:text="Pờ lây gêm"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/GridLayout_Board"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <GridLayout
+        android:id="@+id/GridLayout_Board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E6DDDD"
+        android:columnCount="3"
+        android:rowCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <!-- line 1 -->
+        <ImageView
+            android:id="@+id/Image_Cell_0"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:onClick="clickImageCell"
+            android:src="@drawable/cell_none"
+            android:tag="0" />
+
+        <ImageView
+            android:id="@+id/Image_Cell_1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:onClick="clickImageCell"
+            android:src="@drawable/cell_none"
+            android:tag="1" />
+
+        <ImageView
+            android:id="@+id/Image_Cell_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:onClick="clickImageCell"
+            android:src="@drawable/cell_none"
+            android:tag="2" />
+        <!-- line 2 -->
+        <ImageView
+            android:id="@+id/Image_Cell_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:onClick="clickImageCell"
+            android:src="@drawable/cell_none"
+            android:tag="3" />
+
+        <ImageView
+            android:id="@+id/Image_Cell_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:onClick="clickImageCell"
+            android:src="@drawable/cell_none"
+            android:tag="4" />
+
+        <ImageView
+            android:id="@+id/Image_Cell_5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:onClick="clickImageCell"
+            android:src="@drawable/cell_none"
+            android:tag="5" />
+        <!-- line 3 -->
+        <ImageView
+            android:id="@+id/Image_Cell_6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:onClick="clickImageCell"
+            android:src="@drawable/cell_none"
+            android:tag="6" />
+
+        <ImageView
+            android:id="@+id/Image_Cell_7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:onClick="clickImageCell"
+            android:src="@drawable/cell_none"
+            android:tag="7" />
+
+        <ImageView
+            android:id="@+id/Image_Cell_8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:onClick="clickImageCell"
+            android:src="@drawable/cell_none"
+            android:tag="8" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/Button_FinalBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Out"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@+id/GridLayout_Board" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

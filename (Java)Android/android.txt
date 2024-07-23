@@ -1,0 +1,13 @@
+4 component lớn trong android là
+- provider
+- service
+- BoadCast Recenvent
+- Activity
+
+1. activity là cái mà người dùng nhìn thấy, là phần giao diện
+2. provider tương tự như là 1 kho chứa, hình dung qua SQLite.
+3. Service - Fore < Back < Bound
+các tiến trình chạy nền bên dưới
+4. Broadcast Receiver lắng nghe sự kiện của hệ thống
+
+

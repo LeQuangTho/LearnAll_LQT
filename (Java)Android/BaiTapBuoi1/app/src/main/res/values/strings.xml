@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name"> My Danh Bạ</string>
+    <string name="title_activity_demo_camera">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="chi_tiet_70D">Canon EOS 70D được giới thiệu lần đầu tiên vào năm 2013, đây là mẫu máy ảnh bán chuyên với rất nhiều cải tiến, một bản nâng cấp hoàn hảo thay thế cho Canon EOS 60D. Chiếc Canon 70D  sử dụng cảm biến loại mới, với hệ thống Dual Pixel CMOS AF lấy nét theo pha trên mọi pixel, điều này giúp máy có thể lấy nét liên tục toàn thời gian rất tốt. Bạn sẽ quay được những thước phim dễ dàng và chuyển cảnh mượt hơn. Bênh cạnh đó máy còn được trang bị một màn hình cảm ứng rất nhạy, có thể xoay lật thoải mái, với màn hình cảm ứng này sẽ giúp bạn lấy nét mọi chủ thể ở trên khung hình rất nhanh và đơn giản. Máy còn được trang bị kết nối WIFI, giúp bạn có thể điều khiển máy ảnh từ PC, Laptop, Phone hay máy tính bảng và xem lại ảnh rất dễ dàng, kết nối này còn giúp bạn có thể in ảnh hay sử dụng những dịch vụ web được Canon cung cấp.</string>
+    <string name="title_activity_test">test</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

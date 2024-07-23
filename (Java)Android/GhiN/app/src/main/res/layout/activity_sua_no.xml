@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/EditText_Ten_SuaNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Tên người nợ"
+        android:enabled="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EditText_SDT_SuaNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:enabled="false"
+        android:hint="SĐT liên hệ"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditText_Ten_SuaNo" />
+
+    <EditText
+        android:id="@+id/EditText_NgayNo_SuaNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:layout_margin="10dp"
+        android:hint="Nhập ngày"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditText_SDT_SuaNo" />
+
+    <Button
+        android:id="@+id/Button_Luu_SuaNo"
+        android:layout_width="wrap_content"
+        android:enabled="false"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Lưu"
+        app:layout_constraintBaseline_toBaselineOf="@id/Button_Them_SuaNo"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ListView
+        android:id="@+id/ListView_Dich_Vu_SuaNo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/Button_Them_SuaNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditText_NgayNo_SuaNo" />
+
+    <Button
+        android:id="@+id/Button_Them_SuaNo"
+        android:enabled="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="thêm"
+        app:layout_constraintBottom_toTopOf="@+id/ImageView_Logo_2_SuaNo"
+        app:layout_constraintEnd_toStartOf="@+id/Button_Luu_SuaNo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/TextView_TongTien_SuaNo" />
+
+    <TextView
+        android:id="@+id/TextView_TongTien_SuaNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="Tổng:"
+        android:textSize="26sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Button_Them_SuaNo"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <ImageView
+        android:id="@+id/ImageView_Logo_2_SuaNo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/xemay2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
