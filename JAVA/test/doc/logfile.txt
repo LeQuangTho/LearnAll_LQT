@@ -1,0 +1,74 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+11
+-classpath
+C:\Program Files\BlueJ\lib\bluejcore.jar;C:\Program Files\BlueJ\lib\junit-4.11.jar;C:\Program Files\BlueJ\lib\hamcrest-core-1.3.jar;C:\Program Files\BlueJ\lib\lang-stride.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.base.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.controls.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.fxml.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.graphics.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.media.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.properties.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.swing.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.web.jar;F:\JAVA\test
+-d
+F:\JAVA\test\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+F:\JAVA\test\Stack.java
+<---- end of javadoc command ---->
+Loading source file F:\JAVA\test\Stack.java...
+Constructing Javadoc information...
+Standard Doclet version 11.0.2
+Building tree for all the packages and classes...
+Generating F:\JAVA\test\doc\Stack.html...
+F:\JAVA\test\Stack.java:13: warning - Tag @link: reference not found: LinkedStack
+F:\JAVA\test\Stack.java:15: warning - Tag @link: reference not found: ResizingArrayStack
+F:\JAVA\test\UF.java:26: error: unmappable character (0x96) for encoding UTF-8
+ *  The {@code UF} class represents a <em>union?find data type</em>
+                                               ^
+F:\JAVA\test\UF.java:33: error: unmappable character (0x96) for encoding UTF-8
+ *  The union?find data type models connectivity among a set of <em>n</em>
+             ^
+F:\JAVA\test\UF.java:34: error: unmappable character (0x96) for encoding UTF-8
+ *  sites, named 0 through <em>n</em>?1.
+                                     ^
+F:\JAVA\test\UF.java:50: error: unmappable character (0x96) for encoding UTF-8
+ *  <em>n</em>?1. 
+              ^
+F:\JAVA\test\UF.java:74: error: unmappable character (0x97) for encoding UTF-8
+ *  <em>union</em>?it cannot change during a call
+                  ^
+F:\JAVA\test\UF.java:103: error: unmappable character (0x96) for encoding UTF-8
+     * Initializes an empty union?find data structure with {@code n} sites
+                                 ^
+F:\JAVA\test\EdgeWeightedGraph.java:30: error: unmappable character (0x96) for encoding UTF-8
+ *  graph of vertices named 0 through <em>V</em> ? 1, where each
+                                                 ^
+F:\JAVA\test\EdgeWeightedGraph.java:107: error: cannot find symbol
+    public EdgeWeightedGraph(In in) {
+                             ^
+  symbol:   class In
+  location: class EdgeWeightedGraph
+F:\JAVA\test\IndexMinPQ.java:21: error: unmappable character (0x97) for encoding UTF-8
+ *  is associated with each key?the client uses this integer to specify
+                               ^
+F:\JAVA\test\EdgeWeightedDigraph.java:94: error: cannot find symbol
+    public EdgeWeightedDigraph(In in) {
+                               ^
+  symbol:   class In
+  location: class EdgeWeightedDigraph
+Generating F:\JAVA\test\doc\package-summary.html...
+Generating F:\JAVA\test\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating F:\JAVA\test\doc\allclasses.html...
+Generating F:\JAVA\test\doc\allclasses.html...
+Generating F:\JAVA\test\doc\index.html...
+10 errors
+2 warnings

@@ -10,7 +10,6 @@ import java.awt.event.KeyListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.net.MalformedURLException;
 
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
@@ -270,67 +269,23 @@ public class memory_Controller implements ActionListener, KeyListener {
 			}
 			if ("choitiep".equals(bt.getName())) {
 				Home.setVisible(false);
-				try {
-					Frame = new frame_Memory();
-				} catch (MalformedURLException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
+				Frame = new frame_Memory();
 				Frame.setVisible(true);
 			}
 			if ("1player".equals(bt.getName())) {
 				Home2.setVisible(false);
-				try {
-					Frame = new frame_Memory();
-				} catch (MalformedURLException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
+				Frame = new frame_Memory();
 				Frame.setVisible(true);
 				Frame.resetGame();
 			}
 			if ("2player".equals(bt.getName())) {
 				Home2.setVisible(false);
-				try {
-					Frame2 = new frame_Memory2();
-				} catch (MalformedURLException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
+				Frame2 = new frame_Memory2();
 				Frame2.setVisible(true);
 			}
 		}
-		
-		if("Trick".equals(cmd)) {
-			for (int i = 0; i < Frame.bt.length; i++) {
-					try {
-						String name_File = "F:\\JAVA\\Memory\\src\\gameMemory\\images\\";
-						BufferedImage bi = ImageIO.read(new File(name_File + Frame.bt[i].getValue() + ".png"));
-						ImageIcon icon = new ImageIcon(bi.getScaledInstance(Frame.bt[i].getBt().getWidth(),
-								Frame.bt[i].getBt().getHeight(), Image.SCALE_SMOOTH));
-						Frame.bt[i].getBt().setIcon(icon);
-					} catch (IOException e1) {
-						e1.printStackTrace();
-					}
-			}
-		}
-		if("bien".equals(cmd)) {
-			for (int i = 0; i < Frame.bt.length; i++) {
-					try {
-						BufferedImage bi = ImageIO
-								.read(new File("F:\\JAVA\\Memory\\src\\gameMemory\\images\\tom.png"));
-						ImageIcon icon = new ImageIcon(bi.getScaledInstance(30, 30, Image.SCALE_SMOOTH));
-						Frame.bt[i].getBt().setIcon(icon);
-					} catch (IOException e2) {
-						e2.printStackTrace();
-					}
-				}
-			}
 	}
 
-	
-	
-	
 	@Override
 	public void keyPressed(KeyEvent arg0) {
 		// TODO Auto-generated method stub

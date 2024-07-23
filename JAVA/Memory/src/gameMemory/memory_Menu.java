@@ -14,9 +14,9 @@ public class memory_Menu extends JMenuBar{
 
 	private void init(memory_Controller cont) {
 		JMenu setting = new JMenu("Setting");
+		JMenu option = new JMenu("Option");
 		JMenu about1 = new JMenu("About");
 		JMenu help1 = new JMenu("Help");
-		JMenu trick = new JMenu("Trick");
 
 		JMenuItem save = new JMenuItem("Save");
 		JMenuItem reset = new JMenuItem("Reset");
@@ -28,25 +28,22 @@ public class memory_Menu extends JMenuBar{
 		JMenuItem about = new JMenuItem("About");
 		
 		JMenuItem help = new JMenuItem("Help");
-		
-		JMenuItem Trick = new JMenuItem("Trick");
-		JMenuItem up = new JMenuItem("bien");
 
 		setting.add(save);
 		setting.add(reset);
 		setting.add(close);
 
+		option.add(mot);
+		option.add(hai);
 		about1.add(about);
 		
 		help1.add(help);
 		
-		trick.add(Trick);
-		trick.add(up);
 		this.add(setting);
+		this.add(option);
 		this.add(help1);
 		this.add(about1);
-		this.add(trick);
-		
+
 		reset.addActionListener(cont);
 		save.addActionListener(cont);
 		close.addActionListener(cont);
@@ -54,7 +51,5 @@ public class memory_Menu extends JMenuBar{
 		hai.addActionListener(cont);
 		about.addActionListener(cont);
 		help.addActionListener(cont);
-		Trick.addActionListener(cont);
-		up.addActionListener(cont);
 	}
 }

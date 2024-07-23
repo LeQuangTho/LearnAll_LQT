@@ -46,10 +46,8 @@ public class memory_Home extends JFrame {
 		
 		main.add(a);
 		a.setSize(470, 550);
-		choi1.setOpaque(true);
 		choi1.setSize(222, 50);
 		choi1.setLocation(20, 20);
-		choi2.setOpaque(true);
 		choi2.setSize(222, 50);
 		choi2.setLocation(20, 90);
 		

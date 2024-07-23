@@ -1,0 +1,6 @@
+@Override mở rộng ghi đè lên lớp cha
+
+super() thuộc loại như this() như
+this() sẽ trỏ ở trong lớp hiện thời
+còn super(sẽ trỏ tới lớp được kế thừa ở 
+trên

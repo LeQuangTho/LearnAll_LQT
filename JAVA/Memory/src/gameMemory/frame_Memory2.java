@@ -1,7 +1,5 @@
 package gameMemory;
 
-import java.applet.Applet;
-import java.applet.AudioClip;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Font;
@@ -10,8 +8,6 @@ import java.awt.Image;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
 
 import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
@@ -41,7 +37,7 @@ public class frame_Memory2 extends JFrame {
 	boolean turn = false;
 
 	
-	public frame_Memory2() throws MalformedURLException {
+	public frame_Memory2() {
 		super();
 		this.setIconImage(new ImageIcon("F:\\JAVA\\Memory\\src\\gameMemory\\images\\tom.png").getImage());
 		this.setLocation(400, 50);
@@ -53,13 +49,7 @@ public class frame_Memory2 extends JFrame {
 		init();
 	}
 
-	private void init() throws MalformedURLException {
-		File file = new File("F:\\JAVA\\Memory\\src\\gameMemory\\sound\\2.wav");
-        URL url = null;
-        if (file.canRead()) {url = file.toURI().toURL();}
-        AudioClip clip = Applet.newAudioClip(url);
-        clip.play();
-        clip.loop();
+	private void init() {
 		JPanel main = new JPanel(new BorderLayout());
 		JPanel center = new JPanel(new BorderLayout());
 		JPanel Top = new JPanel(new GridLayout(1, 3));
