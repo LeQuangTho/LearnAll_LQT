@@ -1,0 +1,3348 @@
+fileFormatVersion: 2
+guid: e716167d0715f5d4e957941362d60363
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2225735260959384276
+    second: princess_mario_0
+  - first:
+      213: -3756337499917586236
+    second: princess_mario_1
+  - first:
+      213: -7421037564195277684
+    second: princess_mario_2
+  - first:
+      213: 2380875170206778446
+    second: princess_mario_3
+  - first:
+      213: 7171573382806927629
+    second: princess_mario_4
+  - first:
+      213: 8111752360188195261
+    second: princess_mario_5
+  - first:
+      213: 6052085289115769060
+    second: princess_mario_6
+  - first:
+      213: -6887653105948699391
+    second: princess_mario_7
+  - first:
+      213: -2041657761927019758
+    second: princess_mario_8
+  - first:
+      213: 6963980739346010051
+    second: princess_mario_9
+  - first:
+      213: -4779942062678703100
+    second: princess_mario_10
+  - first:
+      213: -3723971860959145337
+    second: princess_mario_11
+  - first:
+      213: 2164879563129628696
+    second: princess_mario_12
+  - first:
+      213: 2528264777928770501
+    second: princess_mario_13
+  - first:
+      213: -5073804152635059084
+    second: princess_mario_14
+  - first:
+      213: 3794788046744126715
+    second: princess_mario_15
+  - first:
+      213: 1172361745471167633
+    second: princess_mario_16
+  - first:
+      213: 7510847352547659343
+    second: princess_mario_17
+  - first:
+      213: -6140400499923432231
+    second: princess_mario_18
+  - first:
+      213: -5991695486335248227
+    second: princess_mario_19
+  - first:
+      213: -3533403453278835286
+    second: princess_mario_20
+  - first:
+      213: -1140074665655868161
+    second: princess_mario_21
+  - first:
+      213: -6643570854782367093
+    second: princess_mario_22
+  - first:
+      213: 7474920905836867396
+    second: princess_mario_23
+  - first:
+      213: 3098956955685057180
+    second: princess_mario_24
+  - first:
+      213: 4713547759849920321
+    second: princess_mario_25
+  - first:
+      213: 5970841820441926068
+    second: princess_mario_26
+  - first:
+      213: -6882962749151645127
+    second: princess_mario_27
+  - first:
+      213: 7341097980553638409
+    second: princess_mario_28
+  - first:
+      213: 4300900128516108944
+    second: princess_mario_29
+  - first:
+      213: 4957816731184313132
+    second: princess_mario_30
+  - first:
+      213: -6130562456431641229
+    second: princess_mario_31
+  - first:
+      213: -1886398368977667318
+    second: princess_mario_32
+  - first:
+      213: -8518717823367771587
+    second: princess_mario_33
+  - first:
+      213: -4046706614596528827
+    second: princess_mario_34
+  - first:
+      213: 7642559095362606918
+    second: princess_mario_35
+  - first:
+      213: 8030348606023886196
+    second: princess_mario_36
+  - first:
+      213: 8397731905756337922
+    second: princess_mario_37
+  - first:
+      213: -8707834693451020199
+    second: princess_mario_38
+  - first:
+      213: -6310361139547700558
+    second: princess_mario_39
+  - first:
+      213: 7523566424726995928
+    second: princess_mario_40
+  - first:
+      213: 7604325244248666389
+    second: princess_mario_41
+  - first:
+      213: 2439857628593919186
+    second: princess_mario_42
+  - first:
+      213: -3772827919727314959
+    second: princess_mario_43
+  - first:
+      213: -2662269379394730200
+    second: princess_mario_44
+  - first:
+      213: -8267242497920632241
+    second: princess_mario_45
+  - first:
+      213: 5461131900922493938
+    second: princess_mario_46
+  - first:
+      213: -444894386405341110
+    second: princess_mario_47
+  - first:
+      213: -6634416570410056277
+    second: princess_mario_48
+  - first:
+      213: 6377874207019615979
+    second: princess_mario_49
+  - first:
+      213: -6526532697367571978
+    second: princess_mario_50
+  - first:
+      213: -1035019171630699574
+    second: princess_mario_51
+  - first:
+      213: -5635164765728361710
+    second: princess_mario_52
+  - first:
+      213: 3833171278158343584
+    second: princess_mario_53
+  - first:
+      213: 8433057710062047946
+    second: princess_mario_54
+  - first:
+      213: -433977568542514181
+    second: princess_mario_55
+  - first:
+      213: 308827237849742475
+    second: princess_mario_56
+  - first:
+      213: 6770005412122991932
+    second: princess_mario_57
+  - first:
+      213: -2300910553052105113
+    second: princess_mario_58
+  - first:
+      213: -105181043209425975
+    second: princess_mario_59
+  - first:
+      213: -3852152210437319523
+    second: princess_mario_60
+  - first:
+      213: 7592433416371497938
+    second: princess_mario_61
+  - first:
+      213: 1917137244459305897
+    second: princess_mario_62
+  - first:
+      213: -2030401059574723580
+    second: princess_mario_63
+  - first:
+      213: 4862915885764499085
+    second: princess_mario_64
+  - first:
+      213: 6608843606796532340
+    second: princess_mario_65
+  - first:
+      213: -4711925410177878535
+    second: princess_mario_66
+  - first:
+      213: -3872340180291546390
+    second: princess_mario_67
+  - first:
+      213: 2031976288124327521
+    second: princess_mario_68
+  - first:
+      213: -4114163990549612056
+    second: princess_mario_69
+  - first:
+      213: -6124823703399548091
+    second: princess_mario_70
+  - first:
+      213: -159206264086312607
+    second: princess_mario_71
+  - first:
+      213: -2189223474011932316
+    second: princess_mario_72
+  - first:
+      213: 5637863998637236330
+    second: princess_mario_73
+  - first:
+      213: 465041381043352108
+    second: princess_mario_74
+  - first:
+      213: 2621490952749382296
+    second: princess_mario_75
+  - first:
+      213: 7613338808846564535
+    second: princess_mario_76
+  - first:
+      213: -489160972196671917
+    second: princess_mario_77
+  - first:
+      213: -9119152063960299186
+    second: princess_mario_78
+  - first:
+      213: 5531004991691236251
+    second: princess_mario_79
+  - first:
+      213: -5141626755377811987
+    second: princess_mario_80
+  - first:
+      213: 2538950377107477190
+    second: princess_mario_81
+  - first:
+      213: 1155074415980778678
+    second: princess_mario_82
+  - first:
+      213: -7823516684326448058
+    second: princess_mario_83
+  - first:
+      213: 1081042842133196549
+    second: princess_mario_84
+  - first:
+      213: -2106338216753540964
+    second: princess_mario_85
+  - first:
+      213: 8165096279074484669
+    second: princess_mario_86
+  - first:
+      213: -3547755236215089958
+    second: princess_mario_87
+  - first:
+      213: 2494435841692277658
+    second: princess_mario_88
+  - first:
+      213: 1867412468112194183
+    second: princess_mario_89
+  - first:
+      213: 2578297527455788893
+    second: princess_mario_90
+  - first:
+      213: 7333817975131276845
+    second: princess_mario_91
+  - first:
+      213: 7688891386919103746
+    second: princess_mario_92
+  - first:
+      213: 9063344090331455714
+    second: princess_mario_93
+  - first:
+      213: 4290994301472444994
+    second: princess_mario_94
+  - first:
+      213: -8799112293033426238
+    second: princess_mario_95
+  - first:
+      213: -4948845173494293438
+    second: princess_mario_96
+  - first:
+      213: -8551967334171967193
+    second: princess_mario_97
+  - first:
+      213: 1151737035715423378
+    second: princess_mario_98
+  - first:
+      213: 8408950586830611493
+    second: princess_mario_99
+  - first:
+      213: -2678894502814524194
+    second: princess_mario_100
+  - first:
+      213: -131955440348824634
+    second: princess_mario_101
+  - first:
+      213: 3166607935936571711
+    second: princess_mario_102
+  - first:
+      213: 4399932685920415668
+    second: princess_mario_103
+  - first:
+      213: -2472736250653618281
+    second: princess_mario_104
+  - first:
+      213: 1093033854295998673
+    second: princess_mario_105
+  - first:
+      213: -2142444658976785585
+    second: princess_mario_106
+  - first:
+      213: -9132100989077640341
+    second: princess_mario_107
+  - first:
+      213: 9078359793839504663
+    second: princess_mario_108
+  - first:
+      213: -7347405093084999031
+    second: princess_mario_109
+  - first:
+      213: 3395251892898725751
+    second: princess_mario_110
+  - first:
+      213: -4669343599318285527
+    second: princess_mario_111
+  - first:
+      213: 5180295822764330151
+    second: princess_mario_112
+  - first:
+      213: 643874715990466712
+    second: princess_mario_113
+  - first:
+      213: 330102563716145719
+    second: princess_mario_114
+  - first:
+      213: 2244341009234582790
+    second: princess_mario_115
+  - first:
+      213: -1865505721743473333
+    second: princess_mario_116
+  - first:
+      213: 5618487546200452393
+    second: princess_mario_117
+  - first:
+      213: 5326457330795848673
+    second: princess_mario_118
+  - first:
+      213: -7673825590433290411
+    second: princess_mario_119
+  - first:
+      213: 3144315054443154212
+    second: princess_mario_120
+  - first:
+      213: 7709650416417586708
+    second: princess_mario_121
+  - first:
+      213: -5760631830812037609
+    second: princess_mario_122
+  - first:
+      213: 4593411030163355277
+    second: princess_mario_123
+  - first:
+      213: 156904517752850095
+    second: princess_mario_124
+  - first:
+      213: 8652840807185299968
+    second: princess_mario_125
+  - first:
+      213: 1857361994151109499
+    second: princess_mario_126
+  - first:
+      213: 9083520197555861912
+    second: princess_mario_127
+  - first:
+      213: 4649907095875084477
+    second: princess_mario_128
+  - first:
+      213: -3970643532698929733
+    second: princess_mario_129
+  - first:
+      213: 5042478730646614497
+    second: princess_mario_130
+  - first:
+      213: 8049684290100181186
+    second: princess_mario_131
+  - first:
+      213: 5858616124818890898
+    second: princess_mario_132
+  - first:
+      213: 8894416947080474780
+    second: princess_mario_133
+  - first:
+      213: -6730653533147047689
+    second: princess_mario_134
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 18
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: princess_mario_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 352
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d547692999c11e0800000000000000
+      internalID: -2225735260959384276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0feec12fecedbc0800000000000000
+      internalID: -3756337499917586236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 352
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c847f4957ad230990800000000000000
+      internalID: -7421037564195277684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_3
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 352
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4409b65a519a0120800000000000000
+      internalID: 2380875170206778446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 353
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d097adabefb868360800000000000000
+      internalID: 7171573382806927629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_5
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 353
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db134fe2bcbb29070800000000000000
+      internalID: 8111752360188195261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_6
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 352
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8dc1051835df350800000000000000
+      internalID: 6052085289115769060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_7
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 352
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105dfc31ef32a60a0800000000000000
+      internalID: -6887653105948699391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_8
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 350
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213cb6b25139aa3e0800000000000000
+      internalID: -2041657761927019758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_9
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 350
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf816fe59705a060800000000000000
+      internalID: 6963980739346010051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_10
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 334
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404861be40c3aadb0800000000000000
+      internalID: -4779942062678703100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_11
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 331
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782daf9a25bc15cc0800000000000000
+      internalID: -3723971860959145337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_12
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 334
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81828dd1e723b0e10800000000000000
+      internalID: 2164879563129628696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_13
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 334
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c383929b63361320800000000000000
+      internalID: 2528264777928770501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_14
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 334
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474194e510a3699b0800000000000000
+      internalID: -5073804152635059084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_15
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 334
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf405147f9bc9a430800000000000000
+      internalID: 3794788046744126715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_16
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 334
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cd01bcbc0154010800000000000000
+      internalID: 1172361745471167633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_17
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 334
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e49ca7fd3eb3860800000000000000
+      internalID: 7510847352547659343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 281
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dcce6f474ae8caa0800000000000000
+      internalID: -6140400499923432231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_19
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 279
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d981da653b839dca0800000000000000
+      internalID: -5991695486335248227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_20
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 277
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad2d2fa744d6fec0800000000000000
+      internalID: -3533403453278835286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_21
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 322
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4e828c124ad20f0800000000000000
+      internalID: -1140074665655868161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_22
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 322
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a0f88b18b4dc3a0800000000000000
+      internalID: -6643570854782367093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_23
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 322
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f2c84c5f04cb760800000000000000
+      internalID: 7474920905836867396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_24
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 322
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9275d5aee4b10b20800000000000000
+      internalID: 3098956955685057180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_25
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 322
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14751b1d6b2e96140800000000000000
+      internalID: 4713547759849920321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_26
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 319
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9dc753001bcd250800000000000000
+      internalID: 5970841820441926068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_27
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 322
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932f19ed8ddca70a0800000000000000
+      internalID: -6882962749151645127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_28
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 319
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902bc30f7b1d0e560800000000000000
+      internalID: 7341097980553638409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_29
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 276
+        width: 65
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09272a631eddfab30800000000000000
+      internalID: 4300900128516108944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_30
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 277
+        width: 46
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23bab3ac04bdc440800000000000000
+      internalID: 4957816731184313132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_31
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 277
+        width: 52
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dbb0f4deddbeaa0800000000000000
+      internalID: -6130562456431641229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_32
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 300
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bb5309daa22d5e0800000000000000
+      internalID: -1886398368977667318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_33
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 278
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a0064164f67c980800000000000000
+      internalID: -8518717823367771587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_34
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 281
+        width: 49
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54510ce36c537d7c0800000000000000
+      internalID: -4046706614596528827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_35
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 278
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647d4065103df0a60800000000000000
+      internalID: 7642559095362606918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_36
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 277
+        width: 52
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4756b94b287817f60800000000000000
+      internalID: 8030348606023886196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_37
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 277
+        width: 52
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2071299dcacba8470800000000000000
+      internalID: 8397731905756337922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_38
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 276
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958870e7b7e872780800000000000000
+      internalID: -8707834693451020199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_39
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 221
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b284d03af71d68a0800000000000000
+      internalID: -6310361139547700558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_40
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 221
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d388ed3dc3196860800000000000000
+      internalID: 7523566424726995928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_41
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 221
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5113afb258df78960800000000000000
+      internalID: 7604325244248666389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_42
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 221
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d41ed6169d1cd120800000000000000
+      internalID: 2439857628593919186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_43
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 221
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f73afd0ff834abc0800000000000000
+      internalID: -3772827919727314959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_44
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 221
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82707c0da18bd0bd0800000000000000
+      internalID: -2662269379394730200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_45
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 221
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a7d67ffbad44d80800000000000000
+      internalID: -8267242497920632241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_46
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 221
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbf9029786d9cb40800000000000000
+      internalID: 5461131900922493938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_47
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 221
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a488eb7a9ea63d9f0800000000000000
+      internalID: -444894386405341110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_48
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 221
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba54eb4a741dde3a0800000000000000
+      internalID: -6634416570410056277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_49
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 221
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6c783ccc2c28850800000000000000
+      internalID: 6377874207019615979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_50
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 221
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f11f6e37191d65a0800000000000000
+      internalID: -6526532697367571978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_51
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 221
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbab331c8fd2a1f0800000000000000
+      internalID: -1035019171630699574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_52
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 221
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213b6ff708fdbc1b0800000000000000
+      internalID: -5635164765728361710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_53
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 220
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adabdde7f8223530800000000000000
+      internalID: 3833171278158343584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_54
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 220
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac21e9a9e4d380570800000000000000
+      internalID: 8433057710062047946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_55
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 220
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3298263b33af9f0800000000000000
+      internalID: -433977568542514181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_56
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 220
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cbff09cbc294400800000000000000
+      internalID: 308827237849742475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_57
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 220
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d1015ad04e3fd50800000000000000
+      internalID: 6770005412122991932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_58
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 220
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766b161fa068110e0800000000000000
+      internalID: -2300910553052105113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_59
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 167
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cba56206625a8ef0800000000000000
+      internalID: -105181043209425975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_60
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 166
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94d52469f76a8ac0800000000000000
+      internalID: -3852152210437319523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_61
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 167
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbe0ab37fdbd5960800000000000000
+      internalID: 7592433416371497938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_62
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 167
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab0ba99a2a0b9a10800000000000000
+      internalID: 1917137244459305897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_63
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 167
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40cc87c6ef092d3e0800000000000000
+      internalID: -2030401059574723580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_64
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 166
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86d897bb3c8c7340800000000000000
+      internalID: 4862915885764499085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_65
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 167
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47af737ce3457bb50800000000000000
+      internalID: 6608843606796532340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_66
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 166
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5f536edc0eb9eb0800000000000000
+      internalID: -4711925410177878535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_67
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 166
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae210406f1fa24ac0800000000000000
+      internalID: -3872340180291546390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_68
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 167
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166daad0ba7033c10800000000000000
+      internalID: 2031976288124327521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_69
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 166
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9369bf5ad87e6c0800000000000000
+      internalID: -4114163990549612056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_70
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 166
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b3afeda41400ba0800000000000000
+      internalID: -6124823703399548091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_71
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 166
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1694e1f0fb26acdf0800000000000000
+      internalID: -159206264086312607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_72
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 166
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469729179d05e91e0800000000000000
+      internalID: -2189223474011932316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_73
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 166
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a606cb2af67bd3e40800000000000000
+      internalID: 5637863998637236330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_74
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 166
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2232f21ca8247600800000000000000
+      internalID: 465041381043352108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_75
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 166
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89af68cd128616420800000000000000
+      internalID: 2621490952749382296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_76
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 166
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcbef73f4308a960800000000000000
+      internalID: 7613338808846564535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_77
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 166
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e8b3effa62639f0800000000000000
+      internalID: -489160972196671917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_78
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 166
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4940ee5383427180800000000000000
+      internalID: -9119152063960299186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_79
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 166
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b932ba44cb312cc40800000000000000
+      internalID: 5531004991691236251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_80
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 166
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedaf0e15b545a8b0800000000000000
+      internalID: -5141626755377811987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_81
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 166
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2d5d18ae92c3320800000000000000
+      internalID: 2538950377107477190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_82
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 166
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b41dadbf06a70010800000000000000
+      internalID: 1155074415980778678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_83
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 114
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6445160c6094d6390800000000000000
+      internalID: -7823516684326448058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_84
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 113
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fe350ccb2a00f00800000000000000
+      internalID: 1081042842133196549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_85
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 114
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90539d3d88c4c2e0800000000000000
+      internalID: -2106338216753540964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_86
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 114
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db139172ecf305170800000000000000
+      internalID: 8165096279074484669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_87
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 113
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad41e53d867d3cec0800000000000000
+      internalID: -3547755236215089958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_88
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 114
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b12139e240e9220800000000000000
+      internalID: 2494435841692277658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_89
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 114
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a76faeeb16ae910800000000000000
+      internalID: 1867412468112194183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_90
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 113
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f2549d0f3f7c320800000000000000
+      internalID: 2578297527455788893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_91
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 113
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2603179794f6c560800000000000000
+      internalID: 7333817975131276845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_92
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 114
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20dafd99afd64ba60800000000000000
+      internalID: 7688891386919103746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_93
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 113
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0a7553e6777cd70800000000000000
+      internalID: 9063344090331455714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_94
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 113
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2429d70259cac8b30800000000000000
+      internalID: 4290994301472444994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_95
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 113
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c248fa3df543e580800000000000000
+      internalID: -8799112293033426238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_96
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 113
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c5779e88b225bb0800000000000000
+      internalID: -4948845173494293438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_97
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 113
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7218fe3150f415980800000000000000
+      internalID: -8551967334171967193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_98
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 113
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29caa785bbacbff00800000000000000
+      internalID: 1151737035715423378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_99
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 113
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524e9d5910892b470800000000000000
+      internalID: 8408950586830611493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_100
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 113
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc5ef0a4a7a2dad0800000000000000
+      internalID: -2678894502814524194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_101
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 112
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbf3d3e9333b2ef0800000000000000
+      internalID: -131955440348824634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_102
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 112
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39ae6ce32d02fb20800000000000000
+      internalID: 3166607935936571711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_103
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 112
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfaaeb4773bf0d30800000000000000
+      internalID: 4399932685920415668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_104
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 112
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f4f8c2b731fadd0800000000000000
+      internalID: -2472736250653618281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_105
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 112
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d00ac4df7c3b2f00800000000000000
+      internalID: 1093033854295998673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_106
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 112
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b71ce0fe18442e0800000000000000
+      internalID: -2142444658976785585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_107
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 52
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ba80dc882444180800000000000000
+      internalID: -9132100989077640341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_108
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 52
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dfdfe1220dcfd70800000000000000
+      internalID: 9078359793839504663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_109
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 52
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982d5cdfef5c80a90800000000000000
+      internalID: -7347405093084999031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_110
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 52
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f73379b9b5e1f20800000000000000
+      internalID: 3395251892898725751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_111
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 52
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923c3645cb8233fb0800000000000000
+      internalID: -4669343599318285527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_112
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 52
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acce4bba9b14e740800000000000000
+      internalID: 5180295822764330151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_113
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 52
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890a77e84a08fe800800000000000000
+      internalID: 643874715990466712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_114
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 52
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7322fb16882c49400800000000000000
+      internalID: 330102563716145719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_115
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 55
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60dd442c140852f10800000000000000
+      internalID: 2244341009234582790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_116
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 55
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4585011e646c16e0800000000000000
+      internalID: -1865505721743473333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_117
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 55
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92deb3eb7a0e8fd40800000000000000
+      internalID: 5618487546200452393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_118
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 55
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3ac59b8b06be940800000000000000
+      internalID: 5326457330795848673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_119
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 55
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557ebed7848118590800000000000000
+      internalID: -7673825590433290411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_120
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 55
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b4ff9f1e9d2ab20800000000000000
+      internalID: 3144315054443154212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_121
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 55
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e330dc43e2efa60800000000000000
+      internalID: 7709650416417586708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_122
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 55
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ee3aafedf1e00b0800000000000000
+      internalID: -5760631830812037609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_123
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 679
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d867f38bef21fbf30800000000000000
+      internalID: 4593411030163355277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_124
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 2
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6005cd3df6d2200800000000000000
+      internalID: 156904517752850095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_125
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 2
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ab8429ed0151870800000000000000
+      internalID: 8652840807185299968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_126
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 3
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7320b894eca6c910800000000000000
+      internalID: 1857361994151109499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_127
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 3
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899376d3e752f0e70800000000000000
+      internalID: 9083520197555861912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_128
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 3
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0e3301ed9c78040800000000000000
+      internalID: 4649907095875084477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_129
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 4
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb537cf8eb075e8c0800000000000000
+      internalID: -3970643532698929733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_130
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 3
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e177a770bb7af540800000000000000
+      internalID: 5042478730646614497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_131
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 3
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8b679763936bf60800000000000000
+      internalID: 8049684290100181186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_132
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 4
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290a433435cfd4150800000000000000
+      internalID: 5858616124818890898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_133
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 3
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9032f6b6115f6b70800000000000000
+      internalID: 8894416947080474780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_mario_134
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 3
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8da8aa54ae792a0800000000000000
+      internalID: -6730653533147047689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
